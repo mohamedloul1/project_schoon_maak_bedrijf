@@ -1,0 +1,436 @@
+@import url("../css/main.css");
+@import url("./root/_colors.scss");
+@import url("../scss/root/_box-shadow.scss");
+
+.container-home {
+  width: 100%;
+  min-height: 50vh;
+  position: relative;
+  display: grid;
+  place-items: center;
+  margin: 0.3rem 0;
+  animation: items-bewegen 2s ease-out;
+
+  .image {
+    background-image: url("../img/26.jpg");
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-color: rgba(0, 0, 0, 0.2);
+    border-style: solid;
+    border-width: 2px;
+    filter: blur(0.5rem);
+  }
+  .text {
+    position: absolute;
+
+    h1 {
+      text-shadow: 2px 2px snow;
+      font-size: 4rem;
+      font-family: Arial, Helvetica, sans-serif;
+      animation: text-style 2s ease-out;
+    }
+  }
+}
+
+@keyframes items-bewegen {
+  0%,
+  100% {
+    transform: scale(0.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes text-style {
+  0%,
+  70% {
+    -webkit-text-stroke: 2rem rgb(46, 43, 43);
+  }
+  100% {
+    -webkit-text-stroke: unset;
+  }
+}
+
+.point {
+  font-size: 5rem;
+  color: blue;
+  opacity: 0;
+}
+
+.over-ons__container {
+  display: grid;
+  place-content: center;
+  position: relative;
+  margin: 0 8rem;
+  width: 80%;
+  .line {
+    position: absolute;
+    width: 5px;
+    height: 70rem;
+    background-color: var(--donker-blue);
+    top: 2rem;
+    right: 92rem;
+    animation: 3s ease-out points;
+  }
+
+  .line__container {
+    .point-1 {
+      font-size: 20rem;
+      color: green;
+      position: absolute;
+      top: -13rem;
+      left: -1.5rem;
+      cursor: pointer;
+      &:hover::before {
+        content: "Kernzin";
+        font-size: 2rem;
+        padding: 0.5rem;
+        display: block;
+        position: absolute;
+        top: 17rem;
+        right: 2rem;
+        background-color: var(--donker-blue);
+        color: var(--white);
+        clip-path: polygon(
+          0% 0%,
+          100% 0%,
+          100% 75%,
+          75% 75%,
+          75% 100%,
+          50% 75%,
+          0% 75%
+        );
+      }
+    }
+    .point-2 {
+      font-size: 20rem;
+      color: green;
+      position: absolute;
+      left: -1.5rem;
+      top: 9rem;
+      cursor: pointer;
+      &:hover::before {
+        content: "Introduction";
+        font-size: 2rem;
+        padding: 0.5rem;
+        display: block;
+        position: absolute;
+        top: 17rem;
+        left: 2rem;
+        background-color: var(--donker-blue);
+        color: var(--white);
+        clip-path: polygon(
+          0% 0%,
+          100% 0%,
+          100% 75%,
+          47% 76%,
+          24% 100%,
+          24% 75%,
+          0% 75%
+        );
+      }
+    }
+
+    .point-3 {
+      font-size: 20rem;
+      color: green;
+      position: absolute;
+      left: -1.5rem;
+      top: 31.5rem;
+      cursor: pointer;
+      &:hover::before {
+        content: "afsluiting";
+        font-size: 2rem;
+        padding: 0.5rem;
+        display: block;
+        position: absolute;
+        top: 17rem;
+        right: 2rem;
+        background-color: var(--donker-blue);
+        color: var(--white);
+        clip-path: polygon(
+          0% 0%,
+          100% 0%,
+          100% 75%,
+          75% 75%,
+          75% 100%,
+          50% 75%,
+          0% 75%
+        );
+      }
+    }
+  }
+  img {
+    width: 30rem;
+    border-radius: 3rem;
+    border: 2px solid var(--donker-blue);
+    -webkit-box-shadow: 0px 21px 14px 4px rgba(0, 0, 0, 0.62);
+    -moz-box-shadow: 0px 21px 14px 4px rgba(0, 0, 0, 0.62);
+    box-shadow: 0px 12px 14px 4px rgba(0, 0, 0, 0.62);
+  }
+  .over-ons__cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    gap: 10rem;
+    padding: 3rem;
+    h1 {
+      max-width: 80%;
+    }
+    .text-center__over-ons {
+      max-width: 28rem;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.whatsapp-active {
+  background-color: var(--hover-text);
+}
+
+@keyframes points {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.web-programming {
+  position: relative;
+  h1 {
+    text-align: center;
+  }
+  .web-programmering__container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem;
+    margin: 5rem 10rem;
+    text-align: center;
+    gap: 15rem;
+    background-image: url("../img/github.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .first-programmateur,
+    .second-programmateur {
+      .foto {
+        width: 8rem;
+        height: 8rem;
+        object-fit: fill;
+        position: absolute;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+      button {
+        padding: 1rem 9%;
+        border-radius: 9%;
+        font-size: 1.3rem;
+        cursor: pointer;
+        &:hover {
+          background-color: var(--donker-blue);
+          color: var(--white);
+        }
+      }
+      .content {
+        max-width: 80%;
+        margin-left: 7.5rem;
+        padding: 1rem 2rem;
+        text-align: center;
+        font-size: 1.5rem;
+        p {
+          text-transform: none;
+        }
+      }
+      background-color: var(--hover-bg);
+      color: var(--white);
+      padding: 3rem;
+      position: relative;
+      border-radius: 10px;
+      &::before {
+        content: "";
+        background-color: aqua;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-radius: 50%;
+        border: 2px solid var(--donker-mode-bg);
+      }
+      &::after {
+        content: "";
+        background-color: aqua;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        border-radius: 50%;
+        border: 2px solid var(--donker-mode-bg);
+      }
+    }
+  }
+}
+
+.review {
+  h1 {
+    text-align: center;
+    padding: 1.5rem 0;
+  }
+  .container-review {
+    background: var(--hover-bg);
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+    position: relative;
+    overflow: hidden;
+    .first-comment,
+    .second-comment,
+    .third-comment {
+      background: var(--donker-blue);
+      padding: 2rem;
+      border-radius: 10px;
+      width: 50%;
+      margin: 0 auto;
+      animation: 10s moveright ease-out infinite;
+      .basic-information {
+        margin: 0 3rem;
+        line-height: 1rem;
+      }
+      .header__comment {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+      }
+      .content {
+        text-align: center;
+        width: 80%;
+        margin: 3rem auto;
+        font-size: 1.5rem;
+        p {
+          text-transform: none;
+        }
+      }
+      span {
+        text-transform: none;
+      }
+    }
+    .second-comment {
+      position: absolute;
+      left: 100%;
+    }
+    .third-comment {
+      position: absolute;
+      left: 165%;
+    }
+  }
+}
+
+@keyframes moveright {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(calc(-250% / 4));
+  }
+  50% {
+    transform: translateX(calc(-250% / 2));
+  }
+  50% {
+    transform: translateX(calc(-250% / 3));
+  }
+  100% {
+    transform: translateX(-250%);
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 35%;
+  }
+  .over-ons__container {
+    .line__container {
+      display: none;
+    }
+    .over-ons__cards {
+      img {
+        width: 80%;
+      }
+    }
+  }
+  .web-programming .web-programmering__container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 45%;
+  }
+  .over-ons__container {
+    .line__container {
+      display: none;
+    }
+    .over-ons__cards {
+      img {
+        width: 90%;
+      }
+    }
+  }
+  .web-programming .web-programmering__container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@keyframes items-bewegen{
+
+  0%, 100%{
+
+      transform: scale(0.1);
+
+  }
+
+  100%{
+
+      transform: scale(1.0);
+
+  }
+
+}
+
+
+@keyframes items-bewegen{
+
+  0%, 100%{
+
+      transform: scale(0.1);
+
+  }
+
+  100%{
+
+      transform: scale(1.0);
+
+  }
+
+}
+
+
+
+
+

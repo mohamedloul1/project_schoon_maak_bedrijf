@@ -1,0 +1,94 @@
+@import './root/colors';
+@import './root/website-fonts';
+@import './root/box-shadow';
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+
+//Diensten page
+.diensten-back {
+    width: 100%;
+    height: 45vh;
+    background: linear-gradient(65deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+      url(../img/diensten.jpg);
+    background-position: 100%, center center;
+    background-repeat: no-repeat;
+    background-size: auto 100%, cover;
+    animation: items-bewegen 2s ease-out;
+
+  }
+  
+  .text-diensten-back{
+    align-items: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+  h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    display: block;
+    margin: 0;
+    font-size: 50px;
+    text-shadow: 4px 3px 0 rgba(0, 0, 0, 0.9);
+    padding: 170px 0;
+    text-align: center;
+    animation: text-style 2s ease-out;
+
+  }
+}
+
+@keyframes items-bewegen{
+  0%, 100%{
+      transform: scale(0.1);
+  }
+  100%{
+      transform: scale(1.0);
+  }
+}
+
+@keyframes text-style{
+  0%, 70%{
+      -webkit-text-stroke: 2rem rgb(46, 43, 43);
+  }
+  100%{
+      -webkit-text-stroke: unset;
+  }
+}
+  
+  .card-1 {
+    margin-top: 100px;
+  }
+  .card-2 {
+    margin-top: 100px;
+  }
+  .titel-diensten {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    display: block;
+    margin: 0;
+    font-size: 25px;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.9);
+    padding: 50px 0;
+    text-align: center;
+  }
+  .text-diensten {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    display: block;
+    margin: 0;
+    font-size: 15px;
+    text-shadow: 1px 1px 0 rgba(245, 245, 246, 0.9);
+    padding: 25px 0;
+    text-align: center;
+  }
+  .section-diensten  {
+    display: grid;
+    place-content: center;
+  }
+  
+  .section-diensten h3{
+      text-transform: none;
+  
+  }
+  
+  // Einde Diensten page //

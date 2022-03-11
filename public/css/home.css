@@ -1,0 +1,358 @@
+@import url("./main.scss");
+@import url("./root/_colors.scss");
+@import url("./root/_box-shadow.scss");
+body {
+  background: white;
+  color: var(--hover-bg);
+}
+
+.container-home {
+  width: 100%;
+  min-height: 50vh;
+  position: relative;
+  display: grid;
+  place-items: center;
+  margin: 0.3rem 0;
+  animation: items-bewegen 2s ease-out;
+}
+.container-home .image {
+  background-image: url("../img/Home.jpg");
+  width: 100%;
+  height: 45vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-color: rgba(0, 0, 0, 0.2);
+  border-style: solid;
+  border-width: 2px;
+}
+.container-home .text {
+  position: absolute;
+}
+.container-home .text h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  display: block;
+  margin: 0;
+  font-size: 50px;
+  text-shadow: 4px 3px 0 rgba(0, 0, 0, 0.9);
+  padding: 170px 0;
+  text-align: center;
+}
+
+@keyframes items-bewegen {
+  0%, 100% {
+    transform: scale(0.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes text-style {
+  0%, 70% {
+    -webkit-text-stroke: 2rem #2e2b2b;
+  }
+  100% {
+    -webkit-text-stroke: unset;
+  }
+}
+section {
+  margin: 3rem 15%;
+}
+
+.card-container {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 2rem;
+  gap: 5rem;
+  margin: -150px 0;
+  animation: items-bewegen 2s ease-out;
+  color: var(--white);
+}
+.card-container .first-card,
+.card-container .second-card,
+.card-container .third-card {
+  background: var(--hover-bg);
+  border-radius: 10px;
+  text-align: center;
+  padding: 2rem 3rem;
+  box-shadow: 1px 1px 1px 1px --ligh-blue(69, 193, 228);
+}
+.card-container .first-card i,
+.card-container .second-card i,
+.card-container .third-card i {
+  font-size: 2rem;
+}
+.card-container .second-card {
+  animation: items-bewegen 2.5s ease-out;
+}
+
+#carouselExampleCaptions {
+  width: 90%;
+  border-radius: 5px;
+  margin: 0 auto;
+  box-shadow: --ligh-blue(3, 102, 214, 0.3) 0px 0px 0px 3px;
+  background-color: var(--hover-bg);
+  margin-top: 5rem;
+}
+
+.how-working {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.how-working:active, .how-working:hover {
+  animation: 2s dichtklappen ease-in-out;
+}
+.how-working .container-card__working {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10rem;
+  margin: 5rem 2rem;
+  place-items: center;
+}
+.how-working .container-card__working i {
+  font-size: 3rem;
+}
+.how-working .container-card__working #alert {
+  font-size: 1.5rem;
+}
+.how-working .container-card__working .first-card__working,
+.how-working .container-card__working .second-card__working,
+.how-working .container-card__working .third-card__working,
+.how-working .container-card__working .four-card__working {
+  text-align: center;
+}
+.how-working .container-card__working .first-card__working li,
+.how-working .container-card__working .second-card__working li,
+.how-working .container-card__working .third-card__working li,
+.how-working .container-card__working .four-card__working li {
+  margin-top: 10px;
+}
+
+.container__onze-diensten {
+  display: block;
+  text-align: center;
+  position: relative;
+}
+.container__onze-diensten button {
+  padding: 2rem 9%;
+  background-color: var(--donker-blue);
+  color: var(--white);
+  opacity: 0;
+  border-radius: 1rem;
+}
+.container__onze-diensten img {
+  width: 20rem;
+  border-radius: 50%;
+  border: 1px solid var(--donker-blue);
+  background-position: center;
+  object-fit: contain;
+}
+.container__onze-diensten p {
+  margin: 3rem 0;
+  font-size: 2.5rem;
+}
+.container__onze-diensten .cards__onze-diensten {
+  margin: 10rem 0;
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+}
+.container__onze-diensten .cards__onze-diensten .first-crad__onze-diensten,
+.container__onze-diensten .cards__onze-diensten .second-crad__onze-diensten,
+.container__onze-diensten .cards__onze-diensten .four-crad__onze-diensten,
+.container__onze-diensten .cards__onze-diensten .five-crad__onze-diensten {
+  border-right: 2px solid var(--donker-blue);
+  display: grid;
+  gap: 3rem;
+  place-items: center;
+}
+.container__onze-diensten .cards__onze-diensten .six-crad__onze-diensten {
+  display: grid;
+  gap: 3rem;
+  place-items: center;
+}
+.container__onze-diensten .cards__onze-diensten .four-crad__onze-diensten,
+.container__onze-diensten .cards__onze-diensten .five-crad__onze-diensten,
+.container__onze-diensten .cards__onze-diensten .six-crad__onze-diensten {
+  margin-top: 10rem;
+}
+.container__onze-diensten .cards__onze-diensten .third-crad__onze-diensten {
+  display: grid;
+  gap: 5rem;
+  place-items: center;
+}
+.container__onze-diensten .cards__onze-diensten .first-crad__onze-diensten:hover,
+.container__onze-diensten .cards__onze-diensten .second-crad__onze-diensten:hover,
+.container__onze-diensten .cards__onze-diensten .third-crad__onze-diensten:hover,
+.container__onze-diensten .cards__onze-diensten .four-crad__onze-diensten:hover,
+.container__onze-diensten .cards__onze-diensten .five-crad__onze-diensten:hover,
+.container__onze-diensten .cards__onze-diensten .six-crad__onze-diensten:hover {
+  background-color: var(--hover-bg);
+  color: var(--donker-blue);
+  transition: 1s ease-out;
+  border-right: 2px solid var(--white);
+}
+.container__onze-diensten .cards__onze-diensten .first-crad__onze-diensten:hover img,
+.container__onze-diensten .cards__onze-diensten .second-crad__onze-diensten:hover img,
+.container__onze-diensten .cards__onze-diensten .third-crad__onze-diensten:hover img,
+.container__onze-diensten .cards__onze-diensten .four-crad__onze-diensten:hover img,
+.container__onze-diensten .cards__onze-diensten .five-crad__onze-diensten:hover img,
+.container__onze-diensten .cards__onze-diensten .six-crad__onze-diensten:hover img {
+  border-radius: 10%;
+}
+.container__onze-diensten .cards__onze-diensten .first-crad__onze-diensten:hover button,
+.container__onze-diensten .cards__onze-diensten .second-crad__onze-diensten:hover button,
+.container__onze-diensten .cards__onze-diensten .third-crad__onze-diensten:hover button,
+.container__onze-diensten .cards__onze-diensten .four-crad__onze-diensten:hover button,
+.container__onze-diensten .cards__onze-diensten .five-crad__onze-diensten:hover button,
+.container__onze-diensten .cards__onze-diensten .six-crad__onze-diensten:hover button {
+  opacity: 1;
+}
+
+.contact-opnemen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10rem;
+  background-color: var(--donker-blue);
+  color: var(--hover-bg);
+  position: relative;
+  border-radius: 2rem;
+}
+.contact-opnemen .container__contact-opnemen {
+  display: block;
+}
+.contact-opnemen .container__contact-opnemen button {
+  text-align: center;
+  padding: 2rem 12%;
+  font-size: 1.5rem;
+  margin: 1rem;
+  position: relative;
+  border-radius: 2rem;
+}
+.contact-opnemen .container__contact-opnemen button:hover {
+  background: var(--hover-bg);
+  color: var(--donker-blue);
+}
+.contact-opnemen .container__contact-opnemen button:hover i {
+  transform: translateY(-1.5rem);
+  transition: ease-out 0.3s;
+}
+.contact-opnemen .container__contact-opnemen button i {
+  font-size: 2.5rem;
+  margin-left: 1;
+  position: absolute;
+  top: 40%;
+  right: 3rem;
+}
+
+@media (max-width: 450px) {
+  .onze-diensten .container__onze-diensten .cards__onze-diensten {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .onze-diensten .container__onze-diensten .cards__onze-diensten button {
+    opacity: 1;
+  }
+  .onze-diensten .container__onze-diensten .cards__onze-diensten .first-crad__onze-diensten,
+.onze-diensten .container__onze-diensten .cards__onze-diensten .second-crad__onze-diensten,
+.onze-diensten .container__onze-diensten .cards__onze-diensten .four-crad__onze-diensten,
+.onze-diensten .container__onze-diensten .cards__onze-diensten .five-crad__onze-diensten {
+    border-right: unset;
+  }
+  .onze-diensten .container__onze-diensten .cards__onze-diensten .third-crad__onze-diensten {
+    margin-top: 12rem;
+  }
+
+  .container-card__working {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .container-home .text h1 {
+    font-size: 5rem;
+  }
+
+  .how-working .container-card__working {
+    display: grid;
+    gap: 10rem;
+    font-size: 2.5rem;
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .how-working {
+    margin-top: 30rem;
+  }
+
+  .my-cards .card-container {
+    font-size: 3rem;
+  }
+
+  .how-working .container-card__working {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .text {
+    text-align: center;
+  }
+
+  .carousel__home {
+    margin-top: 30rem;
+  }
+}
+@media (max-width: 768px) {
+  .onze-diensten .container__onze-diensten .cards__onze-diensten {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+  }
+  .onze-diensten .container__onze-diensten .cards__onze-diensten button {
+    opacity: 1;
+  }
+  .onze-diensten .container__onze-diensten .cards__onze-diensten .third-crad__onze-diensten, .onze-diensten .container__onze-diensten .cards__onze-diensten .four-crad__onze-diensten {
+    margin: 3rem 0 0 0;
+  }
+  .onze-diensten .container__onze-diensten .cards__onze-diensten .first-crad__onze-diensten,
+.onze-diensten .container__onze-diensten .cards__onze-diensten .second-crad__onze-diensten,
+.onze-diensten .container__onze-diensten .cards__onze-diensten .four-crad__onze-diensten,
+.onze-diensten .container__onze-diensten .cards__onze-diensten .five-crad__onze-diensten {
+    border-right: unset;
+  }
+
+  .how-working {
+    font-size: 2.5rem;
+  }
+
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .how-working .container-card__working {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    margin-top: -50px;
+    font-size: 3rem;
+  }
+
+  .how-working {
+    margin-top: 20rem;
+  }
+
+  .carousel__home {
+    margin-top: 30rem;
+  }
+}
+
+/*# sourceMappingURL=home.css.map */

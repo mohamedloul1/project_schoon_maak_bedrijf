@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Cambay:wght@700&family=Poppins:ital,wght@0,100;0,200;0,300;1,400;1,500&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+:root {
+  --white: #f4fbfd;
+  --ligh-blue: #6083d1;
+  --donker-blue: #012641;
+  --hover-bg: #3175D3;
+  --hover-text: #000;
+  --donker-mode-bg: #000;
+  --donker-mode-color: #fff;
+}
+
+.bouwoplevering-back {
+  width: 100%;
+  height: 400px;
+  background: linear-gradient(65deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../img/contact.jpg);
+  background-position: 100%, center center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: auto 100%, cover;
+  animation: items-bewegen 2s ease-out;
+}
+
+.text-bouwoplevering-back {
+  align-items: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.text-bouwoplevering-back h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  display: block;
+  margin: 0;
+  font-size: 50px;
+  text-shadow: 4px 3px 0 rgba(0, 0, 0, 0.9);
+  padding: 170px 0;
+  text-align: center;
+  animation: text-style 2s ease-out;
+}
+
+.bouwoplevering-section {
+  margin-top: 175px;
+  display: grid;
+  place-content: center;
+}
+
+@keyframes items-bewegen {
+  0%, 100% {
+    transform: scale(0.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes text-style {
+  0%, 70% {
+    -webkit-text-stroke: 2rem #2e2b2b;
+  }
+  100% {
+    -webkit-text-stroke: unset;
+  }
+}
+
+/*# sourceMappingURL=bouwoplevering.css.map */
