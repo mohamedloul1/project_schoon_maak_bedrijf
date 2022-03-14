@@ -10,7 +10,7 @@
             <li><a href="<?php echo URLROOT; ?>">home</a></li>
             <li><a href="<?php echo URLROOT; ?>pages/overons">over ons</a></li>
             <li><a href="<?php echo URLROOT; ?>dinsten/index">diensten</a></li>
-            <li><a href="#">projecten</a></li>
+            <li><a href="<?php echo URLROOT; ?>project/index">projecten</a></li>
             <li><a href="<?php echo URLROOT; ?>contact/index">contact</a></li>
         </nav>
         <li class="telefoon-number"><i class="fas fa-phone-square-alt">0612345678</i></li>
