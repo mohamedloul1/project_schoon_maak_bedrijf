@@ -99,3 +99,13 @@ window.addEventListener('scroll', () => {
         document.querySelector('.wahtsapp-container').classList.remove('whatsapp-active');
     }
 });
+
+
+window.addEventListener('scroll', () => {
+    const scrolled = window.scrollY;
+    if(scrolled > 20){
+        document.querySelectorAll('#scroll-effect').forEach((scroll) => {
+            scroll.style.display = 'block'
+        });
+    }
+})

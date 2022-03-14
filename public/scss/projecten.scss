@@ -1,0 +1,226 @@
+.navbar-projecten{
+    position: relative;
+    padding: 3rem 3%;
+    width: 100%;
+}
+.navbar-projecten-for-cards{
+    display: flex;
+    background-color: var(--hover-bg);
+    align-items: center;
+    padding: 1.5rem 1.5rem;
+    justify-content: end;
+    width: 100%;
+    position: relative;
+    font-size: 1.5rem;
+    .start{
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      width: 100%;
+    }
+    ul{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        li{
+            position: relative;
+        a{
+            text-decoration: none;
+            color: var(--white);
+            display: block;
+            &:hover{
+              color: var(--donker-blue);
+            }
+        }
+      }
+    }
+}
+
+@keyframes cards-bewegen{
+    0%{
+      transform: translateX(-100%);
+      filter: blur(1.1rem);
+    }
+    100%{
+      transform: translateX(0);
+      filter: blur(0);
+    }
+  }
+  #scroll-effect{
+    animation: 1s ease-out cards-bewegen;
+    display: none;
+  }
+  .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+    margin: 3rem 0;
+    width: 100%;
+    height: 100%;
+    gap: 10rem;
+    padding: 1rem;
+    background: url('/public/img/cleaning-header-first.jpg') no-repeat center;
+    background-size: cover;
+    z-index: 2;
+    &::before{
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 50%;
+      background-color: rgba(0,0,0,0.9);
+      height: 100%;
+      display: block;
+      z-index: 1;
+    }
+    &::after{
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 50%;
+        background-color: rgba(0,0,0,0.9);
+        height: 100%;
+        display: block;
+        z-index: 1;
+      }
+    
+   .first-card, .third-card, .four-card, .six-card{
+     transform: scale(.8);
+   }
+    .first-card, .second-card, .third-card, .four-card, .five-card, .six-card{
+      &:hover{
+        background-color: var(--donker-blue);
+        cursor: pointer;
+      }
+      z-index: 3;      
+      position: relative;
+      box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+      width: 90%;
+      margin: 0 auto;
+      height: 100%;
+      text-align: center;
+      border-radius: 1rem;
+      background: var(--hover-bg);
+      color: var(--white);
+      .start__cards{
+        width: 100%;
+        height: 15rem;
+        img{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+      .header__cards{
+        padding: 1rem 1rem 0 0;
+        margin: 2rem 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        span{
+          color: var(--white);
+        }
+        strong{
+          font-size: 2rem;
+          font-weight: bolder;        
+        }
+      }
+      .content-txt__cards{
+        padding: .5rem;
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  @media (max-width: 450px){
+    html{
+      font-size: 45%;
+    }
+    .navbar-projecten .navbar-projecten-for-cards{
+      ul{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding-top: 2rem;
+        li{
+          padding: .5rem 0;
+        }
+      }
+    }
+    .content__project .cards{
+      .first-card, .third-card, .four-card, .six-card{
+        transform: scale(1.0);
+      }
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 768px){
+    html{
+      font-size: 50%;
+    }
+
+    #scroll-effect{
+      animation: 1s ease-out cards-bewegen;
+      display: block;
+    }
+    .navbar-projecten .navbar-projecten-for-cards{
+      ul{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding-top: 2rem;
+        text-align: unset;
+        li{
+          padding: .5rem 0;
+        }
+      }
+    }
+    .content__project .cards{
+      .first-card, .third-card, .four-card, .six-card{
+        transform: scale(1.0);
+      }
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media (min-width: 992px){
+    html{
+      font-size: 55%;
+    }
+    #scroll-effect{
+      animation: 1s ease-out cards-bewegen;
+      display: none;
+    }
+    .navbar-projecten .navbar-projecten-for-cards{
+      ul{
+        width: 100%;
+        font-size: 1.5rem;
+        text-align: center;
+        align-items: center;
+        li{
+          padding-left: 2rem;
+        }
+      }
+    }
+  }
+  
+  @media (min-width: 1200px){
+    .navbar-projecten .navbar-projecten-for-cards{
+      ul{
+        width: 100%;
+        font-size: 1.5rem;
+        text-align: center;
+        align-items: center;
+        li{
+          padding-left: 2rem;
+        }
+      }
+    }
+  }
