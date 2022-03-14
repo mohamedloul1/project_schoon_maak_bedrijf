@@ -22,9 +22,22 @@ class Contact extends Controller {
                 mail($mailTo, $subject, $txt, $headers);
             
             
-                echo '<div class="alert alert-success mt-5 w-50 mx-auto text-center" role="alert">
-                We doen ons best om binnen 24 uur contact met je op te nemen. Bedankt voor het vertrouwen en wij hopen u snel te zien.
-              </div>';
+                echo '  <div class="box-message">
+                <div class="col__message">
+                <div class="header__message">
+                <i class="fa-solid fa-circle-check"></i>
+                </div>
+                <div class="content__message">
+                    <h1>thank you!</h1>
+                    <p>
+                        Uw informatie is succesvol opgeslagen, wij wekren gauw om conatct met u op te nemen 
+                    </p>
+                </div>
+                <div class="button__message">
+                    <button>Ok</button>
+                </div>
+                </div>
+            </div>';
                 }
         
 
