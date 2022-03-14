@@ -1,0 +1,72 @@
+.box-message {
+  position: fixed;
+  top: 20rem;
+  left: 30%;
+  width: 30%;
+  height: 30rem;
+  text-align: center;
+  z-index: 1000;
+  opacity: 0;
+  animation: messageActive 5s ease-out;
+}
+.box-message .col__message {
+  position: relative;
+  background: var(--donker-blue);
+  color: var(--white);
+  font-size: 2rem;
+  width: 100%;
+  height: 100%;
+}
+.box-message .col__message .header__message {
+  display: flex;
+  justify-content: center;
+  font-size: 5rem;
+}
+.box-message .col__message .header__message i {
+  margin: -1.5rem 0;
+  color: green;
+}
+.box-message .col__message .content__message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  height: 70%;
+  flex-direction: column;
+}
+.box-message .col__message .content__message p {
+  text-transform: none;
+}
+.box-message .col__message .button__message {
+  width: 75%;
+  margin: auto;
+}
+.box-message .col__message .button__message button {
+  width: 100%;
+  padding: 1rem 0;
+}
+.box-message .col__message .button__message button:hover {
+  background: var(--hover-bg);
+  color: var(--white);
+}
+
+@keyframes messageActive {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 2;
+  }
+  50% {
+    opacity: 3;
+  }
+  75% {
+    opacity: 4;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/*# sourceMappingURL=boxmessage.css.map */

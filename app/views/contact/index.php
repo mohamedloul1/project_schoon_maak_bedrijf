@@ -11,6 +11,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="/public/css/contact.css">
     <link rel="stylesheet" href="/public/css/main.css">
+    <link rel="stylesheet" href="/public/css/boxmessage.css">
 
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -21,6 +22,7 @@
   <body>
     <!-- Navbar -->
   <?php require APPROOT . '/views/includes/navbar.php'; ?>
+  
 
    <!-- Contact Opnemen Background -->
    <div class="contact-back">
@@ -77,7 +79,7 @@
                           </div>
                           <div class="mb-3 input-email">
                               <div class="form-floating">
-                                  <input type="email" class="form-control" id="email" name="email" onkeyup="validateEmail()" placeholder="email" value="" aria-describedby="emailHelp">
+                                  <input type="email" class="form-control" style="text-transform: none" id="email" name="email" onkeyup="validateEmail()" placeholder="email" value="" aria-describedby="emailHelp">
                                   <label for="floatingInput">E-mailadres</label>
                                   <span id="message-email">
                                   </span>
@@ -93,7 +95,7 @@
                           </div>
                       </div>
                       <div class="form-floating mb-3 input-opmerking">
-                          <textarea class="form-control motivationtext" placeholder="Vraag opmerking of beschrijving" onkeyup="validateMessage()" id="message" name="message" value="" aria-describedby="messageHelp"></textarea>
+                          <textarea class="form-control motivationtext" style="text-transform: none" placeholder="Vraag opmerking of beschrijving" onkeyup="validateMessage()" id="message" name="message" value="" aria-describedby="messageHelp"></textarea>
                           <label for="text">Vraag, opmerking of beschrijving.</label>
                           <span id="message-opmerking">
                           </span>
@@ -111,6 +113,8 @@
           </div>
       </section>
       <!-- Einde -->
+
+      <!-- succesmessage -->
 
   <?php require APPROOT . '/views/includes/contactfoto.php'; ?>
 <?php require APPROOT . '/views/includes/footer.php'; ?>
