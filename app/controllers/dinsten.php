@@ -3,13 +3,7 @@ class Dinsten extends Controller {
     public function __construct() {
     }
 
-    public function index() {
-        $data = [
-            'title' => 'Dinsten page'
-        ];
-
-        $this->view('dinsten/index', $data);
-    }
+   
     public function schoonmaak() {
         $data = [
             'title' => 'Schoonmaak page'

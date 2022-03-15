@@ -18,8 +18,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <script src="/public/js/errorName.js" defer></script>
-    <title><?php echo $data["title"]; ?></title>
+    <title></title>
 </head>
 
 <body>
@@ -30,7 +29,7 @@
     <!-- Contact Opnemen Background -->
     <div class="contact-back">
         <div class="text-contact-back">
-            <h2><?php echo $data["title"] ?></h2>
+            <h2>Contact</h2>
         </div>
     </div>
 
@@ -111,7 +110,7 @@
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur dignissimos, sapiente facere quos deserunt cumque, eaque ex nobis sint fuga provident! Asperiores quia quis, nulla dolores corporis error fugit nisi.</p>
         </div>
       </div>
-      
+
       <div class="five-card" id="scroll-effect">
         <div class="start__cards">
           <img src="../img/25.jpg">
@@ -145,7 +144,7 @@
     </section>
     <!-- project cards end -->
 
-    
+
 
         <!-- Eind -->
         <?php require APPROOT . '/views/includes/contactfoto.php'; ?>
@@ -160,4 +159,4 @@
 
 </body>
 
-</html>
+</html> 
