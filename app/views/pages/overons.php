@@ -17,36 +17,72 @@
 <div class="container-home">
   <div class="image"></div>
   <div class="text">
-    <h1>Over ons, Wie zijn we?</h1>
+    <h1>Over ons, Wie zijn wij?</h1>
   </div>
 </div>
 
 <section class="over-ons__header">
   <div class="over-ons__container">
-    <div class="line__container">
+    <div class="first-card">
+      <div class="image__over-ons">
+        <img src="/public/img/cleaning-header-first.jpg">
+      </div>
       <div class="line">
-        <span class="point-1">
-          .
-        </span>
-        <span class="point-2">.</span>
-        <span class="point-3">.</span>
+      <span>
+        <span class="point-1"></span>
+        <span class="point-2"></span>
+        <span class="point-3"></span>
+      </span>
+    </div>
+    <div class="txt-content__over-ons">
+        <h1>
+          introduction
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ab dolorem voluptatum debitis blanditiis itaque eligendi corporis hic autem ipsam sint doloremque officia quas, nobis, at aliquid earum. Porro, iste.
+        </p>
       </div>
     </div>
-    <div class="over-ons__cards">
-      <img src="../img/cleaning-header-first.jpg" alt="header-foto-first">
-      <h1>welkom bij onze schoonmaken bedrijf, onze hoofdzaak dat onze bedrijf kan iets bij de klant betekenen</h1>
+
+    <div class="second-card">
+    <div class="txt-content__over-ons">
+        <h1>
+          content
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ab dolorem voluptatum debitis blanditiis itaque eligendi corporis hic autem ipsam sint doloremque officia quas, nobis, at aliquid earum. Porro, iste.
+        </p>
+      </div>
+      <div class="line">
+      <span>
+        <span class="point-2"></span>
+      </span>
     </div>
-    <div class="over-ons__cards">
-      <p class="text-center__over-ons">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae quo veniam tempore atque cumque. Sed possimus ratione ex dolorem aspernatur nam earum nostrum repellat quidem deserunt quo, asperiores dolore quisquam.</p>
-      <img src="../img/header-foto-second.jpg" alt="header-foto-second">
+      <div class="image__over-ons">
+        <img src="/public/img/header-foto-second.jpg">
+      </div>
     </div>
-    <div class="over-ons__cards">
-      <img src="../img/schoonmaak-onderhoud.jpg" alt="header-foto-second">
-      <p class="text-center__over-ons">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae quo veniam tempore atque cumque. Sed possimus ratione ex dolorem aspernatur nam earum nostrum repellat quidem deserunt quo, asperiores dolore quisquam.</p>
+    <div class="third-card">
+      <div class="image__over-ons">
+        <img src="/public/img/schoonmaak-onderhoud.jpg">
+      </div>
+      <div class="line">
+      <span>
+        <span class="point-1"></span>
+        <span class="point-2"></span>
+        <span class="point-3"></span>
+      </span>
     </div>
+    <div class="txt-content__over-ons">
+        <h1>
+          slot
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ab dolorem voluptatum debitis blanditiis itaque eligendi corporis hic autem ipsam sint doloremque officia quas, nobis, at aliquid earum. Porro, iste.
+        </p>
+      </div>
   </div>
 </section>
-
 
 <!-- programming this website start -->
 <section class="web-programming">

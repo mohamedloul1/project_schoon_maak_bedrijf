@@ -38,9 +38,6 @@
     <!-- project navbar -->
     <section class="navbar-projecten">
         <div class="navbar-projecten-for-cards">
-            <div class="start">
-                <h3>kies vanuit het volgende onderwerpen</h3>
-            </div>
             <ul>
                 <li><a href="" data-src="./img/26.jpg" data-src2="./img/diensten-2.jpg" data-src3="./img/diensten-3.jpg" data-src4="./img/diensten-5.jpg" data-src5="./img/glas.jpg" data-src6="./img/glasbewassing.jpg">Schoonmaken onderhoud</a></li>
                 <li><a href="">Bouw oplevering</a></li>
