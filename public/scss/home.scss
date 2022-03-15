@@ -8,11 +8,10 @@ body {
 
 .container-home {
   width: 100%;
-  min-height: 50vh;
+  min-height: 45vh;
   position: relative;
   display: grid;
   place-items: center;
-  margin: 0.3rem 0;
   animation: items-bewegen 2s ease-out;
 
   .image {
@@ -36,6 +35,7 @@ body {
       margin: 0;
       font-size: 50px;
       text-shadow: 4px 3px 0 rgba(0, 0, 0, 0.9);
+      animation: text-style 2s ease-out;
       padding: 170px 0;
       text-align: center;
     }

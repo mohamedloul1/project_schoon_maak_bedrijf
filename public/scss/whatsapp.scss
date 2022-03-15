@@ -6,6 +6,7 @@
 // whatsapp icon styling
 .wahtsapp-container{
     position:fixed;
+    z-index: 1000;
     bottom: 5rem;
     right: 2rem;
     background-color: var(--hover-bg);
