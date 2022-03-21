@@ -9,9 +9,9 @@
         <nav class="navbar" id="navbar">
             <li><a href="<?php echo URLROOT; ?>">home</a></li>
             <li><a href="<?php echo URLROOT; ?>pages/overons">over ons</a></li>
-            <li><a href="<?php echo URLROOT; ?>dinsten/index">diensten</a></li>
-            <li><a href="<?php echo URLROOT; ?>project/index">projecten</a></li>
-            <li><a href="<?php echo URLROOT; ?>contact/index">contact</a></li>
+            <li><a href="<?php echo URLROOT; ?>pages/dinsten">diensten</a></li>
+            <li><a href="<?php echo URLROOT; ?>pages/projecten">projecten</a></li>
+            <li><a href="<?php echo URLROOT; ?>pages/contact">contact</a></li>
         </nav>
         <li class="telefoon-number"><i class="fas fa-phone-square-alt">0612345678</i></li>
         <div id="menu-btn"><i class="fas fa-bars"></i></div>

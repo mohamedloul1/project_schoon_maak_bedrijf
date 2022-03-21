@@ -24,7 +24,7 @@
 
   <div class="gevelreiniging-back">
             <div class="text-gevelreiniging-back">
-                <h2>Gevelreiniging</h2>
+                <h1>Gevelreiniging</h1>
 
             </div>
         </div>
@@ -33,22 +33,24 @@
         <section class="gevelreiniging-section container" style="width: 75%;">
     <div class="row">
         <div class="col-sm-12 col-md-5">
-            <h2 class="text-contact mb-5">Neem contact op</h2>
+            <h1 class="text-contact mb-5">Gevelreiniging</h1>
             <p class="p-text">
-                Het is altijd mogelijk dat je vragen of opmerkingen hebt over kashash schoonmaak service. Wij staan altijd open om contact met ons op te nemen, dit kunt u doen door gebruik te maken van de contactmogelijkheden op onze website of door het formulier hiernaast in te vullen.
-            </p>
-            <p class="p-text">
-                We doen ons best om binnen 24 uur na het invullen van het formulier contact met je op te nemen.
-            </p>
-            <p class="p-text">
-                Bedankt voor het vertrouwen en wij hopen u snel te zien.
+            Gevels zijn alles wat de mens vooropstelt. <br>
+            Een schone voorkant geeft een veel beter beeld dan een saaie/vuile. <br>
+            Daarnaast vuil, maar ook planten die op uw gevel onherstelbare schade kunnen aanrichten aan de
+            Veranderende weersomstandigheden hebben ook op lange termijn gevolgen, wat kan leiden tot hoge kosten. <br>
+            Gelukkig is dit te voorkomen door onze gevelspecialisten. <br>
+            Met gevelreiniging, verwijderen we met speciale en speciale middelen alle vervuiling van uw gevel. <br>
+            Dit kan op verschillende manieren afhankelijk van de staat van de gevel.
+
+                
             </p>
             <br>
             <br>
             <br>
             <br>
             <div class=" mb-5 form-floating d-grid gap-2 submit-button">
-                    <a  class="btn btn-primary btn-lg" type="submit" name="submit" style="color: white;">Afspraak maken</a>
+                    <a  class="btn btn-primary btn-lg" href="<?php echo URLROOT; ?>pages/contact" type="submit" name="submit" style="color: white;">Afspraak maken</a>
                     <span id="submit-error">
                     </span>
                 </div>

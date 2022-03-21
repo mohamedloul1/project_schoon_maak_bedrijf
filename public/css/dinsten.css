@@ -27,7 +27,7 @@
   display: flex;
   justify-content: center;
 }
-.text-diensten-back h2 {
+.text-diensten-back h1 {
   font-family: Arial, Helvetica, sans-serif;
   color: white;
   display: block;
@@ -68,21 +68,15 @@
   color: black;
   display: block;
   margin: 0;
-  font-size: 25px;
+  font-size: 50px;
   text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.9);
   padding: 50px 0;
   text-align: center;
 }
 
-.text-diensten {
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
-  display: block;
-  margin: 0;
+.p-diensten {
   font-size: 15px;
-  text-shadow: 1px 1px 0 rgba(245, 245, 246, 0.9);
-  padding: 25px 0;
-  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .section-diensten {
@@ -90,8 +84,20 @@
   place-content: center;
 }
 
-.section-diensten h3 {
+.section-diensten h1 {
   text-transform: none;
+}
+
+.card-body p {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-body h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.9);
+  font-size: 25px;
 }
 
 /*# sourceMappingURL=dinsten.css.map */

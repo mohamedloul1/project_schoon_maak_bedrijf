@@ -3,6 +3,7 @@
     padding: 3rem 3%;
     width: 100%;
 }
+
 .navbar-projecten-for-cards{
     display: flex;
     background-color: var(--hover-bg);
@@ -11,6 +12,13 @@
     justify-content: center;
     width: 100%;
     position: relative;
+    font-size: 1.5rem;
+    .start{
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      width: 100%;
+    }
     ul{
         width: 100%;
         display: flex;
@@ -81,7 +89,10 @@
         display: block;
         z-index: 1;
       }
-
+    
+   .first-card, .third-card, .four-card, .six-card{
+     transform: scale(.8);
+   }
     .first-card, .second-card, .third-card, .four-card, .five-card, .six-card{
       &:hover{
         background-color: var(--donker-blue);
@@ -143,7 +154,7 @@
         }
       }
     }
-   .navbar-projecten .content__project .cards{
+    .navbar-projecten .content__project .cards{
       .first-card, .third-card, .four-card, .six-card{
         transform: scale(1.0);
       }

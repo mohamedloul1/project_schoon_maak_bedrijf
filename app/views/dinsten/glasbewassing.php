@@ -24,7 +24,7 @@
 
   <div class="glasbewassing-back">
             <div class="text-glasbewassing-back">
-                <h2>Glasbewassing</h2>
+                <h1>Glasbewassing</h1>
 
             </div>
         </div>
@@ -33,22 +33,25 @@
         <section class="glasbewassing-section container" style="width: 75%;">
     <div class="row">
         <div class="col-sm-12 col-md-5">
-            <h2 class="text-contact mb-5">Neem contact op</h2>
+            <h1 class="text-contact mb-5">Glasbewassing</h1>
             <p class="p-text">
-                Het is altijd mogelijk dat je vragen of opmerkingen hebt over kashash schoonmaak service. Wij staan altijd open om contact met ons op te nemen, dit kunt u doen door gebruik te maken van de contactmogelijkheden op onze website of door het formulier hiernaast in te vullen.
-            </p>
-            <p class="p-text">
-                We doen ons best om binnen 24 uur na het invullen van het formulier contact met je op te nemen.
-            </p>
-            <p class="p-text">
-                Bedankt voor het vertrouwen en wij hopen u snel te zien.
+            De beschrijving "het opschonen van de windows" is niet compleet. <br>
+            Volgens de schoonmaakdienst Nagel maakt het schoonmaken van de directe omgeving en vensterbanken ook deze activiteit uit. <br>
+            Eventuele waterlekkages worden ook verwijderd uit het onderliggende vloerfineer. <br>
+            Onze volledig opgeleide medewerkers zijn in staat om de ramen zo te wassen dat u zo min mogelijk overlast van de klus ondervindt. <br>
+            Op deze manier weten ze wanneer het ongepast is in een kantoor waar een vergadering aan de gang is. <br>
+            Bij ons zal het u niet verbazen dat glazenwassers onaangekondigd komen om de klus te klaren. <br>
+            Wij zijn ons ervan bewust dat de planning soms moet zijn en wij zullen deze dan ook altijd in overleg en een datum uiterlijk een week van tevoren uitvoeren. <br>
+            Wil je meer weten over onze acties rondom het schoonmaken van ramen, neem dan gerust contact met ons op. <br>
+
+               
             </p>
             <br>
             <br>
             <br>
             <br>
             <div class=" mb-5 form-floating d-grid gap-2 submit-button">
-                    <a  class="btn btn-primary btn-lg" type="submit" name="submit" style="color: white;">Afspraak maken</a>
+                    <a  class="btn btn-primary btn-lg" href="<?php echo URLROOT; ?>pages/contact" type="submit" name="submit" style="color: white;">Afspraak maken</a>
                     <span id="submit-error">
                     </span>
                 </div>

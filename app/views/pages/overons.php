@@ -9,6 +9,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="/public/css/main.css">
+    <link rel="stylesheet" href="/public/css/overons.css">
+
 
   </head>
   <body>
@@ -17,13 +19,13 @@
 <div class="container-home">
   <div class="image"></div>
   <div class="text">
-    <h1>Over ons, Wie zijn wij?</h1>
+  <h1>Over ons, Wie zijn wij?</h1>
   </div>
 </div>
 
 <section class="over-ons__header">
   <div class="over-ons__container">
-    <div class="first-card">
+  <div class="first-card">
       <div class="image__over-ons">
         <img src="/public/img/cleaning-header-first.jpg">
       </div>
@@ -43,7 +45,6 @@
         </p>
       </div>
     </div>
-
     <div class="second-card">
     <div class="txt-content__over-ons">
         <h1>
@@ -58,7 +59,7 @@
         <span class="point-2"></span>
       </span>
     </div>
-      <div class="image__over-ons">
+    <div class="image__over-ons">
         <img src="/public/img/header-foto-second.jpg">
       </div>
     </div>
@@ -83,6 +84,7 @@
       </div>
   </div>
 </section>
+
 
 <!-- programming this website start -->
 <section class="web-programming">
