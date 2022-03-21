@@ -27,7 +27,7 @@
   display: flex;
   justify-content: center;
 }
-.text-glasbewassing-back h2 {
+.text-glasbewassing-back h1 {
   font-family: Arial, Helvetica, sans-serif;
   color: white;
   display: block;
@@ -43,6 +43,14 @@
   margin-top: 175px;
   display: grid;
   place-content: center;
+}
+.glasbewassing-section h1 {
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.glasbewassing-section p {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 @keyframes items-bewegen {

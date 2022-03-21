@@ -100,7 +100,6 @@ window.addEventListener('scroll', () => {
     }
 });
 
-
 window.addEventListener('scroll', () => {
     const scrolled = window.scrollY;
     if(scrolled > 20){

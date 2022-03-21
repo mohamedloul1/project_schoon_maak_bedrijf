@@ -24,7 +24,7 @@
 
   <div class="ontruiming-back">
             <div class="text-ontruiming-back">
-                <h2>Ontruiming</h2>
+                <h1>Ontruiming</h1>
 
             </div>
         </div>
@@ -33,22 +33,29 @@
         <section class="ontruiming-section container" style="width: 75%;">
     <div class="row">
         <div class="col-sm-12 col-md-5">
-            <h2 class="text-contact mb-5">Neem contact op</h2>
+            <h1 class="text-contact mb-5">Ontruiming</h1>
             <p class="p-text">
-                Het is altijd mogelijk dat je vragen of opmerkingen hebt over kashash schoonmaak service. Wij staan altijd open om contact met ons op te nemen, dit kunt u doen door gebruik te maken van de contactmogelijkheden op onze website of door het formulier hiernaast in te vullen.
-            </p>
-            <p class="p-text">
-                We doen ons best om binnen 24 uur na het invullen van het formulier contact met je op te nemen.
-            </p>
-            <p class="p-text">
-                Bedankt voor het vertrouwen en wij hopen u snel te zien.
+           Wij maken snel en uw woonruimte of uw professionals leeg, of het nu gaat om emigratie, verhuizing of overlijden. <br>
+           Het leegmaken van een woning of bedrijfspand is vaak een tijdrovende klus. <br>
+           Waar moet alles heen?
+           Wat wordt er weggegooid?
+           Daarnaast speelt ook het fysieke aspect een rol: spullen, het tapijt verwijderen, het afval verstoren.
+           Kortom hard werken.
+           Na de ontruiming maken we alles perfect.
+           Ons werk is pas klaar als u tevreden bent met het resultaat.
+           Alles wordt netjes en schoon achtergelaten.
+           Al uw wensen komen aan bod, zoals het verwijderen van de vloeren de gordijnen.
+           Samen komen we precies overeen wat we gaan doen
+           Het komt samen.
+
+             
             </p>
             <br>
             <br>
             <br>
             <br>
             <div class=" mb-5 form-floating d-grid gap-2 submit-button">
-                    <a  class="btn btn-primary btn-lg" type="submit" name="submit" style="color: white;">Afspraak maken</a>
+                    <a  class="btn btn-primary btn-lg" href="<?php echo URLROOT; ?>pages/contact" type="submit" name="submit" style="color: white;">Afspraak maken</a>
                     <span id="submit-error">
                     </span>
                 </div>

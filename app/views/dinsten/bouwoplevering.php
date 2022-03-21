@@ -25,7 +25,7 @@
 
         <div class="bouwoplevering-back">
             <div class="text-bouwoplevering-back">
-                <h2>Bouwoplevering</h2>
+                <h1>Bouwoplevering</h1>
 
             </div>
         </div>
@@ -34,22 +34,30 @@
         <section class="bouwoplevering-section container" style="width: 75%;">
     <div class="row">
         <div class="col-sm-12 col-md-5">
-            <h2 class="text-contact mb-5">Neem contact op</h2>
+            <h1 class="text-contact mb-5">Bouwoplevering</h1>
             <p class="p-text">
-                Het is altijd mogelijk dat je vragen of opmerkingen hebt over kashash schoonmaak service. Wij staan altijd open om contact met ons op te nemen, dit kunt u doen door gebruik te maken van de contactmogelijkheden op onze website of door het formulier hiernaast in te vullen.
-            </p>
-            <p class="p-text">
-                We doen ons best om binnen 24 uur na het invullen van het formulier contact met je op te nemen.
-            </p>
-            <p class="p-text">
-                Bedankt voor het vertrouwen en wij hopen u snel te zien.
+            Na renovatie, renovatie of nieuwbouw oplevering is reiniging vereist. <br>
+            In overleg met u stellen wij een plan op dat onze gekwalificeerde medewerkers project per project uitvoeren. <br>
+            Laten we dus zorgen voor een schoon en opgeruimd gebouw. <br>
+            Hierbij kun je denken aan:
+            Los vuil verwijderen
+            Volledige reiniging van sanitaire, sanitaire en andere natte ruimtes. <br>
+            Stofzuig het tapijt veeg randen, richels, contacten, radiatoren, deuren af. <br>
+            Verwijdering van tijdelijke beschermende materialen en stickers. <br>
+            Schrob harde vloeren
+            Afstoffen en reinigen van vloeren, wanden en plafonds
+            Keukenkasten binnen en buiten schoonmaken. <br>
+            Indien het nodig is om het werkprogramma uit te breiden, gebeurt dit in overleg. <br>
+            Ook voor als het snel, maar grondig moet worden schoongemaakt. <br>
+
+               
             </p>
             <br>
             <br>
             <br>
             <br>
             <div class=" mb-5 form-floating d-grid gap-2 submit-button">
-                    <a  class="btn btn-primary btn-lg" type="submit" name="submit" style="color: white;">Afspraak maken</a>
+                    <a  class="btn btn-primary btn-lg" href="<?php echo URLROOT; ?>pages/contact" type="submit" name="submit" style="color: white;">Afspraak maken</a>
                     <span id="submit-error">
                     </span>
                 </div>
