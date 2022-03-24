@@ -7,8 +7,9 @@
   --donker-blue: #012641;
   --hover-bg: #3175D3;
   --hover-text: #000;
-  --donker-mode-bg: #000;
+  --donker-mode-bg: #111111;
   --donker-mode-color: #fff;
+  --cards-background-color: #2F2F2F;
 }
 
 .ontruiming-back {

@@ -91,9 +91,6 @@
   display: block;
   z-index: 1;
 }
-.cards .first-card, .cards .third-card, .cards .four-card, .cards .six-card {
-  transform: scale(0.8);
-}
 .cards .first-card, .cards .second-card, .cards .third-card, .cards .four-card, .cards .five-card, .cards .six-card {
   z-index: 3;
   position: relative;

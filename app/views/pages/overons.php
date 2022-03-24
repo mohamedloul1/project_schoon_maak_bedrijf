@@ -25,7 +25,7 @@
 
 <section class="over-ons__header">
   <div class="over-ons__container">
-  <div class="first-card">
+    <div class="first-card">
       <div class="image__over-ons">
         <img src="/public/img/cleaning-header-first.jpg">
       </div>
@@ -45,6 +45,7 @@
         </p>
       </div>
     </div>
+
     <div class="second-card">
     <div class="txt-content__over-ons">
         <h1>
@@ -59,7 +60,7 @@
         <span class="point-2"></span>
       </span>
     </div>
-    <div class="image__over-ons">
+      <div class="image__over-ons">
         <img src="/public/img/header-foto-second.jpg">
       </div>
     </div>
