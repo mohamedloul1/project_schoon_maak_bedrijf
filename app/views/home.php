@@ -95,7 +95,7 @@
 
 <section class="how-working">
   <div class="header__working">
-    <h2>Hoe werkt het</h2>
+    <h1>hoe werkt het</h1>
   </div>
   <div class="language__working">
     <li><a href="">Nederlands</a></li>
@@ -145,7 +145,7 @@
 
 <section class="onze-diensten">
   <div class="container__onze-diensten">
-    <h3>Onze diensten</h3>
+    <h1>Onze diensten</h1>
     <div class="cards__onze-diensten">
       <div class="first-crad__onze-diensten">
         <img src="/public/img/schoonmaak-onderhoud.jpg">

@@ -29,7 +29,7 @@
     <!-- Contact Opnemen Background -->
     <div class="contact-back">
         <div class="text-contact-back">
-            <h2>Contact</h2>
+            <h1><?= $data["title"]; ?></h1>
         </div>
     </div>
 

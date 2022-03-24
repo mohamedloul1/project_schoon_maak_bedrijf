@@ -48,11 +48,62 @@ body{
       background: var(--hover-text);
       color: var(--white);
     }
+
+    .my-cards .card-container{
+        .first-card, .second-card, .third-card{
+             background: var(--cards-background-color);
+        }
+    }
+    #carouselExampleCaptions{
+        background: var(--cards-background-color);
+    }
+    .how-working .container-card__working{
+        .first-card__working, .second-card__working, .third-card__working, .four-card__working{
+        background: var(--cards-background-color);
+        }
+    }
+    .container__onze-diensten  .cards__onze-diensten{
+        .first-crad__onze-diensten:hover,
+    .second-crad__onze-diensten:hover,
+    .third-crad__onze-diensten:hover,
+    .four-crad__onze-diensten:hover,
+    .five-crad__onze-diensten:hover,
+    .six-crad__onze-diensten:hover{
+        background: var(--cards-background-color);
+        color: var(--hover-bg);
+    }
+    }
+    .container-home .text h1{
+        color: var(--white);
+    }
+
+    .over-ons__header .over-ons__container{
+        .first-card, .second-card, .third-card{
+            .txt-content__over-ons{
+                background-color: var(--cards-background-color);
+            }
+        }
+    }
+
+    .review{
+        background-color: var(--donker-mode-bg);
+        .container-review{
+            background-color: var(--donker-blue);
+            .first-comment, .second-comment, .third-comment{
+                background: var(--cards-background-color);
+            }
+        }
+    }
+
+    .cards{
+        .first-card, .second-card, .third-card, .four-card, .five-card, .six-card{
+            background-color: var(--cards-background-color);
+        }
+    }
 }
 
 section{
     padding: 3rem 0;
 }
-
 
 

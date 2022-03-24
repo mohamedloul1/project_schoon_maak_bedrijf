@@ -20,6 +20,9 @@
     @include box-shadow();
 
     .telefoon-number{
+        a{
+            color: var(--white);
+        }
         i{
             padding-left: 70px;
             &:hover{

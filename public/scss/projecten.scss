@@ -89,10 +89,7 @@
         display: block;
         z-index: 1;
       }
-    
-   .first-card, .third-card, .four-card, .six-card{
-     transform: scale(.8);
-   }
+  
     .first-card, .second-card, .third-card, .four-card, .five-card, .six-card{
       &:hover{
         background-color: var(--donker-blue);

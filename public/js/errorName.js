@@ -2,9 +2,14 @@ iconDonkerMode = document.querySelector('.dark-mode-siwtch');
 navbarBtn = document.querySelector('#menu-btn');
 iconDonkerMode.onclick = () => {
     document.querySelector('body').classList.toggle('donker-mode');
+    if(document.querySelector('.donker-mode')){
+        document.querySelector('.dark-mode-siwtch').classList.replace('fa-lightbulb', 'fa-moon')
+    }else{
+        document.querySelector('.dark-mode-siwtch').classList.replace('fa-moon', 'fa-lightbulb')
+    }
 };
+
 navbarBtn.onclick = () => {
-    navbarBtn.classList.toggle('fa-times');
     document.querySelector('.navbar').classList.toggle('active');
 };
 const errorName = document.getElementById('message-name');
