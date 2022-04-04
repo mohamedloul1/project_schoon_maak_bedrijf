@@ -16,7 +16,7 @@ body {
   animation: items-bewegen 2s ease-out;
 }
 .container-home .image {
-  background-image: url("../img/window-cleaner-g4e8bc606d_1920.jpg");
+  background-image: url("../img/backhome.jpg");
   width: 100%;
   height: 45vh;
   background-repeat: no-repeat;
@@ -106,21 +106,19 @@ section {
   flex-direction: column;
   position: relative;
 }
+.how-working .alert {
+  border-radius: 10ch;
+}
 .how-working h1 {
-  font-size: 4rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  display: block;
+  text-shadow: 4px 3px 0 rgba(0, 0, 0, 0.9);
+  font-size: 35px;
+  text-align: center;
   font-weight: bolder;
   position: relative;
   z-index: 1;
-}
-.how-working h1::before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 50%;
-  background-color: var(--hover-bg);
-  z-index: -1;
 }
 .how-working .language__working li {
   list-style: circle;
@@ -168,8 +166,23 @@ section {
   text-align: center;
   position: relative;
 }
+.container__onze-diensten .onze_diensten {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.container__onze-diensten .alert {
+  border-radius: 10ch;
+}
 .container__onze-diensten h1 {
-  font-size: 4rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  display: block;
+  text-shadow: 4px 3px 0 rgba(0, 0, 0, 0.9);
+  font-size: 35px;
+  text-align: center;
   font-weight: bolder;
   position: relative;
   z-index: 1;

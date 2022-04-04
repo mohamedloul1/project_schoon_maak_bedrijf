@@ -9,8 +9,26 @@
   margin-top: 150px;
 }
 .text-contact {
-  font-size: 50px;
-  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  .alert{
+    border-radius: 10ch;
+
+  }
+  h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    display: block;
+    text-shadow: 4px 3px 0 rgba(0, 0, 0, 0.9);
+    font-size: 35px;
+    text-align: center;
+    font-weight: bolder;
+    position: relative;
+    z-index: 1;
+
+  }
 }
 .p-text {
   font-size: 15px;

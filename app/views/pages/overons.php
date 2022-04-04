@@ -21,6 +21,7 @@
   <div class="text">
   <h1>Over ons, Wie zijn wij?</h1>
   </div>
+  
 </div>
 
 <section class="over-ons__header">
@@ -37,22 +38,25 @@
       </span>
     </div>
     <div class="txt-content__over-ons">
-        <h1>
-          introduction
-        </h1>
+    <div class="wat_doen_we">
+    <div class="alert  text-center" role="alert" style="background-color: #3175d3;" >
+    <h1>Wat doen we ?</h1> 
+    </div>
+    </div>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ab dolorem voluptatum debitis blanditiis itaque eligendi corporis hic autem ipsam sint doloremque officia quas, nobis, at aliquid earum. Porro, iste.
-        </p>
+        Schoonmaakservice is een breed begrip. Dit varieert van bescherming binnen een bepaald gebouw tot het verwijderen van graffiti. In principe zijn beide schoonmaakdiensten. Schoonmaak, wij maken onderscheid tussen schoonmaak- en schoonmaakprofessionals.        </p>
       </div>
     </div>
 
     <div class="second-card">
     <div class="txt-content__over-ons">
-        <h1>
-          content
-        </h1>
+    <div class="over_ons">
+    <div class="alert  text-center" role="alert" style="background-color: #3175d3;" >
+    <h1>over ons</h1> 
+    </div>
+    </div>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ab dolorem voluptatum debitis blanditiis itaque eligendi corporis hic autem ipsam sint doloremque officia quas, nobis, at aliquid earum. Porro, iste.
+        Kashash Schoonmaakserviceis een jong bedrijf. Volledig gericht op de wensen van de klant. Elk bedrijf kan groeien met genoeg moed, wil en passie. Maar huisbewoner zijn vereist vertrouwen, respect en liefde voor reinheid. De laatste drie trefwoorden staan centraal bij Kashash Schoonmaakservice.
         </p>
       </div>
       <div class="line">
@@ -76,12 +80,8 @@
       </span>
     </div>
     <div class="txt-content__over-ons">
-        <h1>
-          slot
-        </h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ab dolorem voluptatum debitis blanditiis itaque eligendi corporis hic autem ipsam sint doloremque officia quas, nobis, at aliquid earum. Porro, iste.
-        </p>
+        Met schoonmaken bedoelen we het regelmatig schoonmaken van het interieur van een gebouw. We maken gebruik van marktsegmenten: kantoor, bouw, wonen, onderwijs, trappen, zorg en entertainment. Focus op schoonmaken, wij reinigen ramen, reinigen gevels, reinigen daken, verwijderen graffiti, onderhouden onderzijden, reinigen tapijten, reinigen zonnepanelen en beschermen deze tegen de zon.        </p>
       </div>
   </div>
 </section>
@@ -126,7 +126,11 @@
 
 <!-- review start -->
 <section class="review">
-  <h1>beste reviews </h1>
+<div class="cls_review">
+    <div class="alert  text-center" role="alert" style="background-color: #3175d3;" >
+    <h1>beste reviews</h1> 
+    </div>
+    </div>
   <div class="container-review">
     <div class="first-comment">
       <div class="header__comment">

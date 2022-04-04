@@ -43,7 +43,7 @@
             <img src="../img/scoonmaken-di.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h1 class="card-title text-black text-center">Schoonmaak</h1>
-              <p class="text-center">Maak in het algemeen alles wat je wilt op een goede manier schoon</p>
+              <p class="text-center">Dagelijkse of reguliere (vaste) schoonmaakwerkzaamheden door middel van schoonmaakonderhoud.</p>
               <div class="col-md-12 text-center">
                 <a href="<?php echo URLROOT; ?>dinsten/schoonmaak" style="width: 10rem;" class="btn btn-primary active">Lees meer</a>
               </div>
@@ -51,11 +51,11 @@
           </div>
         </div>
         <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-4" id="Bouwoplevering">
-          <div class="card-1">
+          <div class="card-2">
             <img src="../img/bouw.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h1 class="card-title text-black text-center">Bouwoplevering</h1>
-              <p class="text-center"> Wij verwijderen al het puin en maken uw gebouw, kantoor of huis grondig schoon</p>
+              <p class="text-center">het opruimen van rommel en algemene reiniging van specifieke objecten, woning of kantoor.</p>
               <div class="col-md-12 text-center">
                 <a href="<?php echo URLROOT; ?>dinsten/bouwoplevering" style="width: 10rem;" class="btn btn-primary active">Lees meer</a>
               </div>
@@ -67,7 +67,7 @@
             <img src="../img/glas.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h1 class="card-title text-black text-center">Glasbewassing</h1>
-              <p class="text-center">Het schoonmaken van ramen Wij polijsten alle soorten glas, en hier is veiligheid zeer belangrijk voor ons</p>
+              <p class="text-center">Onze ervaren glazenwassers kunnen al uw ramen professioneel reinigen. Veiligheid staat hierbij natuurlijk voorop.</p>
               <div class="col-md-12 text-center">
                 <a href="<?php echo URLROOT; ?>dinsten/glasbewassing" style="width: 10rem;" class="btn btn-primary active">Lees meer</a>
               </div>
@@ -76,10 +76,10 @@
         </div>
         <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-4" id="Vloeronderhoud">
           <div class="card-2">
-            <img src="../img/Vloer.jpg" class="card-img-top" alt="...">
+            <img src="../img/foolronderhoud.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h1 class="card-title text-black text-center">Vloeronderhoud</h1>
-              <p class="text-center">Wij reinigen en onderhouden vloeren met materialen die geschikt zijn voor de kwaliteit van de vloer</p>
+              <p class="text-center">Vloeren moeten mogelijk het grootste deel van uw eigendom kunnen weerstaan. Onze experts weten precies welke vloeren behandeld moeten worden en hoe!</p>
               <div class="col-md-12 text-center">
                 <a href="<?php echo URLROOT; ?>dinsten/vloeronderhoud" style="width: 10rem;" class="btn btn-primary active">Lees meer</a>
               </div>
@@ -91,7 +91,7 @@
             <img src="../img/muur.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h1 class="card-title text-black text-center">Gevelreiniging</h1>
-              <p class="text-center">De gevels zijn de impressionistische vorm, dankzij de ervaring ons team behandelt alle gevels</p>
+              <p class="text-center">De gevel bepaalt de eerste indruk van mensen. Dankzij jarenlange ervaring en knowhow weten onze experts van elk type gevel wat ze moeten doen!</p>
               <div class="col-md-12 text-center">
                 <a href="<?php echo URLROOT; ?>dinsten/gevelreiniging" style="width: 10rem;" class="btn btn-primary active">Lees meer</a>
               </div>
@@ -100,10 +100,10 @@
         </div>
         <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-4" id="Ontruiming">
           <div class="card-2">
-            <img src="../img/garbage-g3ff89ac53_1920.jpg" class="card-img-top" alt="...">
+            <img src="../img/ontruiming.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h1 class="card-title text-black text-center">Ontruiming</h1>
-              <p class="text-center">Ons team staat in voor het leegmaken van uw kantoor of woning met grote nauwkeurigheid</p>
+              <p class="text-center">Wij maken uw woning of bedrijf snel en netjes schoon, of het nu gaat om migratie, verhuizing of overlijden. <br> Wij zorgen ervoor. </p>
               <div class="col-md-12 text-center">
                 <a href="<?php echo URLROOT; ?>dinsten/ontruiming" style="width: 10rem;" class="btn btn-primary active">Lees meer</a>
               </div>

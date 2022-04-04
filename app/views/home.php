@@ -24,7 +24,7 @@
   <div class="container-home">
   <div class="image"></div>
   <div class="text">
-    <h1>Zen kashash schoon maak service</h1>
+    <h1>kashash schoonmaakservice</h1>
     
   </div>   
 </div>
@@ -57,27 +57,40 @@
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="/public/img/cleaner-image.png" class="d-block w-100" alt="...">
+        <img src="/public/img/project6.jpg" class="d-block w-100" alt="Foto project (6)">
         <div class="carousel-caption d-none d-md-block">
-          <h5>First slide label</h5>
-          <p>Some representative placeholder content for the first slide.</p>
+          
         </div>
       </div>
       <div class="carousel-item">
-        <img src="/public/img/cleaner-image.png" class="d-block w-100" alt="...">
+        <img src="/public/img/project5.jpg" class="d-block w-100" alt="Foto project (5)">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Second slide label</h5>
-          <p>Some representative placeholder content for the second slide.</p>
+         
+        </div>
+      </div>
+     
+      <div class="carousel-item">
+        <img src="/public/img/project3.jpg" class="d-block w-100" alt="Foto project (3)">
+        <div class="carousel-caption d-none d-md-block">
+         
         </div>
       </div>
       <div class="carousel-item">
-        <img src="/public/img/cleaner-image.png" class="d-block w-100" alt="...">
+        <img src="/public/img/project2.jpg" class="d-block w-100" alt="Foto project (2)">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Third slide label</h5>
-          <p>Some representative placeholder content for the third slide.</p>
+        
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/public/img/project1.jpg" class="d-block w-100" alt="Foto project (1)">
+        <div class="carousel-caption d-none d-md-block">
+        
         </div>
       </div>
     </div>
@@ -94,12 +107,18 @@
 
 
 <section class="how-working">
-  <div class="header__working">
+  <div class="header_working">
+  <div class="alert  text-center" role="alert" style="background-color: #3175d3;" >
+  <h1>hoe werkt het ?</h1> 
+  </div>
+  </div>
+
+  <!-- <div class="header__working">
     <h1>hoe werkt het</h1>
-  </div>
-  <div class="language__working">
+  </div> -->
+  <!-- <div class="language__working">
     <li><a href="">Nederlands</a></li>
-  </div>
+  </div> -->
   <div class="container-card__working">
     <div class="first-card__working">
       <i class="fas fa-id-card-alt"></i>
@@ -145,35 +164,42 @@
 
 <section class="onze-diensten">
   <div class="container__onze-diensten">
-    <h1>Onze diensten</h1>
+    <div class="onze_diensten">
+    <div class="alert  text-center" role="alert" style="background-color: #3175d3;" >
+    <h1>Onze diensten </h1> 
+    </div>
+
+    </div>
+    
+    <!-- <h1>Onze diensten</h1> -->
     <div class="cards__onze-diensten">
       <div class="first-crad__onze-diensten">
-        <img src="/public/img/schoonmaak-onderhoud.jpg">
+        <img src="/public/img/scoonmaken-di.jpg">
         <button>More info</button>
-        <p>Schoonmaken onderhoud</p>
+        <p>Schoonmaken</p>
       </div>
       <div class="second-crad__onze-diensten">
-        <img src="/public/img/bouw-oplevering.jfif">
+        <img src="/public/img/bouw.jpg">
         <button>More info</button>
         <p>Bouw oplevering</p>
       </div>
       <div class="third-crad__onze-diensten">
-        <img src="/public/img/glasbewassing.jpg">
+        <img src="/public/img/glas.jpg">
         <button>More info</button>
         <p>Glasbewassing</p>
       </div>
       <div class="four-crad__onze-diensten">
-        <img src="/public/img/vloer-onderhoud.jpg">
+        <img src="/public/img/foolronderhoud.jpg">
         <button>More info</button>
         <p>vloer onderhoud</p>
       </div>
       <div class="five-crad__onze-diensten">
-        <img src="/public/img/gevel-reininigin.jpg">
+        <img src="/public/img/muur.jpg">
         <button>More info</button>
         <p>gevelreiniging</p>
       </div>
       <div class="six-crad__onze-diensten">
-        <img src="/public/img/ontruiming.png">
+        <img src="/public/img/ontruiming.jpg">
         <button>More info</button>
         <p>ontruiming</p>
       </div>
