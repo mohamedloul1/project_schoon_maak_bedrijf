@@ -369,86 +369,7 @@
   }
 }
 
-.web-programming {
-  position: relative;
-  h1 {
-    text-align: center;
-  }
-  .web-programmering__container {
-    position: relative;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 2rem;
-    margin: 5rem 10rem;
-    text-align: center;
-    gap: 15rem;
-    background-image: url("../img/github.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    .first-programmateur,
-    .second-programmateur {
-      .foto {
-        width: 8rem;
-        height: 8rem;
-        object-fit: fill;
-        position: absolute;
-        img {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-        }
-      }
-      button {
-        padding: 1rem 9%;
-        border-radius: 9%;
-        font-size: 1.3rem;
-        cursor: pointer;
-        &:hover {
-          background-color: var(--donker-blue);
-          color: var(--white);
-        }
-      }
-      .content {
-        max-width: 80%;
-        margin-left: 7.5rem;
-        padding: 1rem 2rem;
-        text-align: center;
-        font-size: 1.5rem;
-        p {
-          text-transform: none;
-        }
-      }
-      background-color: var(--hover-bg);
-      color: var(--white);
-      padding: 3rem;
-      position: relative;
-      border-radius: 10px;
-      &::before {
-        content: "";
-        background-color: aqua;
-        width: 20px;
-        height: 20px;
-        position: absolute;
-        top: 0;
-        left: 0;
-        border-radius: 50%;
-        border: 2px solid var(--donker-mode-bg);
-      }
-      &::after {
-        content: "";
-        background-color: aqua;
-        width: 20px;
-        height: 20px;
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        border-radius: 50%;
-        border: 2px solid var(--donker-mode-bg);
-      }
-    }
-  }
-}
+
 
 .review {
   .cls_review{
@@ -489,7 +410,7 @@
       border-radius: 10px;
       width: 50%;
       margin: 0 auto;
-      animation: 10s moveright ease-out infinite;
+      animation: 25s moveright ease-out infinite;
       .basic-information {
         margin: 0 3rem;
         line-height: 1rem;
@@ -528,15 +449,6 @@
   0% {
     transform: translateX(0);
   }
-  25% {
-    transform: translateX(calc(-250% / 4));
-  }
-  50% {
-    transform: translateX(calc(-250% / 2));
-  }
-  50% {
-    transform: translateX(calc(-250% / 3));
-  }
   100% {
     transform: translateX(-250%);
   }
@@ -551,11 +463,30 @@
       display: none;
     }
 
+    .second-card{
+      display: grid;
+      .image__over-ons{
+        width: 50%;
+        margin: 0 auto;  
+      }
+      .txt-content__over-ons .over_ons .alert h1{
+        font-size: 2rem;
+      }
+    }
+
+    .third-card{
+      display: grid;
+      gap: 10rem;
+    }
+
     .first-card, .second-card, .third-card{
       grid-template-columns: 1fr 2fr;
       .txt-content__over-ons{
         width: 100%;
         font-size: 1.5rem;
+        .wat_doen_we .alert h1{
+          font-size: 2rem;
+        }
       }
     }
 
@@ -572,19 +503,46 @@
   html {
     font-size: 45%;
   }
-  .over-ons__container {
-    .line__container {
+  .over-ons__header .over-ons__container{
+    .line{
       display: none;
     }
-    .over-ons__cards {
-      img {
-        width: 90%;
-      }
+  }
+
+  .over-ons__header .over-ons__container .third-card{
+    .txt-content__over-ons{
+      width: 40rem;
     }
   }
-  .web-programming .web-programmering__container {
+
+  .over-ons__header .over-ons__container .first-card, .third-card{
     display: grid;
-    grid-template-columns: 1fr;
+    gap: 0;
+    width: 100%;
+    .txt-content__over-ons{
+      width: 100%;
+      padding: 0 4rem;
+    }
+    .image__over-ons{
+      width: 100%;
+      img{
+        width: 100%;
+      }
+    }
+    .txt-content__over-ons .wat_doen_we .alert h1{
+    font-size: 2.5rem;
+    }
+  }
+  .over-ons__header .over-ons__container .second-card{
+    .image__over-ons{
+      padding: 0 4rem;
+    }
+  }
+  .first-card, .second-card, .third-card{
+    .txt-content__over-ons .over_ons .alert h1{
+      font-size: 2.5rem;
+    }
+    grid-template-columns: 1fr 2fr;
   }
 }
 
