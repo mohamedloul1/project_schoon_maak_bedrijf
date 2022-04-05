@@ -30,7 +30,11 @@
     <section class="contact-section container " style="width: 75%;">
         <div class="row">
             <div class="col-sm-12 col-md-5">
-                <h1 class="text-contact mb-5">Neem contact op</h1>
+            <div class="text-contact mb-5">
+    <div class="alert  text-center" role="alert" style="background-color: #3175d3;" >
+    <h1>Neem contact op</h1> 
+    </div>
+    </div>
                 <p class="p-text">
                     Het is altijd mogelijk dat je vragen of opmerkingen hebt over kashash schoonmaak service. Wij staan altijd open om contact met ons op te nemen, dit kunt u doen door gebruik te maken van de contactmogelijkheden op onze website of door het formulier hiernaast in te vullen.
                     <br>

@@ -16,7 +16,7 @@ body {
   animation: items-bewegen 2s ease-out;
 
   .image {
-    background-image: url("../img/window-cleaner-g4e8bc606d_1920.jpg");
+    background-image: url("../img/backhome.jpg");
     width: 100%;
     height: 45vh;
     background-repeat: no-repeat;
@@ -108,21 +108,29 @@ section {
   align-items: center;
   flex-direction: column;
   position: relative;
+  .alert{
+    border-radius: 10ch;
+  }
   h1{
-    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    display: block;
+    text-shadow: 4px 3px 0 rgba(0, 0, 0, 0.9);
+    font-size: 35px;
+    text-align: center;
     font-weight: bolder;
     position: relative;
     z-index: 1;
-    &::before{
-      content: '';
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      height: 50%;
-      background-color: var(--hover-bg);
-      z-index: -1;
-    }
+    // &::before{
+    //   content: '';
+    //   position: absolute;
+    //   bottom: 0;
+    //   left: 0;
+    //   width: 100%;
+    //   height: 50%;
+    //   background-color: var(--hover-bg);
+    //   z-index: -1;
+    // }
   }
   .language__working li {
     list-style:circle;
@@ -173,8 +181,23 @@ section {
 .container__onze-diensten {
   text-align: center;
   position: relative;
+  .onze_diensten{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  }
+  .alert{
+    border-radius: 10ch;
+  }
   h1{
-    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    display: block;
+    text-shadow: 4px 3px 0 rgba(0, 0, 0, 0.9);
+    font-size: 35px;
+    text-align: center;
     font-weight: bolder;
     position: relative;
     z-index: 1;
