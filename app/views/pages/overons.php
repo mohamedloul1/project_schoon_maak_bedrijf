@@ -87,41 +87,7 @@
 </section>
 
 
-<!-- programming this website start -->
-<section class="web-programming">
-  <h1>website programmering</h1>
-  <div class="web-programmering__container">
-    <div class="first-programmateur">
-      <div class="title">
-        <div class="foto">
-          <img src="../img/Dani.jpg" alt="programmeing-picture-first">
-        </div>
-        <h3>dani al jumaat</h3>
-      </div>
-      <div class="content">
-        <p>
-          Hoi mijn naam is Dani👋, ik ben 19 jaar oud, ik studeer op het Mbo als Software Developer
-          en dat is mijn tweede jaar in programmering wereld, heeft u meer interesse om naar mijn
-          projecten te bekijken dan kan het door de ondersrtaande link erop te klikken.
-        </p>
-      </div>
-      <a href="https://github.com/Dani66864" target="_blank"><button>Bekijk mijn github!</button></a>
-    </div>
-    <div class="second-programmateur">
-      <div class="title">
-        <div class="foto">
-          <img src="" alt="programmeing-picture-second">
-        </div>
-        <h3>mohammed loul</h3>
-      </div>
-      <div class="content">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, delectus perferendis. Iure laudantium nulla doloribus saepe quo suscipit eum, soluta consectetur eius ducimus itaque! Quidem facilis numquam aperiam nesciunt ullam!</p>
-      </div>
-      <button>Bekijk mijn github!</button>
-    </div>
-  </div>
-</section>
-<!-- programming this website end -->
+
 
 
 <!-- review start -->
