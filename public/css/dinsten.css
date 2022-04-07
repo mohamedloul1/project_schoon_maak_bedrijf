@@ -92,7 +92,7 @@ body {
 .donker-mode .container-home .text h1 {
   color: var(--white);
 }
-.donker-mode .over-ons__header .over-ons__container .first-card .txt-content__over-ons, .donker-mode .over-ons__header .over-ons__container .second-card .txt-content__over-ons, .donker-mode .over-ons__header .over-ons__container .third-card .txt-content__over-ons {
+.donker-mode .over-ons__onze-bedrijf .container__onze-bedrijf .first-card__onze-bedrijf .content__onze-bedrijf, .donker-mode .over-ons__onze-bedrijf .container__onze-bedrijf .second-card__onze-bedrijf .content__onze-bedrijf, .donker-mode .over-ons__onze-bedrijf .container__onze-bedrijf .third-card__onze-bedrijf .content__onze-bedrijf {
   background-color: var(--cards-background-color);
 }
 .donker-mode .review {
