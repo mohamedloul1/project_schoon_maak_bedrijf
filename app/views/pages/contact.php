@@ -31,9 +31,9 @@
         <div class="row">
             <div class="col-sm-12 col-md-5">
             <div class="text-contact mb-5">
-    <div class="alert  text-center" role="alert" style="background-color: #3175d3;" >
-    <h1>Neem contact op</h1> 
-    </div>
+            <div class="titel_neem_contact_op">
+        <h1>Neem contact op</h1> 
+        </div>
     </div>
                 <p class="p-text">
                     Het is altijd mogelijk dat je vragen of opmerkingen hebt over kashash schoonmaak service. Wij staan altijd open om contact met ons op te nemen, dit kunt u doen door gebruik te maken van de contactmogelijkheden op onze website of door het formulier hiernaast in te vullen.
@@ -57,6 +57,10 @@
                 <br>
                 <i class="icon-contact bi bi-envelope-fill"></i> &nbsp; &nbsp;
                 <span class="icon-text"> <strong> <a class="text-contact-style" href="mailto:info@kashash.nl"> info@kashash.nl </a> </strong></span>
+                <br>
+                <br>
+                <i class="icon-contact">KVK</i> &nbsp; &nbsp;
+                <span class="icon-text"> <strong> Roelantdreef 196, 3562kg Utrecht </strong></span>
             </div>
             <!-- Contact inputs  -->
             <div class="col-sm-12 col-md-6 ms-auto mt-5">

@@ -17,24 +17,25 @@
 }
 
 .text-contact {
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   position: relative;
 }
-.text-contact .alert {
-  border-radius: 10ch;
-}
-.text-contact h1 {
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
+.text-contact .titel_neem_contact_op {
   display: block;
-  text-shadow: 4px 3px 0 rgba(0, 0, 0, 0.9);
-  font-size: 35px;
+  background-color: var(--hover-bg);
+  width: 100%;
   text-align: center;
-  font-weight: bolder;
-  position: relative;
-  z-index: 1;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.text-contact .titel_neem_contact_op h1 {
+  color: var(--white);
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-size: 30px;
 }
 
 .p-text {
@@ -49,6 +50,8 @@
 
 .icon-contact {
   color: #0d6efd;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
 }
 
 .text-contact-style {

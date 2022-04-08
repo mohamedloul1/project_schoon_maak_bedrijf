@@ -9,26 +9,26 @@
   margin-top: 150px;
 }
 .text-contact {
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   position: relative;
-  .alert{
-    border-radius: 10ch;
-
-  }
+ .titel_neem_contact_op{
+  display: block;
+  background-color: var(--hover-bg);
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 10px;
   h1{
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(255, 255, 255);
-    display: block;
-    text-shadow: 4px 3px 0 rgba(0, 0, 0, 0.9);
-    font-size: 35px;
-    text-align: center;
-    font-weight: bolder;
-    position: relative;
-    z-index: 1;
-
+  color: var(--white);
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-size: 30px;
   }
+ }
+
 }
 .p-text {
   font-size: 15px;
@@ -40,6 +40,9 @@
 }
 .icon-contact {
   color: #0d6efd;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+
 }
 
 .text-contact-style{
