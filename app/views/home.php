@@ -108,9 +108,9 @@
 
 <section class="how-working">
   <div class="header_working">
-  <div class="alert  text-center" role="alert" style="background-color: #3175d3;" >
-  <h1>hoe werkt het ?</h1> 
-  </div>
+  <div class="titel_hoe_werkt_het">
+        <h1>Hoe werkt het?</h1> 
+        </div>
   </div>
 
   <!-- <div class="header__working">
@@ -162,20 +162,19 @@
   </div>
 </section>
 
+
 <section class="onze-diensten">
   <div class="container__onze-diensten">
     <div class="onze_diensten">
-    <div class="alert  text-center" role="alert" style="background-color: #3175d3;" >
-    <h1>Onze diensten </h1> 
+    <div class="titel_onze_diensten">
+        <h1>Onze diensten</h1> 
+        </div>
     </div>
-
-    </div>
-    
     <!-- <h1>Onze diensten</h1> -->
     <div class="cards__onze-diensten">
       <div class="first-crad__onze-diensten">
         <img src="/public/img/scoonmaken-di.jpg">
-        <button>More info</button>
+        <button href="<?php echo URLROOT; ?>dinsten/schoonmaak">More info</button>
         <p>Schoonmaken</p>
       </div>
       <div class="second-crad__onze-diensten">
