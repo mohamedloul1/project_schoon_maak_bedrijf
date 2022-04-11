@@ -39,13 +39,13 @@
     <div class="second-card">
       <i class="bi bi-clock-fill"></i>
       <h3>24-uur service</h3>
-      <p>U kunt altijd rekenen op Zen kashash. Ook kunnen wij 24/7 spoedeisende hulp bieden..</p>
+      <p>U kunt altijd rekenen op kashash schoonmaakservice. Ook kunnen wij 24/7 spoedeisende hulp bieden..</p>
 
     </div>
     <div class="third-card">
       <i class="fas fa-heart"></i>
       <h3>Liefde</h3>
-      <p>Bij Zen kashash houden we van ons vak, onze medewerkers en onze klanten..</p>
+      <p>Bij kashash schoonmaakservice houden we van ons vak, onze medewerkers en onze klanten..</p>
     </div>
   </div>
 </section>
@@ -113,40 +113,37 @@
         </div>
   </div>
 
-  <!-- <div class="header__working">
-    <h1>hoe werkt het</h1>
-  </div> -->
-  <!-- <div class="language__working">
-    <li><a href="">Nederlands</a></li>
-  </div> -->
   <div class="container-card__working">
     <div class="first-card__working">
       <i class="fas fa-id-card-alt"></i>
       <ol>
-        <li>Je moet naar de contact pagina gaan</li>
+        <li>Eerst moet u naar de contact pagina gaan.</li>
       </ol>
       <p> <i class="fas fa-exclamation-circle" id="alert"></i>
-        U kunt deze pagina bereiken door naar top of beneden te scrollen en op knop contact te klikken
+      U kunt deze pagina bereiken door omhoog of omlaag te scrollen en op de contactknop te klikken.
       </p>
     </div>
     <div class="second-card__working">
       <i class="fas fa-file-signature"></i>
       <ol start="2">
-        <li>Vul je gegvens in.</li>
+        <li>vervolgens zal een blad verschijnen waar u informatie kunt invoeren.</li>
       </ol>
       <p>
         <i class="fas fa-check-circle text-success" id="alert"></i>
-        Uw privacy worden gegarandeerd
+        Uw privacy is gewaarborgd.<br>
+        worden op de meest veilige manier opgeslagen
+        
+        <br>
       </p>
     </div>
     <div class="third-card__working">
       <i class="fas fa-save"></i>
       <ol start="3">
-        <li>Daarna u ingevulde informatie worden opgeslagen</li>
+        <li>Vervolgens worden uw ingevoerde gegevens opgeslagen.</li>
       </ol>
       <p>
         <i class="fas fa-check-circle text-success" id="alert"></i>
-        Deze gegvens worden opgeslagen op het veiligste manier en worden niet met derden geddeld
+        Deze gegevens worden op de meest veilige manier opgeslagen en worden niet met derden gedeeld.
       </p>
     </div>
     <div class="four-card__working">
@@ -156,8 +153,7 @@
       </ol>
       <p>
         <i class="fas fa-envelope-open" id="alert"></i>
-        U krijgt ook besetiging op u eigen email en daarna wordt u gebeld binnen 1 werkdagen
-      </p>
+        U ontvangt een bevestiging op uw eigen e-mail en vervolgens wordt u binnen 1 werkdag gebeld       </p>
     </div>
   </div>
 </section>

@@ -79,7 +79,7 @@
   <!-- Copyright -->
   <div class="copyright text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
   Copyright © 2022
-    <a class="text-white">Zen Kashash</a> &nbsp; &nbsp; 
+    <a class="text-white">kashash schoonmaakservice</a> &nbsp; &nbsp; 
     <a href="https://policies.google.com/privacy" class="text-white">Privacy</a>
 
   </div>
