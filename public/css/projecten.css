@@ -31,6 +31,7 @@
   height: 100%;
 }
 .navbar-projecten-for-cards ul li a {
+  font-family: "Days One", sans-serif;
   text-decoration: none;
   font-size: 2rem;
   color: var(--white);
@@ -128,11 +129,14 @@
 }
 .cards .first-card .header__cards strong, .cards .second-card .header__cards strong, .cards .third-card .header__cards strong, .cards .four-card .header__cards strong, .cards .five-card .header__cards strong, .cards .six-card .header__cards strong {
   font-size: 2rem;
-  font-weight: bolder;
+  font-family: "Days One", sans-serif;
 }
 .cards .first-card .content-txt__cards, .cards .second-card .content-txt__cards, .cards .third-card .content-txt__cards, .cards .four-card .content-txt__cards, .cards .five-card .content-txt__cards, .cards .six-card .content-txt__cards {
   padding: 0.5rem;
   font-size: 1.5rem;
+}
+.cards .first-card .content-txt__cards p, .cards .second-card .content-txt__cards p, .cards .third-card .content-txt__cards p, .cards .four-card .content-txt__cards p, .cards .five-card .content-txt__cards p, .cards .six-card .content-txt__cards p {
+  font-family: "Roboto", sans-serif;
 }
 
 @media (max-width: 450px) {

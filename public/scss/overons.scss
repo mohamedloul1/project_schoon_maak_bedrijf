@@ -8,7 +8,7 @@
   position: relative;
   display: grid;
   place-items: center;
-  margin: 0.3rem 0;
+  margin: 0;
   animation: items-bewegen 2s ease-out;
 
   .image {
@@ -35,6 +35,8 @@
       animation: text-style 2s ease-out;
       padding: 170px 0;
       text-align: center;
+      font-family: 'Days One', sans-serif;
+
     }
   }
 }
@@ -77,42 +79,21 @@
       left: 50%;
       width: 10px;
       height: 100%;
-      background-color: var(--donker-blue);
+      background-color: var(--white);
       .points{
         position: relative;
         .point1{
           position: absolute;
           top: 10rem;
           left: -1rem;
-          background-color: green;
+          background-color: var(--hover-bg);
           width: 30px;
           height: 30px;
           border-radius: 50%;
           cursor: pointer;
           &:hover::before{
-            content: 'Eat doen we';
-            background-color: var(--donker-blue);
-            color: var(--white);
-            position: absolute;
-            top: 0;
-            left: -15rem;
-            padding: 1.5rem;
-            font-size: 1.5rem;
-            border-radius: 5px;
-          }
-        }
-        .point2{
-          position: absolute;
-          top: 50rem;
-          left: -1rem;
-          background-color: green;
-          width: 30px;
-          height: 30px;
-          border-radius: 50%;
-          cursor: pointer;
-          &:hover::before{
-            content: 'Over ons';
-            background-color: var(--donker-blue);
+            content: 'wat doen we?';
+            background-color: var(--hover-bg);
             color: var(--white);
             position: absolute;
             top: 0;
@@ -122,22 +103,43 @@
             border-radius: 5px;
           }
         }
-        .point3{
+        .point2{
           position: absolute;
-          top: 90rem;
+          top: 50rem;
           left: -1rem;
-          background-color: green;
+          background-color: var(--hover-bg);
           width: 30px;
           height: 30px;
           border-radius: 50%;
           cursor: pointer;
           &:hover::before{
-            content: 'Wat bieden wij?';
-            background-color: var(--donker-blue);
+            content: 'wat doen we?';
+            background-color: var(--hover-bg);
             color: var(--white);
             position: absolute;
             top: 0;
             left: -15rem;
+            padding: 1.5rem;
+            font-size: 1.5rem;
+            border-radius: 5px;
+          }
+        }
+        .point3{
+          position: absolute;
+          top: 90rem;
+          left: -1rem;
+          background-color: var(--hover-bg);
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          cursor: pointer;
+          &:hover::before{
+            content: 'Overons';
+            background-color: var(--hover-bg);
+            color: var(--white);
+            position: absolute;
+            top: 0;
+            right: -15rem;
             padding: 1.5rem;
             font-size: 1.5rem;
             border-radius: 5px;
@@ -152,7 +154,7 @@
       width: 100%;
       height: 100%;
       .image__onze-bedrijf{
-        width: 75%;
+        width: 100%;
         height: 75%;
         margin: auto;
         img{
@@ -181,7 +183,8 @@
           h1{
             color: var(--white);
           font-size: 2.5rem;
-          font-weight: bold;
+          font-family: 'Days One', sans-serif;
+
           }
         }
         .text__onze-bedrijf{
@@ -190,6 +193,10 @@
           height: 100%;
           font-size: 2rem;
           text-align: center;
+          p{
+            font-family: 'Roboto', sans-serif;
+          }
+          
         }
       }
     }
@@ -222,21 +229,20 @@
   position: relative;
   }
   .alert{
-    border-radius: 10ch;
+    border-radius: 10px;
   }
   h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(255, 255, 255);
-    display: block;
-    text-shadow: 4px 3px 0 rgba(0, 0, 0, 0.9);
+    color: var(--white);
+    font-size: 2.5rem;
     font-size: 30px;
-    text-align: center;
-    font-weight: bolder;
-    position: relative;
-    z-index: 1;
+    font-family: 'Days One', sans-serif;
+
   }
   .container-review {
-    background: var(--hover-bg);
+    i{
+      color: var(--guid);
+    }
+    background: var(--white);
     color: var(--white);
     display: flex;
     justify-content: center;
@@ -247,7 +253,11 @@
     .first-comment,
     .second-comment,
     .third-comment {
-      background: var(--donker-blue);
+      h1{
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;
+      }
+      background: var(--hover-bg);
       padding: 2rem;
       border-radius: 10px;
       width: 50%;
@@ -268,8 +278,11 @@
         width: 80%;
         margin: 3rem auto;
         font-size: 1.5rem;
+        
         p {
           text-transform: none;
+          font-family: 'Roboto', sans-serif;
+
         }
       }
       span {

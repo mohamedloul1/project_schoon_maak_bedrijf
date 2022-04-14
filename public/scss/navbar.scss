@@ -14,9 +14,12 @@
     width: 100%;
     background: var(--hover-bg);
     padding: 1.5rem 8%;
-    font-size: 1.5rem;
+    font-size: 16px;
     list-style: none;
     color: var(--white);
+   
+
+
     @include box-shadow();
 
     .telefoon-number{
@@ -25,6 +28,7 @@
         }
         i{
             padding-left: 70px;
+
             &:hover{
                 text-decoration: underline;
                 letter-spacing: .90rem;
@@ -67,6 +71,7 @@
         align-items: center;
         li{
             margin: 0 2rem;
+            
             &:hover{
                 background-color: var(--ligh-blue);
                 padding: 10px;
@@ -74,6 +79,8 @@
             a{
                 color: var(--white);
                 text-decoration: none;
+                font-family: 'Days One', sans-serif;
+
             }
         }
     }

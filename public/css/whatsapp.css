@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Cambay:wght@700&family=Poppins:ital,wght@0,100;0,200;0,300;1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Days+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
 :root {
   --white: #f4fbfd;
@@ -6,6 +8,8 @@
   --donker-blue: #012641;
   --hover-bg: #3175D3;
   --hover-text: #000;
+  --guid:#cc9933;
+  --grijs:#999999;
   --donker-mode-bg: #111111;
   --donker-mode-color: #fff;
   --cards-background-color: #2F2F2F;

@@ -1,6 +1,10 @@
 @import url("./main.scss");
 @import url("./root/_colors.scss");
 @import url("./root/_box-shadow.scss");
+
+@import url('./root/_website-fonts.scss');
+
+
 body {
   background: var(--white);
   color: var(--hover-bg);
@@ -12,7 +16,7 @@ body {
   position: relative;
   display: grid;
   place-items: center;
-  margin: 0.3rem 0;
+  margin:  0;
   animation: items-bewegen 2s ease-out;
 
   .image {
@@ -29,7 +33,7 @@ body {
   .text {
     position: absolute;
     h1 {
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: 'Days One', sans-serif;
       color: var(--white);
       display: block;
       margin: 0;
@@ -85,7 +89,16 @@ section {
     padding: 2rem 3rem;
     box-shadow: 1px 1px 1px 1px --ligh-blue(69, 193, 228);
     i {
-      font-size: 2rem;
+      font-size: 3rem;
+    }
+    p{
+      font-family: 'Roboto', sans-serif;
+    }
+    h1{
+      font-size: 20px;
+      font-family: 'Days One', sans-serif;
+
+
     }
   }
   .second-card {
@@ -98,7 +111,6 @@ section {
   border-radius: 5px;
   margin: 0 auto;
   box-shadow: --ligh-blue(3, 102, 214, 0.3) 0px 0px 0px 3px;
-  background-color: var(--hover-bg);
   margin-top: 5rem;
 }
 
@@ -120,18 +132,23 @@ section {
     h1{
     color: var(--white);
     font-size: 2.5rem;
-    font-weight: bold;
     font-size: 30px;
+    font-family: 'Days One', sans-serif;
+
     }
   }
   
   .language__working li {
     list-style:circle;
     line-height: 10rem;
+    font-family: 'Roboto', sans-serif;
+
   }
   .language__working li a{
     text-decoration: none;
     font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+
   }
   &:active,
   &:hover {
@@ -164,8 +181,14 @@ section {
       text-align: center;
       padding: 1rem;
       font-size: 1.5rem;
+
       li {
         margin-top: 10px;
+        font-family: 'Roboto', sans-serif;
+      }
+      p{
+        font-family: 'Roboto', sans-serif;
+
       }
     }
   }
@@ -193,16 +216,21 @@ section {
     h1{
     color: var(--white);
     font-size: 2.5rem;
-    font-weight: bold;
     font-size: 30px;
+    font-family: 'Days One', sans-serif;
+
     }
   }
   button {
-    padding: 2rem 9%;
-    background-color: var(--donker-blue);
-    color: var(--white);
+    padding: 0.5rem 9%;
+    background-color: var(--white);
+    color: var(--donker-mode-bg);
     opacity: 0;
     border-radius: 1rem;
+    font-size: 1.5rem;
+    font-family: 'Days One', sans-serif;
+
+
   }
   img {
     width: 20rem;
@@ -214,6 +242,9 @@ section {
   p {
     margin: 3rem 0;
     font-size: 2rem;
+    font-family: 'Days One', sans-serif;
+
+
   }
   .cards__onze-diensten {
     margin: 10rem 0;

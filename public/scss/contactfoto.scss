@@ -1,3 +1,8 @@
+@import './root/colors';
+@import './root/website-fonts';
+@import './root/box-shadow';
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
 .service-back {
     width: 100%;
     height: 300px;
@@ -6,21 +11,35 @@
     background-position: 100%, center center;
     position: relative;
     bottom: -100px;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
+    @include box-shadow();
+
+    
   }
   
-  .service-text-back h1 {
-    font-family: Arial, Helvetica, sans-serif;
+  .service-text-back {
+    align-items: center;
+    height: 100%;
+    
+    justify-content: center;
+  h1 {
     color: rgb(255, 255, 255);
     display: block;
     margin: 0;
-    font-size: 35px;
+    font-size: 40px;
     text-shadow: 4px 3px 0 rgba(0, 0, 0, 0.9);
     padding: 140px 0;
     text-align: center;
+    justify-content: center;
+    font-family: 'Days One', sans-serif;
+
+  }
+
   }
   
   .button-service {
     position: relative;
     bottom: 125px;
+    font-family: 'Days One', sans-serif;
+
   }
