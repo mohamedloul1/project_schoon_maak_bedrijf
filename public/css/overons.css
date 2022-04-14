@@ -7,7 +7,7 @@
   position: relative;
   display: grid;
   place-items: center;
-  margin: 0.3rem 0;
+  margin: 0;
   animation: items-bewegen 2s ease-out;
 }
 .container-home .image {
@@ -34,6 +34,7 @@
   animation: text-style 2s ease-out;
   padding: 170px 0;
   text-align: center;
+  font-family: "Days One", sans-serif;
 }
 
 @keyframes items-bewegen {
@@ -71,7 +72,7 @@
   left: 50%;
   width: 10px;
   height: 100%;
-  background-color: var(--donker-blue);
+  background-color: var(--white);
 }
 .over-ons__onze-bedrijf .container__onze-bedrijf .line .points {
   position: relative;
@@ -80,36 +81,15 @@
   position: absolute;
   top: 10rem;
   left: -1rem;
-  background-color: green;
+  background-color: var(--hover-bg);
   width: 30px;
   height: 30px;
   border-radius: 50%;
   cursor: pointer;
 }
 .over-ons__onze-bedrijf .container__onze-bedrijf .line .points .point1:hover::before {
-  content: "Eat doen we";
-  background-color: var(--donker-blue);
-  color: var(--white);
-  position: absolute;
-  top: 0;
-  left: -15rem;
-  padding: 1.5rem;
-  font-size: 1.5rem;
-  border-radius: 5px;
-}
-.over-ons__onze-bedrijf .container__onze-bedrijf .line .points .point2 {
-  position: absolute;
-  top: 50rem;
-  left: -1rem;
-  background-color: green;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  cursor: pointer;
-}
-.over-ons__onze-bedrijf .container__onze-bedrijf .line .points .point2:hover::before {
-  content: "Over ons";
-  background-color: var(--donker-blue);
+  content: "wat doen we?";
+  background-color: var(--hover-bg);
   color: var(--white);
   position: absolute;
   top: 0;
@@ -118,23 +98,44 @@
   font-size: 1.5rem;
   border-radius: 5px;
 }
+.over-ons__onze-bedrijf .container__onze-bedrijf .line .points .point2 {
+  position: absolute;
+  top: 50rem;
+  left: -1rem;
+  background-color: var(--hover-bg);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.over-ons__onze-bedrijf .container__onze-bedrijf .line .points .point2:hover::before {
+  content: "wat doen we?";
+  background-color: var(--hover-bg);
+  color: var(--white);
+  position: absolute;
+  top: 0;
+  left: -15rem;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
 .over-ons__onze-bedrijf .container__onze-bedrijf .line .points .point3 {
   position: absolute;
   top: 90rem;
   left: -1rem;
-  background-color: green;
+  background-color: var(--hover-bg);
   width: 30px;
   height: 30px;
   border-radius: 50%;
   cursor: pointer;
 }
 .over-ons__onze-bedrijf .container__onze-bedrijf .line .points .point3:hover::before {
-  content: "Wat bieden wij?";
-  background-color: var(--donker-blue);
+  content: "Overons";
+  background-color: var(--hover-bg);
   color: var(--white);
   position: absolute;
   top: 0;
-  left: -15rem;
+  right: -15rem;
   padding: 1.5rem;
   font-size: 1.5rem;
   border-radius: 5px;
@@ -147,7 +148,7 @@
   height: 100%;
 }
 .over-ons__onze-bedrijf .container__onze-bedrijf .first-card__onze-bedrijf .image__onze-bedrijf, .over-ons__onze-bedrijf .container__onze-bedrijf .second-card__onze-bedrijf .image__onze-bedrijf, .over-ons__onze-bedrijf .container__onze-bedrijf .third-card__onze-bedrijf .image__onze-bedrijf {
-  width: 75%;
+  width: 100%;
   height: 75%;
   margin: auto;
 }
@@ -177,7 +178,7 @@
 .over-ons__onze-bedrijf .container__onze-bedrijf .first-card__onze-bedrijf .content__onze-bedrijf .header__onze-bedrijf h1, .over-ons__onze-bedrijf .container__onze-bedrijf .second-card__onze-bedrijf .content__onze-bedrijf .header__onze-bedrijf h1, .over-ons__onze-bedrijf .container__onze-bedrijf .third-card__onze-bedrijf .content__onze-bedrijf .header__onze-bedrijf h1 {
   color: var(--white);
   font-size: 2.5rem;
-  font-weight: bold;
+  font-family: "Days One", sans-serif;
 }
 .over-ons__onze-bedrijf .container__onze-bedrijf .first-card__onze-bedrijf .content__onze-bedrijf .text__onze-bedrijf, .over-ons__onze-bedrijf .container__onze-bedrijf .second-card__onze-bedrijf .content__onze-bedrijf .text__onze-bedrijf, .over-ons__onze-bedrijf .container__onze-bedrijf .third-card__onze-bedrijf .content__onze-bedrijf .text__onze-bedrijf {
   padding: 2rem;
@@ -185,6 +186,9 @@
   height: 100%;
   font-size: 2rem;
   text-align: center;
+}
+.over-ons__onze-bedrijf .container__onze-bedrijf .first-card__onze-bedrijf .content__onze-bedrijf .text__onze-bedrijf p, .over-ons__onze-bedrijf .container__onze-bedrijf .second-card__onze-bedrijf .content__onze-bedrijf .text__onze-bedrijf p, .over-ons__onze-bedrijf .container__onze-bedrijf .third-card__onze-bedrijf .content__onze-bedrijf .text__onze-bedrijf p {
+  font-family: "Roboto", sans-serif;
 }
 
 .whatsapp-active {
@@ -207,21 +211,16 @@
   position: relative;
 }
 .review .alert {
-  border-radius: 10ch;
+  border-radius: 10px;
 }
 .review h1 {
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
-  display: block;
-  text-shadow: 4px 3px 0 rgba(0, 0, 0, 0.9);
+  color: var(--white);
+  font-size: 2.5rem;
   font-size: 30px;
-  text-align: center;
-  font-weight: bolder;
-  position: relative;
-  z-index: 1;
+  font-family: "Days One", sans-serif;
 }
 .review .container-review {
-  background: var(--hover-bg);
+  background: var(--white);
   color: var(--white);
   display: flex;
   justify-content: center;
@@ -230,15 +229,24 @@
   position: relative;
   overflow: hidden;
 }
+.review .container-review i {
+  color: var(--guid);
+}
 .review .container-review .first-comment,
 .review .container-review .second-comment,
 .review .container-review .third-comment {
-  background: var(--donker-blue);
+  background: var(--hover-bg);
   padding: 2rem;
   border-radius: 10px;
   width: 50%;
   margin: 0 auto;
   animation: 25s moveright ease-out infinite;
+}
+.review .container-review .first-comment h1,
+.review .container-review .second-comment h1,
+.review .container-review .third-comment h1 {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
 }
 .review .container-review .first-comment .basic-information,
 .review .container-review .second-comment .basic-information,
@@ -266,6 +274,7 @@
 .review .container-review .second-comment .content p,
 .review .container-review .third-comment .content p {
   text-transform: none;
+  font-family: "Roboto", sans-serif;
 }
 .review .container-review .first-comment span,
 .review .container-review .second-comment span,

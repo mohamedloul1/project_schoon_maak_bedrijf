@@ -55,7 +55,7 @@
       <a
         class="btn btn-primary btn-floating m-1"
         style="border-radius: 30%; background-color: #47c757;"
-        href="#!"
+        href="#"
         role="button"
         ><i class="fab fa-whatsapp"></i
       ></a>
@@ -66,7 +66,7 @@
         class="btn btn-primary btn-floating"
         style="border-radius: 30%; background-color: #ac2bac;"
         style="background-color: #ac2bac;"
-        href="#!"
+        href="https://instagram.com/kashashschoonmaakservice?r=nametag"
         role="button"
         ><i class="fab fa-instagram"></i
       ></a>

@@ -44,10 +44,10 @@
     <div class="second-card__onze-bedrijf">
     <div class="content__onze-bedrijf">
         <div class="header__onze-bedrijf">
-        <h1>over ons</h1> 
+        <h1>Wat doen we ?</h1> 
         </div>
         <div class="text__onze-bedrijf">
-          <p>        Kashash Schoonmaakserviceis een jong bedrijf. Volledig gericht op de wensen van de klant. Elk bedrijf kan groeien met genoeg moed, wil en passie. Maar huisbewoner zijn vereist vertrouwen, respect en liefde voor reinheid. De laatste drie trefwoorden staan centraal bij Kashash Schoonmaakservice.</p>
+          <p>Met schoonmaken bedoelen we het regelmatig schoonmaken van het interieur van een gebouw. We maken gebruik van marktsegmenten: kantoor, bouw, wonen, onderwijs, trappen, zorg en entertainment. Focus op schoonmaken, wij reinigen ramen, reinigen gevels, reinigen daken, verwijderen graffiti, onderhouden onderzijden, reinigen tapijten, reinigen zonnepanelen en beschermen deze tegen de zon.</p>
         </div>
       </div>
       <div class="image__onze-bedrijf">
@@ -60,12 +60,14 @@
       </div>
       <div class="content__onze-bedrijf">
         <div class="header__onze-bedrijf">
-        <h1>Wat doen we ?</h1> 
+        <h1>over ons</h1> 
+        
         </div>
         <div class="text__onze-bedrijf">
           <p>
-          Met schoonmaken bedoelen we het regelmatig schoonmaken van het interieur van een gebouw. We maken gebruik van marktsegmenten: kantoor, bouw, wonen, onderwijs, trappen, zorg en entertainment. Focus op schoonmaken, wij reinigen ramen, reinigen gevels, reinigen daken, verwijderen graffiti, onderhouden onderzijden, reinigen tapijten, reinigen zonnepanelen en beschermen deze tegen de zon.        </p>
-          </p>
+          Kashash Schoonmaakserviceis een jong bedrijf. Volledig gericht op de wensen van de klant. Elk bedrijf kan groeien met genoeg moed, wil en passie. Maar huisbewoner zijn vereist vertrouwen, respect en liefde voor reinheid. De laatste drie trefwoorden staan centraal bij Kashash Schoonmaakservice.
+                 </p>
+          
         </div>
       </div>
     </div>
@@ -94,8 +96,8 @@
     <div class="first-comment">
       <div class="header__comment">
         <div class="basic-information">
-          <h3>dani al jumaat</h3>
-          <span>aljumaatd@gmail.com</span>
+          <h1>Hans jan</h1>
+          <span>a******@gmail.com</span>
         </div>
         <div class="stars">
           <i class="fa-solid fa-star"></i>
@@ -112,8 +114,8 @@
     <div class="second-comment">
       <div class="header__comment">
         <div class="basic-information">
-          <h3>mohammed loul</h3>
-          <span>mohammedloul@gmail.com</span>
+          <h1>mohammed loul</h1>
+          <span>m*******@gmail.com</span>
         </div>
         <div class="stars">
           <i class="fa-solid fa-star"></i>
@@ -129,11 +131,11 @@
     <div class="third-comment">
       <div class="header__comment">
         <div class="basic-information">
-          <h3>dani al jumaat</h3>
-          <span>aljumaatd@gmail.com</span>
+          <h1>dani al jumaat</h1>
+          <span>a******@gmail.com</span>
         </div>
         <div class="stars">
-          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star" ></i>
           <i class="fa-solid fa-star"></i>
         </div>
       </div>

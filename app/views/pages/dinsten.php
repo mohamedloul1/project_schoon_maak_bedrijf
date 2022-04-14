@@ -55,7 +55,7 @@
             <img src="../img/bouw.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h1 class="card-title text-black text-center">Bouwoplevering</h1>
-              <p class="text-center">het opruimen van rommel en algemene reiniging van specifieke objecten, woning of kantoor.</p>
+              <p class="text-center">het opruimen van rommel en algemene reiniging van specifieke objecten, woning of kantoor </p>
               <div class="col-md-12 text-center">
                 <a href="<?php echo URLROOT; ?>dinsten/bouwoplevering" style="width: 10rem;" class="btn btn-primary active">Lees meer</a>
               </div>

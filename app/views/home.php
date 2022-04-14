@@ -32,20 +32,20 @@
 <section class="my-cards">
   <div class="card-container">
     <div class="first-card">
-      <i class="bi bi-fingerprint"></i>
-      <h3>Vertrouwen</h3>
-      <p>We zijn altijd eerlijk en transparant met onze klanten, en zo bouwen we een hechte vertrouwensrelatie op.</p>
+      <i class="bi bi-house-heart-fill"></i>
+      <h1>Vertrouwen</h1>
+      <p>We zijn altijd eerlijk en transparant <br> met onze klanten, en zo bouwen we <br> een hechte vertrouwensrelatie op.</p>
     </div>
     <div class="second-card">
       <i class="bi bi-clock-fill"></i>
-      <h3>24-uur service</h3>
-      <p>U kunt altijd rekenen op Zen kashash. Ook kunnen wij 24/7 spoedeisende hulp bieden..</p>
+      <h1>24-uur service</h1>
+      <p>U kunt altijd rekenen op kashash <br> schoonmaakservice. Ook kunnen wij <br> 24/7 spoedeisende hulp bieden..</p>
 
     </div>
     <div class="third-card">
-      <i class="fas fa-heart"></i>
-      <h3>Liefde</h3>
-      <p>Bij Zen kashash houden we van ons vak, onze medewerkers en onze klanten..</p>
+      <i class="bi bi-hearts"></i>
+      <h1>Liefde</h1>
+      <p>Bij kashash schoonmaakservice <br> houden we van ons vak, onze <br> medewerkers en onze klanten.</p>
     </div>
   </div>
 </section>
@@ -124,6 +124,7 @@
       <i class="fas fa-id-card-alt"></i>
       <ol>
         <li>Je moet naar de contact pagina gaan</li>
+        <li>Ten eerst <br> moet u naar de contact pagina gaan.</li>
       </ol>
       <p> <i class="fas fa-exclamation-circle" id="alert"></i>
         U kunt deze pagina bereiken door naar top of beneden te scrollen en op knop contact te klikken
@@ -137,6 +138,10 @@
       <p>
         <i class="fas fa-check-circle text-success" id="alert"></i>
         Uw privacy worden gegarandeerd
+        Uw privacy is gewaarborgd.
+        worden op de meest veilige manier opgeslagen en worden niet met derden gedeeld.
+        
+        <br>
       </p>
     </div>
     <div class="third-card__working">
@@ -152,7 +157,7 @@
     <div class="four-card__working">
       <i class="fas fa-phone-square-alt"></i>
       <ol start="4">
-        <li>Ten slot wordt u gebeld door een van onze mederwerker</li>
+        <li>Ten slot wordt u <br> gebeld door een <br> van onze mederwerker</li>
       </ol>
       <p>
         <i class="fas fa-envelope-open" id="alert"></i>
@@ -174,32 +179,32 @@
     <div class="cards__onze-diensten">
       <div class="first-crad__onze-diensten">
         <img src="/public/img/scoonmaken-di.jpg">
-        <button href="<?php echo URLROOT; ?>dinsten/schoonmaak">More info</button>
+        <button onclick="window.location.href='<?php echo URLROOT; ?>dinsten/schoonmaak'">Lees meer</button>
         <p>Schoonmaken</p>
       </div>
       <div class="second-crad__onze-diensten">
         <img src="/public/img/bouw.jpg">
-        <button>More info</button>
+        <button onclick="window.location.href='<?php echo URLROOT; ?>dinsten/bouwoplevering'">Lees meer</button>
         <p>Bouw oplevering</p>
       </div>
       <div class="third-crad__onze-diensten">
         <img src="/public/img/glas.jpg">
-        <button>More info</button>
+        <button onclick="window.location.href='<?php echo URLROOT; ?>dinsten/glasbewassing'">Lees meer</button>
         <p>Glasbewassing</p>
       </div>
       <div class="four-crad__onze-diensten">
         <img src="/public/img/foolronderhoud.jpg">
-        <button>More info</button>
+        <button onclick="window.location.href='<?php echo URLROOT; ?>dinsten/vloeronderhoud'">Lees meer</button>
         <p>vloer onderhoud</p>
       </div>
       <div class="five-crad__onze-diensten">
         <img src="/public/img/muur.jpg">
-        <button>More info</button>
+        <button onclick="window.location.href='<?php echo URLROOT; ?>dinsten/gevelreiniging'">Lees meer</button>
         <p>gevelreiniging</p>
       </div>
       <div class="six-crad__onze-diensten">
         <img src="/public/img/ontruiming.jpg">
-        <button>More info</button>
+        <button onclick="window.location.href='<?php echo URLROOT; ?>dinsten/ontruiming'">Lees meer</button>
         <p>ontruiming</p>
       </div>
     </div>
@@ -212,7 +217,7 @@
 
 
   <?php require APPROOT . '/views/includes/contactfoto.php'; ?>
-  <?php require APPROOT . '/views/includes/footer.php'; ?>
+   <?php require APPROOT . '/views/includes/footer.php'; ?>
   <?php require APPROOT . '/views/includes/whatsappicon.php'; ?>
 
 
