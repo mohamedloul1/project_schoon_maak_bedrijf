@@ -16,46 +16,60 @@
   --cards-background-color: #2F2F2F;
 }
 
-.schoonmaak-back {
+.back_schoon {
   width: 100%;
-  height: 400px;
-  background: linear-gradient(65deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(/public/img/schoonmaken1.jpg);
-  background-position: 100%, center center;
-  background-repeat: no-repeat, no-repeat;
-  background-size: auto 100%, cover;
+  height: 45vh;
+  position: relative;
+  display: grid;
+  place-items: center;
+  margin: 0;
   animation: items-bewegen 2s ease-out;
 }
-
-.text-schoonmaak-back {
-  align-items: center;
-  height: 100%;
-  display: flex;
-  justify-content: center;
+.back_schoon .schoonmaak-back {
+  background: linear-gradient(65deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(/public/img/schoonmaken1.jpg);
+  width: 100%;
+  height: 45vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-color: rgba(0, 0, 0, 0.2);
+  border-width: 2px;
 }
-.text-schoonmaak-back h1 {
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
+.back_schoon .text-schoonmaak-back {
+  position: absolute;
+}
+.back_schoon .text-schoonmaak-back h1 {
   display: block;
+  color: white;
   margin: 0;
   font-size: 50px;
   text-shadow: 4px 3px 0 rgba(0, 0, 0, 0.9);
   padding: 170px 0;
   text-align: center;
+  font-family: "Days One", sans-serif;
   animation: text-style 2s ease-out;
 }
 
 .schoonmaak-section {
-  margin-top: 175px;
-  display: grid;
-  place-content: center;
+  margin-top: 50px;
+}
+.schoonmaak-section .text-schoonmaak {
+  display: block;
+  background-color: var(--hover-bg);
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 10px;
 }
 .schoonmaak-section h1 {
-  font-size: 50px;
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--white);
+  font-size: 2.5rem;
+  font-size: 30px;
+  font-family: "Days One", sans-serif;
 }
 .schoonmaak-section p {
-  font-size: 15px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
 }
 
 @keyframes items-bewegen {

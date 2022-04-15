@@ -22,13 +22,13 @@
     <!-- Navbar -->
 <?php require APPROOT . '/views/includes/navbar.php'; ?>
 
-
-        <div class="bouwoplevering-back">
+<div class="back_bouw">
+<div class="bouwoplevering-back"></div>
             <div class="text-bouwoplevering-back">
                 <h1>Bouwoplevering</h1>
-
-            </div>
-        </div>
+                </div>
+</div>
+        
 
 
         <section class="bouwoplevering-section container" style="width: 75%;">
@@ -57,7 +57,8 @@
             <br>
             <br>
             <div class=" mb-5 form-floating d-grid gap-2 submit-button">
-                    <a  class="btn btn-primary btn-lg" href="<?php echo URLROOT; ?>pages/contact" type="submit" name="submit" style="color: white;">Afspraak maken</a>
+                    <a  class="btn btn-primary btn-lg" href="<?php echo URLROOT; ?>pages/contact" type="submit" name="submit" style="color: white;   font-size: 16px;
+                   font-family: 'Days One', sans-serif;">Afspraak maken</a>
                     <span id="submit-error">
                     </span>
                 </div>

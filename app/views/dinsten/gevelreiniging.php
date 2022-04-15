@@ -22,18 +22,18 @@
     <!-- Navbar -->
   <?php require APPROOT . '/views/includes/navbar.php'; ?>
 
-  <div class="gevelreiniging-back">
+        <div class="back_gevel">
+<div class="gevelreiniging-back"></div>
             <div class="text-gevelreiniging-back">
                 <h1>Gevelreiniging</h1>
-
-            </div>
-        </div>
+                </div>
+</div>
 
 
         <section class="gevelreiniging-section container" style="width: 75%;">
     <div class="row">
         <div class="col-sm-12 col-md-5">
-            <h1 class="text-contact mb-5">Gevelreiniging</h1>
+            <h1 class="text-gevelreinigin mb-5">Gevelreiniging</h1>
             <p class="p-text">
             Gevels zijn alles wat de mens vooropstelt. <br>
             Een schone voorkant geeft een veel beter beeld dan een saaie/vuile. <br>
@@ -50,7 +50,8 @@
             <br>
             <br>
             <div class=" mb-5 form-floating d-grid gap-2 submit-button">
-                    <a  class="btn btn-primary btn-lg" href="<?php echo URLROOT; ?>pages/contact" type="submit" name="submit" style="color: white;">Afspraak maken</a>
+                    <a  class="btn btn-primary btn-lg" href="<?php echo URLROOT; ?>pages/contact" type="submit" name="submit" style="color: white;   font-size: 16px;
+                   font-family: 'Days One', sans-serif;">Afspraak maken</a>
                     <span id="submit-error">
                     </span>
                 </div>
@@ -58,7 +59,7 @@
         </div>
 
         <div class="col-sm-12 col-md-6 ms-auto">
-          <img src="../img/schoonmaken-zen.jpg" alt="">
+          <img class="img-fluid" src="../img/schoonmaken-zen.jpg" alt="">
         </div>
     </div>
 </div>

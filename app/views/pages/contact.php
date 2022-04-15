@@ -52,7 +52,7 @@
                 <br>
                 <br>
                 <i class="icon-contact bi bi-telephone-fill"></i> &nbsp; &nbsp;
-                <span class="icon-text"> <strong> <a class="text-contact-style" href="tel:+31655487744">+31&nbsp;655487744 </a> </strong></span>
+                <span class="icon-text"> <strong> <a class="text-contact-style" href="https://wa.me/+31655487744">+31&nbsp;655487744 </a> </strong></span>
                 <br>
                 <br>
                 <i class="icon-contact bi bi-envelope-fill"></i> &nbsp; &nbsp;
