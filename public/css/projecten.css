@@ -45,11 +45,9 @@
 @keyframes cards-bewegen {
   0% {
     transform: translateX(-100%);
-    filter: blur(1.1rem);
   }
   100% {
     transform: translateX(0);
-    filter: blur(0);
   }
 }
 #scroll-effect {

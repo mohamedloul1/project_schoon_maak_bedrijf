@@ -207,6 +207,16 @@
         <button onclick="window.location.href='<?php echo URLROOT; ?>dinsten/ontruiming'">Lees meer</button>
         <p>ontruiming</p>
       </div>
+
+      <div class="zeven-crad__onze-diensten">
+
+      </div>
+      <div class="acht-crad__onze-diensten">
+        <img src="/public/img/hotel-diensten.avif">
+        <button onclick="window.location.href='<?php echo URLROOT; ?>dinsten/hotel'">Lees meer</button>
+        <p>Hotel</p>
+      </div>
+      
     </div>
   </div>
 </section>

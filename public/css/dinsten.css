@@ -93,7 +93,8 @@ body {
 .donker-mode .container__onze-diensten .cards__onze-diensten .third-crad__onze-diensten:hover,
 .donker-mode .container__onze-diensten .cards__onze-diensten .four-crad__onze-diensten:hover,
 .donker-mode .container__onze-diensten .cards__onze-diensten .five-crad__onze-diensten:hover,
-.donker-mode .container__onze-diensten .cards__onze-diensten .six-crad__onze-diensten:hover {
+.donker-mode .container__onze-diensten .cards__onze-diensten .six-crad__onze-diensten:hover,
+.donker-mode .container__onze-diensten .cards__onze-diensten .acht-crad__onze-diensten:hover {
   background: var(--cards-background-color);
   color: var(--hover-bg);
 }

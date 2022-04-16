@@ -236,11 +236,15 @@ section {
 .container__onze-diensten .cards__onze-diensten .first-crad__onze-diensten,
 .container__onze-diensten .cards__onze-diensten .second-crad__onze-diensten,
 .container__onze-diensten .cards__onze-diensten .four-crad__onze-diensten,
-.container__onze-diensten .cards__onze-diensten .five-crad__onze-diensten {
+.container__onze-diensten .cards__onze-diensten .five-crad__onze-diensten,
+.container__onze-diensten .cards__onze-diensten .acht-crad__onze-diensten {
   border-right: 2px solid var(--donker-blue);
   display: grid;
   gap: 3rem;
   place-items: center;
+}
+.container__onze-diensten .cards__onze-diensten .acht-crad__onze-diensten {
+  border-left: 2px solid var(--donker-blue);
 }
 .container__onze-diensten .cards__onze-diensten .six-crad__onze-diensten {
   display: grid;
@@ -249,7 +253,7 @@ section {
 }
 .container__onze-diensten .cards__onze-diensten .four-crad__onze-diensten,
 .container__onze-diensten .cards__onze-diensten .five-crad__onze-diensten,
-.container__onze-diensten .cards__onze-diensten .six-crad__onze-diensten {
+.container__onze-diensten .cards__onze-diensten .six-crad__onze-diensten, .container__onze-diensten .cards__onze-diensten .acht-crad__onze-diensten {
   margin-top: 10rem;
 }
 .container__onze-diensten .cards__onze-diensten .third-crad__onze-diensten {
@@ -262,7 +266,8 @@ section {
 .container__onze-diensten .cards__onze-diensten .third-crad__onze-diensten:hover,
 .container__onze-diensten .cards__onze-diensten .four-crad__onze-diensten:hover,
 .container__onze-diensten .cards__onze-diensten .five-crad__onze-diensten:hover,
-.container__onze-diensten .cards__onze-diensten .six-crad__onze-diensten:hover {
+.container__onze-diensten .cards__onze-diensten .six-crad__onze-diensten:hover,
+.container__onze-diensten .cards__onze-diensten .acht-crad__onze-diensten:hover {
   background-color: var(--hover-bg);
   color: var(--donker-blue);
   transition: 1s ease-out;
@@ -273,7 +278,8 @@ section {
 .container__onze-diensten .cards__onze-diensten .third-crad__onze-diensten:hover img,
 .container__onze-diensten .cards__onze-diensten .four-crad__onze-diensten:hover img,
 .container__onze-diensten .cards__onze-diensten .five-crad__onze-diensten:hover img,
-.container__onze-diensten .cards__onze-diensten .six-crad__onze-diensten:hover img {
+.container__onze-diensten .cards__onze-diensten .six-crad__onze-diensten:hover img,
+.container__onze-diensten .cards__onze-diensten .acht-crad__onze-diensten:hover img {
   border-radius: 10%;
 }
 .container__onze-diensten .cards__onze-diensten .first-crad__onze-diensten:hover button,
@@ -281,7 +287,8 @@ section {
 .container__onze-diensten .cards__onze-diensten .third-crad__onze-diensten:hover button,
 .container__onze-diensten .cards__onze-diensten .four-crad__onze-diensten:hover button,
 .container__onze-diensten .cards__onze-diensten .five-crad__onze-diensten:hover button,
-.container__onze-diensten .cards__onze-diensten .six-crad__onze-diensten:hover button {
+.container__onze-diensten .cards__onze-diensten .six-crad__onze-diensten:hover button,
+.container__onze-diensten .cards__onze-diensten .acht-crad__onze-diensten:hover button {
   opacity: 1;
 }
 
@@ -330,11 +337,15 @@ section {
   .onze-diensten .container__onze-diensten .cards__onze-diensten button {
     opacity: 1;
   }
+  .onze-diensten .container__onze-diensten .cards__onze-diensten .zeven-crad__onze-diensten {
+    display: none;
+  }
   .onze-diensten .container__onze-diensten .cards__onze-diensten .first-crad__onze-diensten,
 .onze-diensten .container__onze-diensten .cards__onze-diensten .second-crad__onze-diensten,
 .onze-diensten .container__onze-diensten .cards__onze-diensten .four-crad__onze-diensten,
-.onze-diensten .container__onze-diensten .cards__onze-diensten .five-crad__onze-diensten {
-    border-right: unset;
+.onze-diensten .container__onze-diensten .cards__onze-diensten .five-crad__onze-diensten,
+.onze-diensten .container__onze-diensten .cards__onze-diensten .acht-crad__onze-diensten {
+    border: unset;
   }
   .onze-diensten .container__onze-diensten .cards__onze-diensten .third-crad__onze-diensten {
     margin-top: 12rem;
@@ -390,11 +401,15 @@ section {
   .onze-diensten .container__onze-diensten .cards__onze-diensten .third-crad__onze-diensten, .onze-diensten .container__onze-diensten .cards__onze-diensten .four-crad__onze-diensten {
     margin: 3rem 0 0 0;
   }
+  .onze-diensten .container__onze-diensten .cards__onze-diensten .zeven-crad__onze-diensten {
+    display: none;
+  }
   .onze-diensten .container__onze-diensten .cards__onze-diensten .first-crad__onze-diensten,
 .onze-diensten .container__onze-diensten .cards__onze-diensten .second-crad__onze-diensten,
 .onze-diensten .container__onze-diensten .cards__onze-diensten .four-crad__onze-diensten,
-.onze-diensten .container__onze-diensten .cards__onze-diensten .five-crad__onze-diensten {
-    border-right: unset;
+.onze-diensten .container__onze-diensten .cards__onze-diensten .five-crad__onze-diensten,
+.onze-diensten .container__onze-diensten .cards__onze-diensten .acht-crad__onze-diensten {
+    border: unset;
   }
 
   .how-working {
