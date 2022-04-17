@@ -10,10 +10,35 @@
   height: 400px;
   background: linear-gradient(65deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     url(../img/glaswassing1.jpg);
-  background-position: 100%, center center;
-  background-repeat: no-repeat, no-repeat;
-  background-size: auto 100%, cover;
-  animation: items-bewegen 2s ease-out;
+    width: 100%;
+  height: 45vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-color: rgba(0, 0, 0, 0.2);
+  border-width: 2px;
+  @include box-shadow();
+
+  
+  }
+  
+  .text-glasbewassing-back {
+    position: absolute;
+    h1 {
+      display: block;
+        color: rgb(255, 255, 255);
+        margin: 0;
+        font-size: 45px;
+        text-shadow: 4px 3px 0 rgba(0, 0, 0, 0.9);
+        padding: 170px 0;
+        text-align: center;
+        font-family: 'Days One', sans-serif;
+        animation: text-style 2s ease-out;
+  
+    }
+  }
+}
+
 
 }
 

@@ -1,1 +1,5 @@
+<<<<<<< Updated upstream
 {"version":3,"sourceRoot":"","sources":["../scss/root/_website-fonts.scss","../scss/vloeronderhoud.scss","../scss/root/_colors.scss"],"names":[],"mappings":"AAAQ;AACA;AACA;ACCA;AACA;ACJR;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EAGA;EACA;EACA;;;ADLJ;EACI;EACA;EACA;EAEA;EACA;EACA;EACA;;;AAIF;EACA;EACA;EACA;EACA;;AACA;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;;AAQF;EACE;EACA;EACA;;AACA;EACE;EACA;;AAEF;EACE;EACA;;;AAIJ;EACE;IACI;;EAEJ;IACI;;;AAIN;EACE;IACI;;EAEJ;IACI","file":"vloeronderhoud.css"}
+=======
+{"version":3,"sourceRoot":"","sources":["../scss/root/_website-fonts.scss","../scss/vloeronderhoud.scss","../scss/root/_colors.scss","../scss/root/_box-shadow.scss"],"names":[],"mappings":"AAAQ;AACA;AACA;ACCA;AACA;ACJR;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EAGA;EACA;EACA;;;ADLJ;EACE;EACA;EACA;EACA;EACA;EACA;EACA;;AACA;EACE;EAEE;EACF;EACA;EACA;EACA;EACA;EACA;EEvBA;EACA;EACA;;AF4BF;EACE;;AACF;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;;AAUF;EACE;EACA;EACA;;AACA;EACE;EACJ;EACA;EACA;EACA;EACA;;AAEE;EACE;EACA;EACA;EACA;;AAEF;EACE;EACA;;;AAIJ;EACE;IACI;;EAEJ;IACI;;;AAIN;EACE;IACI;;EAEJ;IACI","file":"vloeronderhoud.css"}
+>>>>>>> Stashed changes

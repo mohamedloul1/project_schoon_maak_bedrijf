@@ -103,13 +103,27 @@
             <img src="../img/ontruiming.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h1 class="card-title text-black text-center">Ontruiming</h1>
-              <p class="text-center">Wij maken uw woning of bedrijf snel en netjes schoon, of het nu gaat om migratie, verhuizing of overlijden. <br> Wij zorgen ervoor. </p>
+              <p class="text-center">Wij maken uw woning of bedrijf snel en netjes schoon, of het nu gaat om migratie, verhuizing of overlijden.Wij zorgen ervoor. </p>
               <div class="col-md-12 text-center">
                 <a href="<?php echo URLROOT; ?>dinsten/ontruiming" style="width: 10rem;" class="btn btn-primary active">Lees meer</a>
               </div>
             </div>
           </div>
         </div>
+
+          <div class="hotel col-md-4 col-lg-3 col-xl-4" id="hotel">
+          <div class="card-2">
+            <img src="../img/hotel.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h1 class="card-title text-black text-center">Hotel schoonmaak</h1>
+              <p class="text-center">Als hotel wilt u natuurlijk dat klanten tevreden zijn na een bezoek aan uw hotel. </p>
+              <div class="col-md-12 text-center">
+                <a href="<?php echo URLROOT; ?>dinsten/hotel_schoonmaak" style="width: 10rem;" class="btn btn-primary">Lees meer</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
   </section>
   <!-- Het einde van section en cards -->

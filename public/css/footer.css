@@ -25,8 +25,10 @@
 }
 
 .copyright {
-  font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.copyright a {
+  font-family: "Days One", sans-serif;
 }
 
 /*# sourceMappingURL=footer.css.map */

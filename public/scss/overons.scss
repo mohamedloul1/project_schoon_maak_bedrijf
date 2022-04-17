@@ -1,6 +1,8 @@
 @import url("../css/main.scss");
 @import url("./root/_colors.scss");
 @import url("../scss/root/_box-shadow.scss");
+@import './root/box-shadow';
+
 
 .container-home {
   width: 100%;
@@ -10,6 +12,8 @@
   place-items: center;
   margin: 0;
   animation: items-bewegen 2s ease-out;
+  @include box-shadow();
+
 
   .image {
     background-image: url("../img/over\ ons.jpg");

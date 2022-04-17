@@ -46,6 +46,13 @@ class Dinsten extends Controller {
 
         $this->view('dinsten/ontruiming', $data);
     }
+    public function hotel_schoonmaak() {
+        $data = [
+            'title' => 'hotel schoonmaak'
+        ];
+
+        $this->view('dinsten/hotel_schoonmaak', $data);
+    }
 
 
     

@@ -81,6 +81,8 @@
   background-repeat: no-repeat, no-repeat;
   background-size: auto 100%, cover;
   animation: items-bewegen 2s ease-out;
+  @include box-shadow();
+
 }
 
 .text-contact-back{

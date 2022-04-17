@@ -9,6 +9,9 @@
   place-items: center;
   margin: 0;
   animation: items-bewegen 2s ease-out;
+  -webkit-box-shadow: 0px 21px 14px 4px rgba(0, 0, 0, 0.62);
+  -moz-box-shadow: 0px 21px 14px 4px rgba(0, 0, 0, 0.62);
+  box-shadow: 0px 12px 14px 4px rgba(0, 0, 0, 0.62);
 }
 .container-home .image {
   background-image: url("../img/over ons.jpg");
