@@ -42,6 +42,7 @@
 }
 .header .telefoon-number i {
   padding-left: 70px;
+  font-size: 14px;
 }
 .header .telefoon-number i:hover {
   text-decoration: underline;

@@ -19,16 +19,17 @@
   <!-- Navbar -->
   <?php require APPROOT . '/views/includes/navbar.php'; ?>
   <!-- Foto en text Achtergrond -->
-  <div class="schoonmaak-back">
-    <div class="text-schoonmaak-back">
-      <h1>Schoonmaak</h1>
-    </div>
-  </div>
+<div class="back_schoon">
+<div class="schoonmaak-back"></div>
+            <div class="text-schoonmaak-back">
+                <h1>Schoonmaak</h1>
+                </div>
+</div>
   <!-- Het begin van section -->
   <section class="schoonmaak-section container" style="width: 75%;">
     <div class="row">
       <div class="col-sm-12 col-md-5">
-        <h1 class="text-contact mb-5">Schoonmaak</h1>
+        <h1 class="text-schoonmaak mb-5">Schoonmaak</h1>
         <p class="p-text">
         Voor dagelijkse schoonmaak van gebouwen ben je hier aan het juiste adres. <br>
         Op dit moment verzorgen wij de huishouding voor: 
@@ -47,13 +48,14 @@
         <br>
         <br>
         <div class=" mb-5 form-floating d-grid gap-2 submit-button">
-          <a class="btn btn-primary btn-lg" href="<?php echo URLROOT; ?>pages/contact" type="submit" name="submit" style="color: white;">Afspraak maken</a>
+          <a class="btn btn-primary btn-lg" href="<?php echo URLROOT; ?>pages/contact" type="submit" name="submit" style="color: white;   font-size: 16px;
+                   font-family: 'Days One', sans-serif;">Afspraak maken</a>
           <span id="submit-error">
           </span>
         </div>
       </div>
       <div class="col-sm-12 col-md-6 ms-auto">
-        <img src="../img/schoonmaken-zen.jpg" alt="">
+        <img class="img-fluid" src="../img/schoonmaken-zen.jpg" alt="">
       </div>
     </div>
     </div>

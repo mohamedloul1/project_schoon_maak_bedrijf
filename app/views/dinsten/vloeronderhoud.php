@@ -23,18 +23,18 @@
     <!-- Navbar -->
   <?php require APPROOT . '/views/includes/navbar.php'; ?>
 
-  <div class="vloeronderhoud-back">
-            <div class="text-vloeronderhoud-back">
-                <h1>Vloeronderhoud</h1>
-
-            </div>
-        </div>
+        <div class="back_vloer">
+    <div class="vloeronderhoud-back"></div>
+    <div class="text-vloeronderhoud-back">
+      <h1>Vloeronderhoud</h1>
+    </div>
+  </div>
 
 
         <section class="vloeronderhoud-section container" style="width: 75%;">
     <div class="row">
         <div class="col-sm-12 col-md-5">
-            <h1 class="text-contact mb-5">Vloeronderhoud</h1>
+            <h1 class="text-vloeronderhoud mb-5">Vloeronderhoud</h1>
             <p class="p-text">
             De vloeren zijn het meest gebruikt en vooral daar lopen veel mensen, de slijtage is snel zichtbaar. <br>
             Voor een langere levensduur, bieden we een volledig onderhoudsplan voor bedrijven en
@@ -50,7 +50,8 @@
             <br>
             <br>
             <div class=" mb-5 form-floating d-grid gap-2 submit-button">
-                    <a  class="btn btn-primary btn-lg" href="<?php echo URLROOT; ?>pages/contact" type="submit" name="submit" style="color: white;">Afspraak maken</a>
+                    <a  class="btn btn-primary btn-lg" href="<?php echo URLROOT; ?>pages/contact" type="submit" name="submit" style="color: white;   font-size: 16px;
+                   font-family: 'Days One', sans-serif;">Afspraak maken</a>
                     <span id="submit-error">
                     </span>
                 </div>
@@ -58,7 +59,7 @@
         </div>
 
         <div class="col-sm-12 col-md-6 ms-auto">
-          <img src="../img/schoonmaken-zen.jpg" alt="">
+          <img class="img-fluid" src="../img/schoonmaken-zen.jpg" alt="">
         </div>
     </div>
 </div>

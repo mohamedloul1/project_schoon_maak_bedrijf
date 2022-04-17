@@ -22,18 +22,18 @@
     <!-- Navbar -->
   <?php require APPROOT . '/views/includes/navbar.php'; ?>
 
-  <div class="ontruiming-back">
+        <div class="back_ont">
+<div class="ontruiming-back"></div>
             <div class="text-ontruiming-back">
                 <h1>Ontruiming</h1>
-
-            </div>
-        </div>
+                </div>
+</div>
 
 
         <section class="ontruiming-section container" style="width: 75%;">
     <div class="row">
         <div class="col-sm-12 col-md-5">
-            <h1 class="text-contact mb-5">Ontruiming</h1>
+            <h1 class="text-ontruiming mb-5">Ontruiming</h1>
             <p class="p-text">
            Wij maken snel en uw woonruimte of uw professionals leeg, of het nu gaat om emigratie, verhuizing of overlijden. <br>
            Het leegmaken van een woning of bedrijfspand is vaak een tijdrovende klus. <br>
@@ -55,7 +55,8 @@
             <br>
             <br>
             <div class=" mb-5 form-floating d-grid gap-2 submit-button">
-                    <a  class="btn btn-primary btn-lg" href="<?php echo URLROOT; ?>pages/contact" type="submit" name="submit" style="color: white;">Afspraak maken</a>
+                    <a  class="btn btn-primary btn-lg" href="<?php echo URLROOT; ?>pages/contact" type="submit" name="submit" style="color: white;   font-size: 16px;
+                   font-family: 'Days One', sans-serif;">Afspraak maken</a>
                     <span id="submit-error">
                     </span>
                 </div>
@@ -63,7 +64,7 @@
         </div>
 
         <div class="col-sm-12 col-md-6 ms-auto">
-          <img src="../img/schoonmaken-zen.jpg" alt="">
+          <img class="img-fluid" src="../img/schoonmaken-zen.jpg" alt="">
         </div>
     </div>
 </div>

@@ -13,7 +13,7 @@
             <li><a href="<?php echo URLROOT; ?>pages/projecten">projecten</a></li>
             <li><a href="<?php echo URLROOT; ?>pages/contact">contact</a></li>
         </nav>
-        <li class="telefoon-number"><a href="tel:0612345678"><i class="fas fa-phone-square-alt">0612345678</i></a></li>
+        <li class="telefoon-number"><a href="https://wa.me/+31655487744"><i class="fas fa-phone-square-alt">0612345678</i></a></li>
         <div id="menu-btn"><i class="fas fa-bars"></i></div>
-        <i class="fa-solid fa-lightbulb dark-mode-siwtch"></i>
+        <i class="ml-4 fa-solid fa-lightbulb dark-mode-siwtch"></i>
     </div>

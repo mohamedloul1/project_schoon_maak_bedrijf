@@ -30,7 +30,7 @@
   <div class="container__onze-bedrijf">
     <div class="first-card__onze-bedrijf">
       <div class="image__onze-bedrijf">
-      <img src="/public/img/cleaning-header-first.jpg">
+      <img src="/public/img/overons1.jpg">
       </div>
       <div class="content__onze-bedrijf">
         <div class="header__onze-bedrijf">
@@ -51,12 +51,12 @@
         </div>
       </div>
       <div class="image__onze-bedrijf">
-      <img src="/public/img/header-foto-second.jpg">
+      <img src="/public/img/overons2.jpg">
       </div>
     </div>
     <div class="third-card__onze-bedrijf">
       <div class="image__onze-bedrijf">
-      <img src="/public/img/schoonmaak-onderhoud.jpg">
+      <img src="/public/img/overons3.jpg">
       </div>
       <div class="content__onze-bedrijf">
         <div class="header__onze-bedrijf">
@@ -89,7 +89,7 @@
 <section class="review">
 <div class="cls_review">
     <div class="alert  text-center" role="alert" style="background-color: #3175d3;" >
-    <h1>beste reviews</h1> 
+    <h1>reviews</h1> 
     </div>
     </div>
   <div class="container-review">
@@ -108,7 +108,7 @@
         </div>
       </div>
       <div class="content">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam ipsam, ex accusamus totam consectetur aut quisquam esse perspiciatis molestiae tenetur sed asperiores eum cupiditate dolorum ea libero laborum iusto dolor.</p>
+        <p>Schoonmaak is een belangrijke bijdrage van het bedrijf. kashash Schoonmaakservice is verantwoordelijk voor de dagelijkse schoonmaak van de kamers, toiletten en keuken van de groep. Naast professionele reiniging was het een genot om aan te raken.</p>
       </div>
     </div>
     <div class="second-comment">
@@ -117,7 +117,8 @@
           <h1>mohammed loul</h1>
           <span>m*******@gmail.com</span>
         </div>
-        <div class="stars">
+        <div class="stars text-center">
+          <i class="fa-solid fa-star"></i>
           <i class="fa-solid fa-star"></i>
           <i class="fa-solid fa-star"></i>
           <i class="fa-solid fa-star"></i>
@@ -125,7 +126,8 @@
         </div>
       </div>
       <div class="content">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam ipsam, ex accusamus totam consectetur aut quisquam esse perspiciatis molestiae tenetur sed asperiores eum cupiditate dolorum ea libero laborum iusto dolor.</p>
+        <p>Ik kan alleen maar zeggen dat ik zeer positief ben over kashash Schoonmaakservice. De communicatie is professioneel en duidelijk. Je krijgt wat je verwacht, dat is goed. 
+        </p>
       </div>
     </div>
     <div class="third-comment">
@@ -137,10 +139,15 @@
         <div class="stars">
           <i class="fa-solid fa-star" ></i>
           <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+
         </div>
       </div>
       <div class="content">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam ipsam, ex accusamus totam consectetur aut quisquam esse perspiciatis molestiae tenetur sed asperiores eum cupiditate dolorum ea libero laborum iusto dolor.</p>
+        <p>Prima schoonmaakbedrijf met prima resultaat. Goed opgeleid personeel en duidelijke aanspreekpunten.
+        </p>
       </div>
     </div>
   </div>

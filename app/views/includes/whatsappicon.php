@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 <link rel="stylesheet" href="/public/css/whatsapp.css">
 <div class="wahtsapp-container">
-    <a href="tel:0612345678">
+    <a href="https://wa.me/+31655487744">
         <div class="icon">
             <i class="fa-brands fa-whatsapp"></i>
             <span>061234678</span>
