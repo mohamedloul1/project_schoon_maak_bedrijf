@@ -25,15 +25,15 @@
   <!-- Het begin van section-diensten -->
   <section class="container section-diensten" style="width: 75%;">
     <h1 class="titel-diensten text-center">Dienstverlening</h1>
-    <p class="p-diensten text-center">Hier hebben we alle diensten met betrekking tot schoonmaak <br>
+    <p class="p-diensten text-center">Hier hebben wij alle diensten met betrekking tot schoonmaak <br>
       <br>
-      Schoonmaakservice is een brede term die zich bezighoudt met de netheid van het interieur of exterieur van een gebouw. <br>
+      Schoonmaakdiensten is een breed begrip dat behoort tot de netheid van uw gebouw van binnen of van buiten.<br>
       <br>
       Ons team werkt met de hoogste kwaliteit<br>
       <br>
-      Hier zijn enkele van de diensten die we aanbieden<br>
+      Hieronder ziet u een aantal van de diensten die wij aanbieden<br>
       <br>
-      Als u andere diensten nodig heeft, kunt u contact met ons opnemen.
+      Als u een andere dienst wilt, kunt u contact met ons opnemen.
     </p>
     <!-- Het begin van cards -->
     <div class="container">
@@ -45,7 +45,7 @@
               <h1 class="card-title text-black text-center">Schoonmaak</h1>
               <p class="text-center">Dagelijkse of reguliere (vaste) schoonmaakwerkzaamheden door middel van schoonmaakonderhoud.</p>
               <div class="col-md-12 text-center">
-                <a href="<?php echo URLROOT; ?>dinsten/schoonmaak" style="width: 10rem;" class="btn btn-primary">Lees meer</a>
+                <a href="<?php echo URLROOT; ?>dinsten/schoonmaak" style="width: 10rem;" class="btn btn-primary active">Lees meer</a>
               </div>
             </div>
           </div>
@@ -55,9 +55,9 @@
             <img src="../img/bouw.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h1 class="card-title text-black text-center">Bouwoplevering</h1>
-              <p class="text-center">het opruimen van rommel en algemene reiniging van specifieke objecten, woning of kantoor. voor meer informatie kunt u contact met ons opnemen </p>
+              <p class="text-center">het opruimen van rommel en algemene reiniging van specifieke objecten, woning of kantoor etc... neem contact met ons op voor meer info. </p>
               <div class="col-md-12 text-center">
-                <a href="<?php echo URLROOT; ?>dinsten/bouwoplevering" style="width: 10rem;" class="btn btn-primary">Lees meer</a>
+                <a href="<?php echo URLROOT; ?>dinsten/bouwoplevering" style="width: 10rem;" class="btn btn-primary active">Lees meer</a>
               </div>
             </div>
           </div>
@@ -69,7 +69,7 @@
               <h1 class="card-title text-black text-center">Glasbewassing</h1>
               <p class="text-center">Onze ervaren glazenwassers kunnen al uw ramen professioneel reinigen. Veiligheid staat hierbij natuurlijk voorop.</p>
               <div class="col-md-12 text-center">
-                <a href="<?php echo URLROOT; ?>dinsten/glasbewassing" style="width: 10rem;" class="btn btn-primary">Lees meer</a>
+                <a href="<?php echo URLROOT; ?>dinsten/glasbewassing" style="width: 10rem;" class="btn btn-primary active">Lees meer</a>
               </div>
             </div>
           </div>
@@ -81,7 +81,7 @@
               <h1 class="card-title text-black text-center">Vloeronderhoud</h1>
               <p class="text-center">Vloeren moeten mogelijk het grootste deel van uw eigendom kunnen weerstaan. Onze experts weten precies welke vloeren behandeld moeten worden.</p>
               <div class="col-md-12 text-center">
-                <a href="<?php echo URLROOT; ?>dinsten/vloeronderhoud" style="width: 10rem;" class="btn btn-primary">Lees meer</a>
+                <a href="<?php echo URLROOT; ?>dinsten/vloeronderhoud" style="width: 10rem;" class="btn btn-primary active">Lees meer</a>
               </div>
             </div>
           </div>
@@ -93,7 +93,7 @@
               <h1 class="card-title text-black text-center">Gevelreiniging</h1>
               <p class="text-center">De gevel bepaalt de eerste indruk van mensen. Dankzij jarenlange ervaring en knowhow weten onze experts van elk type gevel wat ze moeten doen!</p>
               <div class="col-md-12 text-center">
-                <a href="<?php echo URLROOT; ?>dinsten/gevelreiniging" style="width: 10rem;" class="btn btn-primary">Lees meer</a>
+                <a href="<?php echo URLROOT; ?>dinsten/gevelreiniging" style="width: 10rem;" class="btn btn-primary active">Lees meer</a>
               </div>
             </div>
           </div>
@@ -103,13 +103,27 @@
             <img src="../img/ontruiming.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h1 class="card-title text-black text-center">Ontruiming</h1>
-              <p class="text-center">Wij maken uw woning of bedrijf snel en netjes schoon, of het nu gaat om migratie, verhuizing of overlijden. <br> Wij zorgen ervoor. </p>
+              <p class="text-center">Wij maken uw woning of bedrijf snel en netjes schoon, of het nu gaat om migratie, verhuizing of overlijden.Wij zorgen ervoor. </p>
               <div class="col-md-12 text-center">
-                <a href="<?php echo URLROOT; ?>dinsten/ontruiming" style="width: 10rem;" class="btn btn-primary">Lees meer</a>
+                <a href="<?php echo URLROOT; ?>dinsten/ontruiming" style="width: 10rem;" class="btn btn-primary active">Lees meer</a>
               </div>
             </div>
           </div>
         </div>
+
+          <div class="hotel col-md-4 col-lg-3 col-xl-4" id="hotel">
+          <div class="card-2">
+            <img src="../img/hotel.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h1 class="card-title text-black text-center">Hotel schoonmaak</h1>
+              <p class="text-center">Als hotel wilt u natuurlijk dat klanten tevreden zijn na een bezoek aan uw hotel. </p>
+              <div class="col-md-12 text-center">
+                <a href="<?php echo URLROOT; ?>dinsten/hotel_schoonmaak" style="width: 10rem;" class="btn btn-primary">Lees meer</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
   </section>
   <!-- Het einde van section en cards -->

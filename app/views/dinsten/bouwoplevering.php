@@ -66,7 +66,7 @@
         </div>
 
         <div class="col-sm-12 col-md-5 ms-auto">
-          <img class="img-fluid" src="../img/schoonmaken-zen.jpg" alt="">
+          <img class="img-fluid" src="../img/bouw_.jpg" alt="">
         </div>
     </div>
 </div>

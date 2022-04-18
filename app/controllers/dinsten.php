@@ -3,6 +3,14 @@ class Dinsten extends Controller {
     public function __construct() {
     }
 
+    public function index() {
+        $data = [
+            'title' => 'Schoonmaak page'
+        ];
+
+        $this->view('dinsten/index', $data);
+    }
+
    
     public function schoonmaak() {
         $data = [
@@ -45,6 +53,13 @@ class Dinsten extends Controller {
         ];
 
         $this->view('dinsten/ontruiming', $data);
+    }
+    public function hotel_schoonmaak() {
+        $data = [
+            'title' => 'hotel schoonmaak'
+        ];
+
+        $this->view('dinsten/hotel_schoonmaak', $data);
     }
 
 

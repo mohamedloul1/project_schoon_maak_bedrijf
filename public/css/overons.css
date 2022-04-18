@@ -1,34 +1,38 @@
-@import url("../css/main.scss");
+@import url("./main.scss");
 @import url("./root/_colors.scss");
-@import url("../scss/root/_box-shadow.scss");
-.container-home {
+@import url("./root/_box-shadow.scss");
+@import url("./root/_website-fonts.scss");
+.container-overons {
   width: 100%;
-  min-height: 50vh;
+  min-height: 45vh;
   position: relative;
   display: grid;
   place-items: center;
   margin: 0;
   animation: items-bewegen 2s ease-out;
+  -webkit-box-shadow: 0px 21px 14px 4px rgba(0, 0, 0, 0.62);
+  -moz-box-shadow: 0px 21px 14px 4px rgba(0, 0, 0, 0.62);
+  box-shadow: 0px 12px 14px 4px rgba(0, 0, 0, 0.62);
 }
-.container-home .image {
+.container-overons .image {
   background-image: url("../img/over ons.jpg");
   width: 100%;
-  height: 50vh;
+  height: 45vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   border-color: rgba(0, 0, 0, 0.2);
   border-width: 2px;
 }
-.container-home .text {
+.container-overons .text {
   position: absolute;
 }
-.container-home .text h1 {
+.container-overons .text h1 {
   font-family: Arial, Helvetica, sans-serif;
   color: var(--white);
   display: block;
   margin: 0;
-  font-size: 50px;
+  font-size: 40px;
   text-shadow: 4px 3px 0 rgba(0, 0, 0, 0.9);
   animation: text-style 2s ease-out;
   padding: 170px 0;

@@ -112,13 +112,6 @@
         <h1>Hoe werkt het?</h1> 
         </div>
   </div>
-
-  <!-- <div class="header__working">
-    <h1>hoe werkt het</h1>
-  </div> -->
-  <!-- <div class="language__working">
-    <li><a href="">Nederlands</a></li>
-  </div> -->
   <div class="container-card__working">
     <div class="first-card__working">
       <i class="fas fa-id-card-alt"></i>
@@ -126,12 +119,13 @@
         <li>Ten eerst moet u naar de contact pagina gaan.</li>
       </ol>
       <p> <i class="fas fa-exclamation-circle" id="alert"></i>
-      U kunt deze pagina bereiken door omhoog of omlaag te scrollen en op de contactknop te klikken.      </p>
+      U kunt deze pagina bereiken door naar top of beneden te scrollen en op knop contact te klikken
+      </p>
     </div>
     <div class="second-card__working">
       <i class="fas fa-file-signature"></i>
       <ol start="2">
-        <li>vervolgens zal een blad verschijnen waar u informatie kunt invoeren.</li>
+      <li>vervolgens zal een blad verschijnen waar u informatie kunt invoeren.</li>
       </ol>
       <p>
         <i class="fas fa-check-circle text-success" id="alert"></i>
@@ -145,7 +139,7 @@
     <div class="third-card__working">
       <i class="fas fa-save"></i>
       <ol start="3">
-        <li>Vervolgens worden uw ingevoerde gegevens opgeslagen.</li>
+      <li>Vervolgens worden uw ingevoerde gegevens opgeslagen.</li>
       </ol>
       <p>
         <i class="fas fa-check-circle text-success" id="alert"></i>
@@ -155,7 +149,7 @@
     <div class="four-card__working">
       <i class="fas fa-phone-square-alt"></i>
       <ol start="4">
-        <li>Ten slot wordt u gebeld door een van onze mederwerker</li>
+      <li>Ten slot wordt u gebeld door een van onze mederwerker</li>
       </ol>
       <p>
         <i class="fas fa-envelope-open" id="alert"></i>
@@ -205,6 +199,15 @@
         <button onclick="window.location.href='<?php echo URLROOT; ?>dinsten/ontruiming'">Lees meer</button>
         <p>ontruiming</p>
       </div>
+
+      <div class="zeven-crad__onze-diensten">
+</div>
+<div class="acht-crad__onze-diensten">
+  <img src="/public/img/hotel.jpg">
+  <button onclick="window.location.href='<?php echo URLROOT; ?>dinsten/hotel_schoonmaak'">Lees meer</button>
+  <p>Hotel</p>
+</div>
+
     </div>
   </div>
 </section>

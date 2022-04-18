@@ -26,12 +26,12 @@
     <!-- Navbar -->
     <?php require APPROOT . '/views/includes/navbar.php'; ?>
 
-    <!-- Contact Opnemen Background -->
-    <div class="contact-back">
-        <div class="text-contact-back">
-            <h1> projecten </h1>
-        </div>
-    </div>
+<div class="back_project">
+<div class="projecten-back"></div>
+            <div class="text-projecten-back">
+                <h1>projecten</h1>
+                </div>
+</div>
 
 
     <!-- project navbar -->
@@ -54,7 +54,7 @@
     <div class="cards">
       <div class="first-card" id="scroll-effect">
         <div class="start__cards">
-          <img src="../img/25.jpg">
+          <img src="../img/comingsoon.jpg">
         </div>
         <div class="header__cards">
           <span>4 degen geleden<br>
@@ -69,7 +69,7 @@
 
       <div class="second-card" id="scroll-effect">
         <div class="start__cards">
-          <img src="../img/25.jpg">
+          <img src="../img/comingsoon.jpg">
         </div>
         <div class="header__cards">
           <span>4 degen geleden<br>
@@ -83,7 +83,7 @@
 
       <div class="third-card" id="scroll-effect">
         <div class="start__cards">
-          <img src="../img/25.jpg">
+          <img src="../img/comingsoon.jpg">
         </div>
         <div class="header__cards">
           <span>4 degen geleden<br>
@@ -97,7 +97,7 @@
 
       <div class="four-card" id="scroll-effect">
         <div class="start__cards">
-          <img src="../img/25.jpg">
+          <img src="../img/comingsoon.jpg">
         </div>
         <div class="header__cards">
           <span>4 degen geleden<br>
@@ -111,7 +111,7 @@
 
       <div class="five-card" id="scroll-effect">
         <div class="start__cards">
-          <img src="../img/25.jpg">
+          <img src="../img/comingsoon.jpg">
         </div>
         <div class="header__cards">
           <span>4 degen geleden<br>
@@ -125,7 +125,7 @@
 
       <div class="six-card" id="scroll-effect">
         <div class="start__cards">
-          <img src="../img/25.jpg">
+          <img src="../img/comingsoon.jpg">
         </div>
         <div class="header__cards">
           <span>4 degen geleden<br>

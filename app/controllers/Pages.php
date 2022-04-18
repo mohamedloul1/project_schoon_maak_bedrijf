@@ -1,15 +1,14 @@
 <?php
 class Pages extends Controller {
     public function __construct() {
-        // $this->userModel = $this->model('User');
     }
 
-    public function home() {
+    public function index() {
         $data = [
             'title' => 'Home page'
         ];
 
-        $this->view('home', $data);
+        $this->view('index', $data);
     }
 
     public function overons() {
@@ -35,7 +34,7 @@ class Pages extends Controller {
             $subject=$_POST['naam'];
             $mailFrom = $_POST['email'];
             $message = $_POST['message'];
-            $mailTo = "testmail";
+            $mailTo = "info@kashash.nl";
             $headers = "From: " .$mailFrom;
             $txt = "Afzender Naam: " .$name.".\n\n".
             "E-mailadres: ".$mailFrom.".\n\n".
