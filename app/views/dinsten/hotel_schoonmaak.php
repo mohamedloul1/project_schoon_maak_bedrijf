@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <link rel="stylesheet" href="/public/css/schoonmaak.css">
+  <link rel="stylesheet" href="/public/css/hotel_schoonmaak.css">
   <link rel="stylesheet" href="/public/css/main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -19,28 +19,26 @@
   <!-- Navbar -->
   <?php require APPROOT . '/views/includes/navbar.php'; ?>
   <!-- Foto en text Achtergrond -->
-<div class="back_schoon">
-<div class="schoonmaak-back"></div>
-            <div class="text-schoonmaak-back">
-                <h1>Schoonmaak</h1>
+<div class="back_hotel">
+<div class="hotel_schoonmaak-back"></div>
+            <div class="text-hotel_schoonmaak-back">
+                <h1>Hotel Schoonmaak</h1>
                 </div>
 </div>
   <!-- Het begin van section -->
-  <section class="schoonmaak-section container" style="width: 75%;">
+  <section class="hotel_schoonmaak-section container" style="width: 75%;">
     <div class="row">
       <div class="col-sm-12 col-md-5">
-        <h1 class="text-schoonmaak mb-5">Schoonmaak</h1>
+        <h1 class="text-hotel_schoonmaak mb-5">Hotel Schoonmaak</h1>
         <p class="p-text">
-        Voor dagelijkse schoonmaak van gebouwen ben je hier aan het juiste adres. <br>
-        Op dit moment verzorgen wij de huishouding voor: 
-        Kantoren/commerciële ruimtes
-        Onderwijsinstellingen
-        Gezondheids faciliteiten
-        Fabrieksruimtes
-        Vrijetijdsbedrijven, enz. <br>
-        In overleg met de opdrachtgever wordt een werkprogramma opgesteld. <br>
-        De werkzaamheden en frequenties zijn daar gedefinieerd, geheel naar wens van de klant. <br>
-        Regelmatige monitoring en evaluatie is daarbij van groot belang.
+        Als hotel wilt u natuurlijk dat uw gasten tevreden zijn na een bezoek aan uw hotel.
+        Een van de belangrijkste voorwaarden is dat uw gasten in de cleanroom kunnen verblijven.
+        U wilt dat uw gasten comfortabel kunnen slapen en wakker worden zonder te maken te krijgen met slechte hygiëne.
+        Bij kashash schoonmaakservice begrijpen we dit en zorgen we graag voor de perfecte hotelervaring voor uw gasten.
+        Onze schoonmaakexperts zorgen niet alleen voor opgeruimde hotelkamers,
+        maar bieden ook attente service. Ze werken professioneel en zorgen voor een vriendelijke en warme band met je gasten.
+        Zo voelen al uw gasten zich meteen thuis in een stijlvol en ruim hotel!
+        Zo kunt u de schoonmaak van uw hotel veilig uitbesteden aan kashash schoonmaakservice.
 
         </p>
         <br>
@@ -55,7 +53,7 @@
         </div>
       </div>
       <div class="col-sm-12 col-md-6 ms-auto">
-        <img class="img-fluid" src="../img/schoonback.png" alt="">
+        <img class="img-fluid" src="../img/hotel_schoonmaak_page.jpg" alt="">
       </div>
     </div>
     </div>

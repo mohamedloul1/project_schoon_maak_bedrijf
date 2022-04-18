@@ -15,6 +15,9 @@ body {
   place-items: center;
   margin: 0;
   animation: items-bewegen 2s ease-out;
+  -webkit-box-shadow: 0px 21px 14px 4px rgba(0, 0, 0, 0.62);
+  -moz-box-shadow: 0px 21px 14px 4px rgba(0, 0, 0, 0.62);
+  box-shadow: 0px 12px 14px 4px rgba(0, 0, 0, 0.62);
 }
 .container-home .image {
   background-image: url("../img/backhome.jpg");
@@ -90,6 +93,7 @@ section {
 .card-container .second-card p,
 .card-container .third-card p {
   font-family: "Roboto", sans-serif;
+  font-size: 16px;
 }
 .card-container .first-card h1,
 .card-container .second-card h1,
@@ -171,6 +175,7 @@ section {
 .how-working .container-card__working .second-card__working li,
 .how-working .container-card__working .third-card__working li,
 .how-working .container-card__working .four-card__working li {
+  font-size: 16px;
   margin-top: 10px;
   font-family: "Roboto", sans-serif;
 }
@@ -178,6 +183,7 @@ section {
 .how-working .container-card__working .second-card__working p,
 .how-working .container-card__working .third-card__working p,
 .how-working .container-card__working .four-card__working p {
+  font-size: 16px;
   font-family: "Roboto", sans-serif;
 }
 
@@ -235,11 +241,15 @@ section {
 .container__onze-diensten .cards__onze-diensten .first-crad__onze-diensten,
 .container__onze-diensten .cards__onze-diensten .second-crad__onze-diensten,
 .container__onze-diensten .cards__onze-diensten .four-crad__onze-diensten,
-.container__onze-diensten .cards__onze-diensten .five-crad__onze-diensten {
+.container__onze-diensten .cards__onze-diensten .five-crad__onze-diensten,
+.container__onze-diensten .cards__onze-diensten .acht-crad__onze-diensten {
   border-right: 2px solid var(--donker-blue);
   display: grid;
   gap: 3rem;
   place-items: center;
+}
+.container__onze-diensten .cards__onze-diensten .acht-crad__onze-diensten {
+  border-left: 2px solid var(--donker-blue);
 }
 .container__onze-diensten .cards__onze-diensten .six-crad__onze-diensten {
   display: grid;
@@ -248,7 +258,7 @@ section {
 }
 .container__onze-diensten .cards__onze-diensten .four-crad__onze-diensten,
 .container__onze-diensten .cards__onze-diensten .five-crad__onze-diensten,
-.container__onze-diensten .cards__onze-diensten .six-crad__onze-diensten {
+.container__onze-diensten .cards__onze-diensten .six-crad__onze-diensten, .container__onze-diensten .cards__onze-diensten .acht-crad__onze-diensten {
   margin-top: 10rem;
 }
 .container__onze-diensten .cards__onze-diensten .third-crad__onze-diensten {
@@ -261,7 +271,8 @@ section {
 .container__onze-diensten .cards__onze-diensten .third-crad__onze-diensten:hover,
 .container__onze-diensten .cards__onze-diensten .four-crad__onze-diensten:hover,
 .container__onze-diensten .cards__onze-diensten .five-crad__onze-diensten:hover,
-.container__onze-diensten .cards__onze-diensten .six-crad__onze-diensten:hover {
+.container__onze-diensten .cards__onze-diensten .six-crad__onze-diensten:hover,
+.container__onze-diensten .cards__onze-diensten .acht-crad__onze-diensten:hover {
   background-color: var(--hover-bg);
   color: var(--donker-blue);
   transition: 1s ease-out;
@@ -272,7 +283,8 @@ section {
 .container__onze-diensten .cards__onze-diensten .third-crad__onze-diensten:hover img,
 .container__onze-diensten .cards__onze-diensten .four-crad__onze-diensten:hover img,
 .container__onze-diensten .cards__onze-diensten .five-crad__onze-diensten:hover img,
-.container__onze-diensten .cards__onze-diensten .six-crad__onze-diensten:hover img {
+.container__onze-diensten .cards__onze-diensten .six-crad__onze-diensten:hover img,
+.container__onze-diensten .cards__onze-diensten .acht-crad__onze-diensten:hover img {
   border-radius: 10%;
 }
 .container__onze-diensten .cards__onze-diensten .first-crad__onze-diensten:hover button,
@@ -280,7 +292,8 @@ section {
 .container__onze-diensten .cards__onze-diensten .third-crad__onze-diensten:hover button,
 .container__onze-diensten .cards__onze-diensten .four-crad__onze-diensten:hover button,
 .container__onze-diensten .cards__onze-diensten .five-crad__onze-diensten:hover button,
-.container__onze-diensten .cards__onze-diensten .six-crad__onze-diensten:hover button {
+.container__onze-diensten .cards__onze-diensten .six-crad__onze-diensten:hover button,
+.container__onze-diensten .cards__onze-diensten .acht-crad__onze-diensten:hover button {
   opacity: 1;
 }
 
@@ -329,11 +342,15 @@ section {
   .onze-diensten .container__onze-diensten .cards__onze-diensten button {
     opacity: 1;
   }
+  .onze-diensten .container__onze-diensten .cards__onze-diensten .zeven-crad__onze-diensten {
+    display: none;
+  }
   .onze-diensten .container__onze-diensten .cards__onze-diensten .first-crad__onze-diensten,
 .onze-diensten .container__onze-diensten .cards__onze-diensten .second-crad__onze-diensten,
 .onze-diensten .container__onze-diensten .cards__onze-diensten .four-crad__onze-diensten,
-.onze-diensten .container__onze-diensten .cards__onze-diensten .five-crad__onze-diensten {
-    border-right: unset;
+.onze-diensten .container__onze-diensten .cards__onze-diensten .five-crad__onze-diensten,
+.onze-diensten .container__onze-diensten .cards__onze-diensten .acht-crad__onze-diensten {
+    border: unset;
   }
   .onze-diensten .container__onze-diensten .cards__onze-diensten .third-crad__onze-diensten {
     margin-top: 12rem;
@@ -389,11 +406,15 @@ section {
   .onze-diensten .container__onze-diensten .cards__onze-diensten .third-crad__onze-diensten, .onze-diensten .container__onze-diensten .cards__onze-diensten .four-crad__onze-diensten {
     margin: 3rem 0 0 0;
   }
+  .onze-diensten .container__onze-diensten .cards__onze-diensten .zeven-crad__onze-diensten {
+    display: none;
+  }
   .onze-diensten .container__onze-diensten .cards__onze-diensten .first-crad__onze-diensten,
 .onze-diensten .container__onze-diensten .cards__onze-diensten .second-crad__onze-diensten,
 .onze-diensten .container__onze-diensten .cards__onze-diensten .four-crad__onze-diensten,
-.onze-diensten .container__onze-diensten .cards__onze-diensten .five-crad__onze-diensten {
-    border-right: unset;
+.onze-diensten .container__onze-diensten .cards__onze-diensten .five-crad__onze-diensten,
+.onze-diensten .container__onze-diensten .cards__onze-diensten .acht-crad__onze-diensten {
+    border: unset;
   }
 
   .how-working {

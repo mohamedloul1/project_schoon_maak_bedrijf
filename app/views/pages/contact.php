@@ -27,7 +27,7 @@
     </div>
     <!-- Eind -->
     <!-- Neem Contact op Text -->
-    <section class="contact-section container " style="width: 75%;">
+    <section class="contact-section container " style="width: 100%;">
         <div class="row">
             <div class="col-sm-12 col-md-5">
             <div class="text-contact mb-5">
@@ -52,7 +52,7 @@
                 <br>
                 <br>
                 <i class="icon-contact bi bi-telephone-fill"></i> &nbsp; &nbsp;
-                <span class="icon-text"> <strong> <a class="text-contact-style" href="https://wa.me/+31655487744">+31&nbsp;655487744 </a> </strong></span>
+                <span class="icon-text"> <strong> <a class="text-contact-style" href="tel:+31655487744">+31&nbsp;655487744 </a> </strong></span>
                 <br>
                 <br>
                 <i class="icon-contact bi bi-envelope-fill"></i> &nbsp; &nbsp;
@@ -60,14 +60,14 @@
                 <br>
                 <br>
                 <i class="icon-contact">KVK</i> &nbsp; &nbsp;
-                <span class="icon-text"> <strong> Roelantdreef 196, 3562kg Utrecht </strong></span>
+                <span class="icon-text"> <strong>73779911</strong></span>
             </div>
             <!-- Contact inputs  -->
             <div class="col-sm-12 col-md-6 ms-auto mt-5">
                 <form action="contact" method="post">
                     <div class="row">
                         <div class="mt-3">
-                            <div class="form-floating mb-3 input-name">
+                            <div class="form-floating mb-3 input-name"">
                                 <input type="text" class="form-control" id="naam" name="naam" onkeyup="validate()" placeholder="naam" value="" aria-describedby="naamHelp">
                                 <label for="floatingInput">naam</label>
                                 <span id="message-name">

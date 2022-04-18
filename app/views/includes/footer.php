@@ -45,7 +45,7 @@
 <a
         class="btn btn-primary btn-floating m-1"
         style="border-radius: 30%; background-color: #3b5998; "
-        href="https://www.facebook.com/102127365775261/posts/112668611387803/?d=n"
+        href="#!"
         role="button"
         ><i class="fab fa-facebook-f"
         ></i
@@ -55,7 +55,7 @@
       <a
         class="btn btn-primary btn-floating m-1"
         style="border-radius: 30%; background-color: #47c757;"
-        href="https://wa.me/+31655487744"
+        href="#"
         role="button"
         ><i class="fab fa-whatsapp"></i
       ></a>
@@ -79,16 +79,11 @@
   <!-- Copyright -->
   <div class="copyright text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
   Copyright © 2022
-    <a class="text-white">Zen Kashash</a> &nbsp; &nbsp; 
+    <a class="text-white">kashash schoonmaakservice</a> &nbsp; &nbsp; 
     <a href="https://policies.google.com/privacy" class="text-white">Privacy</a>
+    </div>
 
-  </div>
-  <div class="copyright text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-  Copyright © 2022
-    <a class="text-white">Zen Kashash</a> &nbsp; &nbsp; 
-    <a href="https://policies.google.com/privacy" class="text-white">Privacy</a>
-
-  </div>
+  
   </section>
   <!-- Copyright -->
 </footer>

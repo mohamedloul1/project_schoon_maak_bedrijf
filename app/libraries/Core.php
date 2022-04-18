@@ -7,7 +7,7 @@
 class Core
 {
   protected $currentController = 'Pages';
-  protected $currentMethod = 'home';
+  protected $currentMethod = 'index';
   protected $params = [];
 
   public function __construct()
@@ -57,7 +57,7 @@ class Core
       $url = explode('/', $url);
       return $url;
     } else {
-      $url = array('pages', 'home');
+      $url = array('pages', 'index');
       return $url;
     }
   }

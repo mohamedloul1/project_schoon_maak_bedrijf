@@ -32,7 +32,7 @@
 
 }
 .p-text {
-  font-size: 16px;
+  font-size: 15px;
   font-family: 'Roboto', sans-serif;
 
 }
@@ -60,7 +60,7 @@
   height: 125px !important;
 }
 .contact-section {
-  margin-top: 50px;
+  margin-top: 175px;
   display: grid;
   place-content: center;
   button{
@@ -81,6 +81,8 @@
   background-repeat: no-repeat, no-repeat;
   background-size: auto 100%, cover;
   animation: items-bewegen 2s ease-out;
+  @include box-shadow();
+
 }
 
 .text-contact-back{

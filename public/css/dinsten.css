@@ -93,7 +93,8 @@ body {
 .donker-mode .container__onze-diensten .cards__onze-diensten .third-crad__onze-diensten:hover,
 .donker-mode .container__onze-diensten .cards__onze-diensten .four-crad__onze-diensten:hover,
 .donker-mode .container__onze-diensten .cards__onze-diensten .five-crad__onze-diensten:hover,
-.donker-mode .container__onze-diensten .cards__onze-diensten .six-crad__onze-diensten:hover {
+.donker-mode .container__onze-diensten .cards__onze-diensten .six-crad__onze-diensten:hover,
+.donker-mode .container__onze-diensten .cards__onze-diensten .acht-crad__onze-diensten:hover {
   background: var(--cards-background-color);
   color: var(--hover-bg);
 }
@@ -128,6 +129,9 @@ section {
   background-repeat: no-repeat;
   background-size: auto 100%, cover;
   animation: items-bewegen 2s ease-out;
+  -webkit-box-shadow: 0px 21px 14px 4px rgba(0, 0, 0, 0.62);
+  -moz-box-shadow: 0px 21px 14px 4px rgba(0, 0, 0, 0.62);
+  box-shadow: 0px 12px 14px 4px rgba(0, 0, 0, 0.62);
 }
 
 .text-diensten-back {
@@ -187,7 +191,6 @@ section {
 
 .p-diensten {
   font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
   font-family: "Roboto", sans-serif;
 }
 
@@ -209,12 +212,20 @@ section {
   font-size: 14px;
   font-family: "Days One", sans-serif;
 }
-
-h1 {
+.card-body h1 {
   color: black;
   text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.9);
   font-size: 25px;
   font-family: "Days One", sans-serif;
+}
+
+.hotel {
+  margin: 0 auto;
+  /* Added */
+  float: none;
+  /* Added */
+  margin-bottom: 10px;
+  /* Added */
 }
 
 /*# sourceMappingURL=dinsten.css.map */
