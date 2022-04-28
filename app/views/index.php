@@ -226,6 +226,13 @@
       </div>
     </div>
   </section>
+
+  <div class="loader">
+    <div class="container-img">
+      <h1>Welkom bij Kashash</h1>
+      <img src="/public/img/schoonmaken-voor-page.png" alt="">
+    </div>
+  </div>
   
 
   <?php require APPROOT . '/views/includes/contactfoto.php'; ?>

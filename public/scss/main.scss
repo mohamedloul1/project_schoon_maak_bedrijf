@@ -101,6 +101,14 @@ body{
             background-color: var(--cards-background-color);
         }
     }
+
+    .over-ons .container-over-ons {
+        .first-element__over-ons, .second-element__over-ons, .third-element__over-ons{
+        .header__over-ons{
+            background: var(--cards-background-color);
+        }
+    }
+    }
 }
 
 section{

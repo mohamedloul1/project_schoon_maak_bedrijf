@@ -98,6 +98,9 @@ body {
 .donker-mode .cards .first-card, .donker-mode .cards .second-card, .donker-mode .cards .third-card, .donker-mode .cards .four-card, .donker-mode .cards .five-card, .donker-mode .cards .six-card {
   background-color: var(--cards-background-color);
 }
+.donker-mode .over-ons .container-over-ons .first-element__over-ons .header__over-ons, .donker-mode .over-ons .container-over-ons .second-element__over-ons .header__over-ons, .donker-mode .over-ons .container-over-ons .third-element__over-ons .header__over-ons {
+  background: var(--cards-background-color);
+}
 
 section {
   padding: 3rem 0;

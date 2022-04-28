@@ -9,3 +9,7 @@
         </div>
         </a>
     </div>
+    
+    <div class="wahtsapp-container-mobile-device">
+        <a href="tel:0655487744"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
