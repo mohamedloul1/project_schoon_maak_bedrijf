@@ -4,8 +4,6 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -17,71 +15,94 @@
   </head>
   <body>
   <?php require APPROOT . '/views/includes/navbar.php'; ?>
-
-<div class="container-overons">
-  <div class="image"></div>
-  <div class="text">
-  <h1>Over ons, Wie zijn wij?</h1>
-  </div>
-  
-</div>
+  <?php require APPROOT . '/views/includes/banner.php'; ?>
 
 
 <!-- over ons header starts -->
-<section class="over-ons__onze-bedrijf">
-  <div class="container__onze-bedrijf">
-    <div class="first-card__onze-bedrijf">
-      <div class="image__onze-bedrijf">
-      <img src="/public/img/overons1.jpg">
+<!-- <section class="contact-opnemen__home-page">
+    <div class="container-contact-opnemen__home-page">
+      <div class="first-card__s">
+      <div class="left-col__home-page">
+        <h1>Snelle contact opnemen</h1>
+        <button>
+          Contactopnemen
+        </button>
       </div>
-      <div class="content__onze-bedrijf">
-        <div class="header__onze-bedrijf">
-        <h1>Wat doen we ?</h1> 
-        </div>
-        <div class="text__onze-bedrijf">
-        <p>Schoonmaakservice is een breed begrip. Dit varieert van bescherming binnen een bepaald gebouw tot het verwijderen van graffiti. In principe zijn beide schoonmaakdiensten. Schoonmaak, wij maken onderscheid tussen schoonmaak- en schoonmaakprofessionals.</p>
-        </div>
+      <div class="right-col__home-page">
+        <video class="cleaning-video" muted>
+          <source src="/public/img/production ID_4109356.mp4" type="video/mp4">
+        </video>
+        <button class="btn-video">
+          play video
+        </button>
       </div>
-    </div>
-    <div class="second-card__onze-bedrijf">
-    <div class="content__onze-bedrijf">
-        <div class="header__onze-bedrijf">
-        <h1>Wat doen we ?</h1> 
-        </div>
-        <div class="text__onze-bedrijf">
-          <p>Met schoonmaken bedoelen we het regelmatig schoonmaken van het interieur van een gebouw. We maken gebruik van marktsegmenten: kantoor, bouw, wonen, onderwijs, trappen, zorg en entertainment. Focus op schoonmaken, wij reinigen ramen, reinigen gevels, reinigen daken, verwijderen graffiti, onderhouden onderzijden, reinigen tapijten, reinigen zonnepanelen en beschermen deze tegen de zon.</p>
-        </div>
       </div>
-      <div class="image__onze-bedrijf">
-      <img src="/public/img/overons2.jpg">
+      <div class="second__card-s">
+      <div class="left-col__home-page">
+        <h1>Snelle contact opnemen</h1>
+        <button>
+          Contactopnemen
+        </button>
       </div>
-    </div>
-    <div class="third-card__onze-bedrijf">
-      <div class="image__onze-bedrijf">
-      <img src="/public/img/overons3.jpg">
+      <div class="right-col__home-page">
+        <video class="cleaning-video" muted>
+          <source src="/public/img/production ID_4109356.mp4" type="video/mp4">
+        </video>
+        <button class="btn-video">
+          play video
+        </button>
       </div>
-      <div class="content__onze-bedrijf">
-        <div class="header__onze-bedrijf">
-        <h1>over ons</h1> 
-        
-        </div>
-        <div class="text__onze-bedrijf">
-          <p>
-          Kashash Schoonmaakserviceis een jong bedrijf. Volledig gericht op de wensen van de klant. Elk bedrijf kan groeien met genoeg moed, wil en passie. Maar huisbewoner zijn vereist vertrouwen, respect en liefde voor reinheid. De laatste drie trefwoorden staan centraal bij Kashash Schoonmaakservice.
-                 </p>
-          
-        </div>
+      </div>
       </div>
     </div>
-    <div class="line">
-      <div class="points">
-      <div class="point1"></div>
-      <div class="point2"></div>
-      <div class="point3"></div>
-      </div>
-    </div>
-  </div>
-</section>
+  </section> -->
+
+  <section class="over-ons">
+        <div class="container-over-ons">
+            <div class="first-element__over-ons">
+                <div class="header__over-ons">
+                    <div class="header__over-ons">
+                        <h1>Wie zijn we?</h1>
+                        <div class="content-text__over-ons">
+                            <p>Schoonmaakservice is een breed begrip. Dit varieert van bescherming binnen een bepaald gebouw tot het verwijderen van graffiti. In principe zijn beide schoonmaakdiensten. Schoonmaak, wij maken onderscheid tussen schoonmaak- en schoonmaakprofessionals.</p>   
+                        </div>
+                    </div>
+                </div>
+                <div class="image__over-ons">
+                    <img src="/public/img/overons1.jpg" alt="">
+                </div>
+            </div>
+            <div class="second-element__over-ons">
+                
+                <div class="image__over-ons">
+                <img src="/public/img/overons2.jpg">
+                </div>
+                <div class="header__over-ons">
+                    <div class="header__over-ons">
+                        <h1>Wat doen we ?</h1>
+                        <div class="content-text__over-ons">
+                        <p>Met schoonmaken bedoelen we het regelmatig schoonmaken van het interieur van een gebouw. We maken gebruik van marktsegmenten: kantoor, bouw, wonen, onderwijs, trappen, zorg en entertainment. Focus op schoonmaken, wij reinigen ramen, reinigen gevels, reinigen daken, verwijderen graffiti, onderhouden onderzijden, reinigen tapijten, reinigen zonnepanelen en beschermen deze tegen de zon.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="third-element__over-ons">
+                <div class="header__over-ons">
+                    <div class="header__over-ons">
+                        <h1>Wie zijn we?</h1>
+                        <div class="content-text__over-ons">
+                      <p>
+                      Kashash Schoonmaakserviceis een jong bedrijf. Volledig gericht op de wensen van de klant. Elk bedrijf kan groeien met genoeg moed, wil en passie. Maar huisbewoner zijn vereist vertrouwen, respect en liefde voor reinheid. De laatste drie trefwoorden staan centraal bij Kashash Schoonmaakservice.
+                      </p>
+                    </div>
+                    </div>
+                </div>
+                <div class="image__over-ons">
+                <img src="/public/img/overons3.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
 <!-- over ons header ends -->
 
 

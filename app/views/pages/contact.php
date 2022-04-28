@@ -19,12 +19,7 @@
 <body>
     <!-- Navbar -->
     <?php require APPROOT . '/views/includes/navbar.php'; ?>
-    <!-- Contact Opnemen Background -->
-    <div class="contact-back">
-        <div class="text-contact-back">
-            <h1>Contact Opnemen</h1>
-        </div>
-    </div>
+    <?php require APPROOT . '/views/includes/banner.php'; ?>   
     <!-- Eind -->
     <!-- Neem Contact op Text -->
     <section class="contact-section container " style="width: 100%;">

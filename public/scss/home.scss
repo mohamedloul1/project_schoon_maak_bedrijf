@@ -10,62 +10,9 @@ body {
   color: var(--hover-bg);
 }
 
-.container-home {
-  width: 100%;
-  min-height: 45vh;
-  position: relative;
-  display: grid;
-  place-items: center;
-  margin:  0;
-  animation: items-bewegen 2s ease-out;
-  @include box-shadow();
 
 
-  .image {
-    background-image: url("../img/backhome.jpg");
-    width: 100%;
-    height: 45vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border-color: rgba(0, 0, 0, 0.2);
-    border-width: 2px;
-  }
-  .text {
-    position: absolute;
-    h1 {
-      font-family: 'Days One', sans-serif;
-      color: var(--white);
-      display: block;
-      margin: 0;
-      font-size: 50px;
-      text-shadow: 4px 3px 0 rgba(0, 0, 0, 0.9);
-      animation: text-style 2s ease-out;
-      padding: 170px 0;
-      text-align: center;
-    }
-  }
-}
 
-@keyframes items-bewegen {
-  0%,
-  100% {
-    transform: scale(0.1);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
-@keyframes text-style {
-  0%,
-  70% {
-    -webkit-text-stroke: 2rem rgb(46, 43, 43);
-  }
-  100% {
-    -webkit-text-stroke: unset;
-  }
-}
 
 section {
   margin: 3rem 15%;
@@ -110,11 +57,10 @@ section {
 }
 
 #carouselExampleCaptions {
-  width: 90%;
+  width: 100%;
   border-radius: 5px;
-  margin: 0 auto;
+  margin: 5rem auto;
   box-shadow: --ligh-blue(3, 102, 214, 0.3) 0px 0px 0px 3px;
-  margin-top: 5rem;
 }
 
 
@@ -160,10 +106,10 @@ section {
 
   .container-card__working {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: 1fr 1fr;
     gap: 2rem;
     margin: 5rem 2rem;
-    place-items: center;
+    width: 100%;
     i {
       font-size: 3rem;
     }
@@ -171,7 +117,6 @@ section {
     #alert {
       font-size: calc(3rem / 2);
     }
-
 
 
     .first-card__working,
@@ -184,7 +129,11 @@ section {
       text-align: center;
       padding: 1rem;
       font-size: 1.5rem;
-
+      border: 2px solid var(--hover-bg);
+      &:hover{
+        background-color: var(--donker-blue);
+        color: var(--white);
+      }
       li {
         font-size: 16px;
         margin-top: 10px;
@@ -305,6 +254,126 @@ section {
     }
   }
 }
+@keyframes color-mix{
+  0%{
+    width: 10%;
+    background-color: var(--ligh-blue);
+  }
+  25%{
+    width: 20%;
+    background-color: rgba(0,0,0,0.2);
+  }
+  50%{
+    width: 30%;
+    background-color: rgba(0,0,0,0.5);
+  }
+  75%{
+    width: 40%;
+    background-color: rgba(0,0,0,0.7);
+  }
+  100%{
+    width: 50%;
+    background-color: var(--ligh-blue);
+  }
+}
+
+.contact-opnemen__home-page{
+  display: flex;
+  height: 60vh;
+  padding: 0;
+  margin: -3rem 0;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  @include box-shadow();
+  &::before{
+    animation: color-mix 2s linear;
+    content: '';
+    background-color: var(--ligh-blue);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 50%;
+  }
+  &::after{
+    content: '';
+    background: rgba(0,0,0,0.2);
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+  }
+  .container-contact-opnemen__home-page{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    height: 100%;
+    align-items: center;
+    position: relative;
+    .left-col__home-page{
+      width: 30%;
+      h1{
+        color: rgb(255, 255, 255);
+        font-size: 40px;
+        text-shadow: 4px 3px 0 rgba(0, 0, 0, 0.9);
+        font-family: 'Days One', sans-serif;
+      }
+      button{
+       padding: 1rem;
+       margin: 2rem 1rem; 
+       background: var(--hover-bg);
+       color: var(--white);
+       @include box-shadow();
+       font-size: 1.3rem;
+       font-family: 'Days One', sans-serif;
+      }
+    }
+    .right-col__home-page{
+      width: 35%;
+      height: 70%;
+      margin: 0 -5rem;
+      position: relative;
+      &::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(0,0,0,0.2);
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+      }
+      video{
+        width: 100%;
+        height: 100%;
+        object-fit:cover;
+        border-radius: 10px;
+        z-index: 2;
+      }
+      button{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 2rem;
+        font-size: 1.5rem;
+        text-transform: capitalize;
+        border-radius: 5px;
+        z-index: 3;
+      }
+    }
+  }
+}
+
+.hidden{
+  display: none;
+}
+
+
+
 
 .contact-opnemen {
   display: flex;
@@ -312,7 +381,7 @@ section {
   align-items: center;
   min-height: 10rem;
   background-color: var(--donker-blue);
-  color: var(--hover-bg);
+  color: var(--white);
   position: relative;
   border-radius: 2rem;
   .container__contact-opnemen {
@@ -346,6 +415,13 @@ section {
 // media query
 
 @media (max-width: 450px) {
+  html{
+    font-size: 55%;
+  }
+  .my-cards .card-container .third-card{
+    width: 100%;
+    
+  }
   .onze-diensten .container__onze-diensten .cards__onze-diensten {
     display: grid;
     grid-template-columns: 1fr;
@@ -368,33 +444,12 @@ section {
     }
   }
 
-  .container-card__working {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-
   .container-home .text h1 {
-    font-size: 5rem;
-  }
-
-  .how-working .container-card__working {
-    display: grid;
-    gap: 10rem;
-    font-size: 2.5rem;
-    grid-template-columns: 1fr;
-    width: 100%;
-  }
-
-  .how-working {
-    margin-top: 30rem;
+    font-size: 6rem;
   }
   .my-cards .card-container {
     font-size: 3rem;
     margin: -20rem 0;
-  }
-  .how-working .container-card__working {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
   }
   .text {
     text-align: center;
@@ -439,7 +494,7 @@ section {
   }
   .how-working .container-card__working {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
   }
 
   .card-container {

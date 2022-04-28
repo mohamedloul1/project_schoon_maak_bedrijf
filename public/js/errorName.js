@@ -113,3 +113,20 @@ window.addEventListener('scroll', () => {
         });
     }
 })
+
+var video = document.querySelector('video.cleaning-video');
+var btnVideo = document.querySelector('.btn-video');
+var rightcolom = document.querySelector('.right-col__home-page')
+
+
+rightcolom.addEventListener('mouseover', () => {
+    video.play();
+    btnVideo.classList.add('hidden');
+})
+
+rightcolom.addEventListener('mouseleave', () => {
+    video.pause();
+    btnVideo.classList.remove('hidden')
+})
+
+

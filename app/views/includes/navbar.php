@@ -13,7 +13,9 @@
             <li><a href="<?php echo URLROOT; ?>pages/projecten">projecten</a></li>
             <li><a href="<?php echo URLROOT; ?>pages/contact">contact</a></li>
         </nav>
+        <div class="overige__tools">
         <li class="telefoon-number"><a href="tel:0612345678"><i class="mr-auto fas fa-phone-square-alt">0655487744</i></a></li>
         <div id="menu-btn"><i class="fas fa-bars"></i></div>
         <i class="ml-3 mr-auto fa-solid fa-lightbulb dark-mode-siwtch"></i>
+        </div>
     </div>

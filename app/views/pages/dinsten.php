@@ -17,11 +17,7 @@
   <!-- Navbar includes -->
   <?php require APPROOT . '/views/includes/navbar.php'; ?>
   <!-- Foto en text achtergrond -->
-  <div class="diensten-back">
-    <div class="text-diensten-back">
-      <h1>Onze Diensten</h1>
-    </div>
-  </div>
+  <?php require APPROOT . '/views/includes/banner.php'; ?>
   <!-- Het begin van section-diensten -->
   <section class="container section-diensten" style="width: 75%;">
     <h1 class="titel-diensten text-center">Dienstverlening</h1>

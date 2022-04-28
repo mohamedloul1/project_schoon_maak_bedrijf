@@ -5,7 +5,8 @@ class Pages extends Controller {
 
     public function index() {
         $data = [
-            'title' => 'Home page'
+            'title' => 'Kashash Schoonmakenservice',
+            'foto' => '/public/img/backhome.jpg'
         ];
 
         $this->view('index', $data);
@@ -13,14 +14,16 @@ class Pages extends Controller {
 
     public function overons() {
         $data = [
-            'title' => 'over ons'
+            'title' => 'over ons, Wie zijn we?',
+            'foto' => '/public/img/over ons.jpg'
         ];
 
         $this->view('pages/overons', $data);
     }
     public function dinsten() {
         $data = [
-            'title' => 'Dinsten page'
+            'title' => 'Dinsten page',
+            'foto' => '/public/img/diensten.jpg'
         ];
 
         $this->view('pages/dinsten', $data);
@@ -64,12 +67,14 @@ class Pages extends Controller {
 
             }
     
-
-    $this->view('pages/contact');
+            $data = ['title' => 'Contact opnemen',
+                        'foto' => '/public\img\25.jpg'];
+    $this->view('pages/contact', $data);
 }
     public function projecten(){
     $data = [
-        'title' => 'own projecten'
+        'title' => 'own projecten',
+        'foto' => '/public/img/projecten.jpg'
     ];
 
     $this->view('pages/projecten', $data);

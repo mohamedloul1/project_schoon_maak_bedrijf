@@ -5,205 +5,75 @@
 @import url('./root/_website-fonts.scss');
 
 
-.container-overons{
+@keyframes left-effect{
+  0%{
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.over-ons{
   width: 100%;
-  min-height: 45vh;
-  position: relative;
-  display: grid;
-  place-items: center;
   margin: 0;
-  animation: items-bewegen 2s ease-out;
-  @include box-shadow();
-
-
-  .image {
-    background-image: url("../img/over\ ons.jpg");
-    width: 100%;
-    height: 45vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border-color: rgba(0, 0, 0, 0.2);
-    border-width: 2px;
-  }
-  .text {
-    position: absolute;
-
-    h1 {
-      font-family: Arial, Helvetica, sans-serif;
-      color: var(--white);
-      display: block;
-      margin: 0;
-      font-size: 40px;
-      text-shadow: 4px 3px 0 rgba(0, 0, 0, 0.9);
-      animation: text-style 2s ease-out;
-      padding: 170px 0;
-      text-align: center;
-      font-family: 'Days One', sans-serif;
-
-    }
-  }
-}
-
-@keyframes items-bewegen {
-  0%,
-  100% {
-    transform: scale(0.1);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
-@keyframes text-style {
-  0%,
-  70% {
-    -webkit-text-stroke: 2rem rgb(46, 43, 43);
-  }
-  100% {
-    -webkit-text-stroke: unset;
-  }
-}
-
-
-.over-ons__onze-bedrijf{
-  padding: 3rem 9%;
-  width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   position: relative;
-  .container__onze-bedrijf{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-    position: relative;
-    .line{
-      position: absolute;
-      top: 0;
-      left: 50%;
-      width: 10px;
-      height: 100%;
-      background-color: var(--white);
-      .points{
-        position: relative;
-        .point1{
-          position: absolute;
-          top: 10rem;
-          left: -1rem;
-          background-color: var(--hover-bg);
-          width: 30px;
-          height: 30px;
-          border-radius: 50%;
-          cursor: pointer;
-          &:hover::before{
-            content: 'wat doen we?';
-            background-color: var(--hover-bg);
-            color: var(--white);
-            position: absolute;
-            top: 0;
-            left: 15rem;
-            padding: 1.5rem;
-            font-size: 1.5rem;
-            border-radius: 5px;
-          }
-        }
-        .point2{
-          position: absolute;
-          top: 50rem;
-          left: -1rem;
-          background-color: var(--hover-bg);
-          width: 30px;
-          height: 30px;
-          border-radius: 50%;
-          cursor: pointer;
-          &:hover::before{
-            content: 'wat doen we?';
-            background-color: var(--hover-bg);
-            color: var(--white);
-            position: absolute;
-            top: 0;
-            left: -15rem;
-            padding: 1.5rem;
-            font-size: 1.5rem;
-            border-radius: 5px;
-          }
-        }
-        .point3{
-          position: absolute;
-          top: 90rem;
-          left: -1rem;
-          background-color: var(--hover-bg);
-          width: 30px;
-          height: 30px;
-          border-radius: 50%;
-          cursor: pointer;
-          &:hover::before{
-            content: 'Overons';
-            background-color: var(--hover-bg);
-            color: var(--white);
-            position: absolute;
-            top: 0;
-            right: -15rem;
-            padding: 1.5rem;
-            font-size: 1.5rem;
-            border-radius: 5px;
-          }
-        }
-      }
-    }
-    .first-card__onze-bedrijf, .second-card__onze-bedrijf, .third-card__onze-bedrijf{
+  .container-over-ons{
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 50rem;
+      grid-template-columns: 1fr;
+      position:relative;
       width: 100%;
       height: 100%;
-      .image__onze-bedrijf{
-        width: 100%;
-        height: 75%;
-        margin: auto;
-        img{
+      .first-element__over-ons, .second-element__over-ons, .third-element__over-ons{
+          display: flex;
+          justify-content: space-between;
           width: 100%;
           height: 100%;
-          object-fit: cover;
-          border-radius: 10px;
-        }
-      }
-      .content__onze-bedrijf{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 2rem;
-        width: 100%;
-        height: 100%;
-        border: 2px solid var(--hover-bg);
-
-        .header__onze-bedrijf{
-          display: block;
-          background-color: var(--hover-bg);
-          width: 100%;
-          text-align: center;
-          padding: 1rem;
-          border-radius: 10px;
-          h1{
-            color: var(--white);
-          font-size: 2.5rem;
-          font-family: 'Days One', sans-serif;
-
+         border-bottom: 2px solid var(--hover-bg);
+         margin-top: 3rem;
+          .header__over-ons{
+              background-color: var(--ligh-blue);
+              min-width: 50%;
+              height: 100%;
+              text-align: center;
+              animation: left-effect 1s ease-out;
+              transition: .3s linear;
+              line-height: 5rem;
+              &:hover{
+                background-color: var(--donker-blue);
+              }
+              h1{
+                  color: rgb(255, 255, 255);
+                  font-size: 40px;
+                  text-shadow: 4px 3px 0 rgba(0, 0, 0, 0.9);
+                  font-family: 'Days One', sans-serif;
+              }
+              .content-text__over-ons{
+                  width: 70%;
+                  margin: 3rem auto;
+                  line-height: 3rem;
+                  font-size: 1.5rem;
+                  font-family: Arial, Helvetica, sans-serif;
+                  color: var(--white);
+              }
           }
-        }
-        .text__onze-bedrijf{
-          padding: 2rem;
-          width: 100%;
-          height: 100%;
-          font-size: 2rem;
-          text-align: center;
-          p{
-            font-family: 'Roboto', sans-serif;
+          .image__over-ons{
+              min-width: 50%;
+              height: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              background-color: rgba(0,0,0,0.2);
+              animation: left-effect 1s ease-out;
+              img{
+                  width: 50%;    
+                  object-fit: cover;
+              }
           }
-          
-        }
       }
-    }
   }
 }
 
@@ -223,7 +93,6 @@
 }
 
 
-
 .review {
   .cls_review{
   display: flex;
@@ -231,6 +100,7 @@
   align-items: center;
   flex-direction: column;
   position: relative;
+  margin-top: 25rem;
   }
   .alert{
     border-radius: 10px;
@@ -319,20 +189,94 @@
     font-size: 55%;
   }
 
+  .review .cls_review{
+    margin-top: 10rem;
+  }
+
+  .over-ons .container-over-ons{
+    .first-element__over-ons .header__over-ons{
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      align-items: center;
+      justify-content: center;
+      .content-text__over-ons{
+        width: 100%;
+      }
+      .content-text__over-ons p{
+        font-size: 2rem;
+      }
+      h1{
+        font-size: 4rem;
+      }
+    }
+    .first-element__over-ons .image__over-ons{
+      width: 100%;
+      img{
+        width: 90%;
+      }
+    }
+
+    .second-element__over-ons .header__over-ons{
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      align-items: center;
+      justify-content: center;
+      .content-text__over-ons{
+        width: 100%;
+      }
+      .content-text__over-ons p{
+        font-size: 2rem;
+      }
+      h1{
+        font-size: 4rem;
+      }
+    }
+    .second-element__over-ons .image__over-ons{
+      width: 100%;
+      img{
+        width: 90%;
+      }
+    }
+    .third-element__over-ons .header__over-ons{
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      align-items: center;
+      justify-content: center;
+      .content-text__over-ons{
+        width: 100%;
+      }
+      .content-text__over-ons p{
+        font-size: 2rem;
+      }
+      h1{
+        font-size: 4rem;
+      }
+    }
+    .third-element__over-ons .image__over-ons{
+      width: 100%;
+      img{
+        width: 90%;
+      }
+    }
+  }
+
+
+  .review .container-review .third-comment{
+    display: grid;
+    gap: 5rem;
+  }
+
+  .container-overons .text h1 {
+    font-size: 6rem;
+  }
+
   .over-ons__onze-bedrijf .container__onze-bedrijf{
     .line{
       display: none;
     }
-
-    .first-card__onze-bedrijf, .second-card__onze-bedrijf, .third-card__onze-bedrijf{
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 0;
-      border-bottom: 2px solid var(--hover-bg);
-      .content__onze-bedrijf{
-        border: unset;
-      }
-   }
    }
 }
 
@@ -340,57 +284,6 @@
   html{
     font-size: 50%;
   }
-
-  .over-ons__onze-bedrijf .container__onze-bedrijf{
-    .line{
-      display: none;
-    }
-    .first-card__onze-bedrijf, .second-card__onze-bedrijf, .third-card__onze-bedrijf{
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 0;
-      border-bottom: 2px solid var(--hover-bg);
-      .content__onze-bedrijf{
-        border: unset;
-      }
-   }
-   }
-}
-
-@media (max-width: 992px){
-  .over-ons__onze-bedrijf .container__onze-bedrijf{
-    .first-card__onze-bedrijf, .second-card__onze-bedrijf, .third-card__onze-bedrijf{
-      .image__onze-bedrijf{
-        width: 100%;
-        height: 100%;
-        margin: auto;
-        img{
-          width: 100%;
-          height: 100%;
-          object-fit: fill;
-          border-radius: 10px;
-        }
-      }
-   }
-   }
-}
-
-@media (max-width: 1200px){
-  .over-ons__onze-bedrijf .container__onze-bedrijf{
-    .first-card__onze-bedrijf, .second-card__onze-bedrijf, .third-card__onze-bedrijf{
-      .image__onze-bedrijf{
-        width: 75%;
-        height: 75%;
-        margin: auto;
-        img{
-          width: 100%;
-          height: 100%;
-          object-fit: fill;
-          border-radius: 10px;
-        }
-      }
-   }
-   }
 }
 
 
