@@ -14,43 +14,6 @@
   --cards-background-color: #2F2F2F;
 }
 
-.back_project {
-  width: 100%;
-  height: 45vh;
-  position: relative;
-  display: grid;
-  place-items: center;
-  margin: 0;
-  animation: items-bewegen 2s ease-out;
-}
-.back_project .projecten-back {
-  background: linear-gradient(65deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../img/projecten.jpg);
-  width: 100%;
-  height: 45vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  border-color: rgba(0, 0, 0, 0.2);
-  border-width: 2px;
-  -webkit-box-shadow: 0px 21px 14px 4px rgba(0, 0, 0, 0.62);
-  -moz-box-shadow: 0px 21px 14px 4px rgba(0, 0, 0, 0.62);
-  box-shadow: 0px 12px 14px 4px rgba(0, 0, 0, 0.62);
-}
-.back_project .text-projecten-back {
-  position: absolute;
-}
-.back_project .text-projecten-back h1 {
-  display: block;
-  color: white;
-  margin: 0;
-  font-size: 45px;
-  text-shadow: 4px 3px 0 rgba(0, 0, 0, 0.9);
-  padding: 170px 0;
-  text-align: center;
-  font-family: "Days One", sans-serif;
-  animation: text-style 2s ease-out;
-}
-
 .navbar-projecten {
   position: relative;
   padding: 3rem 3%;

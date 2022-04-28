@@ -1,0 +1,71 @@
+@import url("./main.scss");
+@import url("./root/_colors.scss");
+@import url("./root/_box-shadow.scss");
+@import './root/box-shadow';
+@import url('./root/_website-fonts.scss');
+.container-home {
+    width: 100%;
+    min-height: 45vh;
+    position: relative;
+    display: grid;
+    place-items: center;
+    margin:  0;
+    animation: items-bewegen 2s ease-out;
+    @include box-shadow();
+  
+  
+    .image{
+      width: 100%;
+      height: 100%;
+    }
+    img {
+      width: 100%;
+      height: 45vh;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      border-color: rgba(0, 0, 0, 0.2);
+      border-width: 2px;
+      object-fit: cover;
+    }
+    .text {
+      position: absolute;
+      h1 {
+        font-family: 'Days One', sans-serif;
+        color: var(--white);
+        display: block;
+        margin: 0;
+        font-size: 40px;
+        text-shadow: 4px 3px 0 rgba(0, 0, 0, 0.9);
+        animation: text-style 2s ease-out;
+        padding: 170px 0;
+        text-align: center;
+      }
+    }
+  }
+
+  @keyframes items-bewegen {
+    0%,
+    100% {
+      transform: scale(0.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes text-style {
+    0%,
+    70% {
+      -webkit-text-stroke: 2rem rgb(46, 43, 43);
+    }
+    100% {
+      -webkit-text-stroke: unset;
+    }
+  }
+
+  @media (max-width: 450px){
+    .container-home .text h1 {
+        font-size: 6rem;
+      }
+  }

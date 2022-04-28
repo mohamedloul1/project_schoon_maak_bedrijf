@@ -25,14 +25,7 @@
 
     <!-- Navbar -->
     <?php require APPROOT . '/views/includes/navbar.php'; ?>
-
-<div class="back_project">
-<div class="projecten-back"></div>
-            <div class="text-projecten-back">
-                <h1>projecten</h1>
-                </div>
-</div>
-
+    <?php require APPROOT . '/views/includes/banner.php'; ?>
 
     <!-- project navbar -->
     <section class="navbar-projecten">
