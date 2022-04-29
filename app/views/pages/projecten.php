@@ -54,9 +54,6 @@
           <strong>project naam</strong>
         </span>
         </div>
-        <div class="content-txt__cards">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur dignissimos, sapiente facere quos deserunt cumque, eaque ex nobis sint fuga provident! Asperiores quia quis, nulla dolores corporis error fugit nisi.</p>
-        </div>
       </div>
 
 
@@ -69,9 +66,6 @@
           <strong>project naam</strong>
         </span>
         </div>
-        <div class="content-txt__cards">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur dignissimos, sapiente facere quos deserunt cumque, eaque ex nobis sint fuga provident! Asperiores quia quis, nulla dolores corporis error fugit nisi.</p>
-        </div>
       </div>
 
       <div class="third-card" id="scroll-effect">
@@ -82,9 +76,6 @@
           <span>4 degen geleden<br>
           <strong>project naam</strong>
         </span>
-        </div>
-        <div class="content-txt__cards">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur dignissimos, sapiente facere quos deserunt cumque, eaque ex nobis sint fuga provident! Asperiores quia quis, nulla dolores corporis error fugit nisi.</p>
         </div>
       </div>
 
@@ -97,9 +88,6 @@
           <strong>project naam</strong>
         </span>
         </div>
-        <div class="content-txt__cards">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur dignissimos, sapiente facere quos deserunt cumque, eaque ex nobis sint fuga provident! Asperiores quia quis, nulla dolores corporis error fugit nisi.</p>
-        </div>
       </div>
 
       <div class="five-card" id="scroll-effect">
@@ -111,9 +99,6 @@
           <strong>project naam</strong>
         </span>
         </div>
-        <div class="content-txt__cards">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur dignissimos, sapiente facere quos deserunt cumque, eaque ex nobis sint fuga provident! Asperiores quia quis, nulla dolores corporis error fugit nisi.</p>
-        </div>
       </div>
 
       <div class="six-card" id="scroll-effect">
@@ -124,9 +109,6 @@
           <span>4 degen geleden<br>
           <strong>project naam</strong>
         </span>
-        </div>
-        <div class="content-txt__cards">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur dignissimos, sapiente facere quos deserunt cumque, eaque ex nobis sint fuga provident! Asperiores quia quis, nulla dolores corporis error fugit nisi.</p>
         </div>
       </div>
 

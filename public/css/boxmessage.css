@@ -68,5 +68,14 @@
     opacity: 0;
   }
 }
+@media (max-width: 450px) {
+  .box-message {
+    width: 50%;
+    position: fixed;
+    top: 20rem;
+    left: 25%;
+    height: 35rem;
+  }
+}
 
 /*# sourceMappingURL=boxmessage.css.map */

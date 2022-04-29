@@ -79,7 +79,7 @@
   width: 100%;
   height: 100%;
   gap: 10rem;
-  padding: 1rem;
+  padding: 3rem;
   background: url("/public/img/cleaning-header-first.jpg") no-repeat center;
   background-size: cover;
   z-index: 2;
@@ -124,7 +124,7 @@
 }
 .cards .first-card .start__cards, .cards .second-card .start__cards, .cards .third-card .start__cards, .cards .four-card .start__cards, .cards .five-card .start__cards, .cards .six-card .start__cards {
   width: 100%;
-  height: 15rem;
+  height: 25rem;
 }
 .cards .first-card .start__cards img, .cards .second-card .start__cards img, .cards .third-card .start__cards img, .cards .four-card .start__cards img, .cards .five-card .start__cards img, .cards .six-card .start__cards img {
   width: 100%;

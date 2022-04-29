@@ -1,4 +1,4 @@
-.box-message{
+.box-message {
     position: fixed;
     top: 20rem;
     left: 35%;
@@ -8,23 +8,27 @@
     z-index: 1000;
     opacity: 0;
     animation: messageActive 5s ease-out;
-    .col__message{
+
+    .col__message {
         position: relative;
         background: var(--donker-blue);
         color: var(--white);
         font-size: 2rem;
         width: 100%;
         height: 100%;
-        .header__message{
+
+        .header__message {
             display: flex;
             justify-content: center;
             font-size: 5rem;
-            i{
+
+            i {
                 margin: -1.5rem 0;
                 color: green;
             }
         }
-        .content__message{
+
+        .content__message {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -32,17 +36,21 @@
             margin: 0 auto;
             height: 70%;
             flex-direction: column;
-            p{
+
+            p {
                 text-transform: none;
             }
         }
-        .button__message{
+
+        .button__message {
             width: 75%;
             margin: auto;
-            button{
+
+            button {
                 width: 100%;
                 padding: 1rem 0;
-                &:hover{
+
+                &:hover {
                     background: var(--hover-bg);
                     color: var(--white);
                 }
@@ -51,20 +59,34 @@
     }
 }
 
-@keyframes messageActive{
-    0%{
+@keyframes messageActive {
+    0% {
         opacity: 1;
     }
-    25%{
+
+    25% {
         opacity: 2;
     }
-    50%{
+
+    50% {
         opacity: 3;
     }
-    75%{
+
+    75% {
         opacity: 4;
     }
-    100%{
+
+    100% {
         opacity: 0;
     }
-} 
+}
+
+@media (max-width: 450px) {
+    .box-message {
+        width: 50%;
+        position: fixed;
+        top: 20rem;
+        left: 25%;
+        height: 35rem;
+    }
+}
