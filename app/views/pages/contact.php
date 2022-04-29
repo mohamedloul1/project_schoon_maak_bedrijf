@@ -1,35 +1,51 @@
 <!doctype html>
-<html lang="en">
+<html lang="nl">
 
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="description" content="U heeft de mogelijkheid om contact met ons op te nemen, neem direct contact met ons op om een afspraak te maken. | Whatsapp | Email | Contactpagina | Locatie | telefoonnummer.">
+    <meta name="keywords" content="kashash schoonmaakservice Afspraak maken | Contact | Whatsapp | Email | Contactpagina | Locatie | telefoonnummer| kvk.">
+    <meta name="revised" content="Kashash schoonmaakservice, 29/04/2022">
+    <meta name="author" content="Kashash schoonmaakservice">
+    <meta property="og:title" content="Afspraak maken || kashash Schoonmaakservice || Contactpagina">
+    <meta property="og:url" content="http://kashashclean.nl/pages/contact">
+    <meta property="og:image" content="http://kashashclean.nl/public/img/iRclO1d9_2x.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="U heeft de mogelijkheid om contact met ons op te nemen, neem direct contact met ons op om een afspraak te maken. | Whatsapp | Email | Contactpagina | Locatie | telefoonnummer">
+    <meta property="og:locale" content="nl_NL">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Css scss -->
     <link rel="stylesheet" href="/public/css/contact.css">
     <link rel="stylesheet" href="/public/css/main.css">
     <link rel="stylesheet" href="/public/css/boxmessage.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>Hello, world!</title>
+    <!-- link logo -->
+    <link rel="icon" type="image/png" sizes="16x16" href="\public\img\16-logo.jpg">
+    <link rel="icon" type="image/png" sizes="32x32" href="\public\img\32-logo.jpg">
+    <link rel="apple-touch-icon" sizes="180x180" href="\public\img\180-logo.jpg">
+    <!-- title -->
+    <title>Afspraak maken || kashash schoonmaakservice || contactpagina</title>
 </head>
 
 <body>
     <!-- Navbar -->
     <?php require APPROOT . '/views/includes/navbar.php'; ?>
-    <?php require APPROOT . '/views/includes/banner.php'; ?>   
-    <!-- Eind -->
-    <!-- Neem Contact op Text -->
+    <!-- Banner -->
+    <?php require APPROOT . '/views/includes/banner.php'; ?>
+    <!-- Het begin van section-->
     <section class="contact-section container " style="width: 100%;">
         <div class="row">
             <div class="col-sm-12 col-md-5">
-            <div class="text-contact mb-5">
-            <div class="titel_neem_contact_op">
-        <h1>Neem contact op</h1> 
-        </div>
-    </div>
+                <div class="text-contact mb-5">
+                    <div class="titel_neem_contact_op">
+                        <h1>Neem contact op</h1>
+                    </div>
+                </div>
                 <p class="p-text">
                     Het is altijd mogelijk dat je vragen of opmerkingen hebt over kashash schoonmaak service. Wij staan altijd open om contact met ons op te nemen, dit kunt u doen door gebruik te maken van de contactmogelijkheden op onze website of door het formulier hiernaast in te vullen.
                     <br>
@@ -47,11 +63,11 @@
                 <br>
                 <br>
                 <i class="icon-contact bi bi-telephone-fill"></i> &nbsp; &nbsp;
-                <span class="icon-text"> <strong> <a class="text-contact-style" href="tel:+31655487744">+31&nbsp;655487744 </a> </strong></span>
+                <span class="icon-text"> <strong> <a class="text-contact-style" rel="Whatsapp" href="https://wa.me/0655487744">+31&nbsp;655487744 </a> </strong></span>
                 <br>
                 <br>
                 <i class="icon-contact bi bi-envelope-fill"></i> &nbsp; &nbsp;
-                <span class="icon-text"> <strong> <a class="text-contact-style" href="mailto:info@kashash.nl"> info@kashash.nl </a> </strong></span>
+                <span class="icon-text"> <strong> <a class="text-contact-style" rel="Email" href="mailto:info@kashash.nl"> info@kashash.nl </a> </strong></span>
                 <br>
                 <br>
                 <i class="icon-contact">KVK</i> &nbsp; &nbsp;
@@ -63,7 +79,7 @@
                     <div class="row">
                         <div class="mt-3">
                             <div class="form-floating mb-3 input-name"">
-                                <input type="text" class="form-control" id="naam" name="naam" onkeyup="validate()" placeholder="naam" value="" aria-describedby="naamHelp">
+                                <input type=" text" class="form-control" id="naam" name="naam" onkeyup="validate()" placeholder="naam" value="" aria-describedby="naamHelp">
                                 <label for="floatingInput">naam</label>
                                 <span id="message-name">
                                 </span>
@@ -71,7 +87,7 @@
                         </div>
                         <div class="mb-3 input-email">
                             <div class="form-floating">
-                            <input type="email" class="form-control" style="text-transform: none" id="email" name="email" onkeyup="validateEmail()" placeholder="email" value="" aria-describedby="emailHelp">
+                                <input type="email" class="form-control" style="text-transform: none" id="email" name="email" onkeyup="validateEmail()" placeholder="email" value="" aria-describedby="emailHelp">
                                 <label for="floatingInput">E-mailadres</label>
                                 <span id="message-email">
                                 </span>
@@ -87,7 +103,7 @@
                         </div>
                     </div>
                     <div class="form-floating mb-3 input-opmerking">
-                    <textarea class="form-control motivationtext" style="text-transform: none" placeholder="Vraag opmerking of beschrijving" onkeyup="validateMessage()" id="message" name="message" value="" aria-describedby="messageHelp"></textarea>
+                        <textarea class="form-control motivationtext" style="text-transform: none" placeholder="Vraag opmerking of beschrijving" onkeyup="validateMessage()" id="message" name="message" value="" aria-describedby="messageHelp"></textarea>
                         <label for="text">Vraag, opmerking of beschrijving.</label>
                         <span id="message-opmerking">
                         </span>
@@ -103,6 +119,37 @@
         </div>
         </div>
     </section>
+    <div class="container">
+        <div class="desktop-map">
+            <div class="mapouter">
+                <div class="gmap_canvas"><iframe width="1080" height="632" id="gmap_canvas" src="https://maps.google.com/maps?q=kashash&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-a.com"></a><br>
+                    <a href="https://www.embedgooglemap.net">embed google map in webpage</a>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-map">
+            <div class="mapouter">
+                <div class="gmap_canvas"><iframe width="335" height="151" id="gmap_canvas" src="https://maps.google.com/maps?q=kashash&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-a.com"></a><br>
+                    <style>
+                        .mapouter {
+                            position: relative;
+                            text-align: right;
+                            height: 151px;
+                            width: 335px;
+                        }
+                    </style><a href="https://www.embedgooglemap.net">embed google map in webpage</a>
+                    <style>
+                        .gmap_canvas {
+                            overflow: hidden;
+                            background: none !important;
+                            height: 151px;
+                            width: 335px;
+                        }
+                    </style>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Einde -->
     <?php require APPROOT . '/views/includes/contactfoto.php'; ?>
     <?php require APPROOT . '/views/includes/footer.php'; ?>

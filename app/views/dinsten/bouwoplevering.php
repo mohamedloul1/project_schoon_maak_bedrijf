@@ -22,14 +22,8 @@
     <!-- Navbar -->
 <?php require APPROOT . '/views/includes/navbar.php'; ?>
 
-<div class="back_bouw">
-<div class="bouwoplevering-back"></div>
-            <div class="text-bouwoplevering-back">
-                <h1>Bouwoplevering</h1>
-                </div>
-</div>
-        
-
+<!-- Banner -->
+<?php require ''. APPROOT .'/views/includes/banner.php'; ?>
 
         <section class="bouwoplevering-section container" style="width: 75%;">
     <div class="row">

@@ -1,61 +1,52 @@
-@import './root/colors';
-@import './root/website-fonts';
-@import './root/box-shadow';
+@import "./root/colors";
+@import "./root/website-fonts";
+@import "./root/box-shadow";
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
 
 // contact page sass //
-.foto-contact img {
-  margin-top: 150px;
-}
 .text-contact {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   position: relative;
- .titel_neem_contact_op{
-  display: block;
-  background-color: var(--hover-bg);
-  width: 100%;
-  text-align: center;
-  padding: 1rem;
-  border-radius: 10px;
-  h1{
-  color: var(--white);
-  font-size: 2.5rem;
-  font-size: 30px;
-  font-family: 'Days One', sans-serif;
-
+  .titel_neem_contact_op {
+    display: block;
+    background-color: var(--hover-bg);
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 10px;
+    h1 {
+      color: var(--white);
+      font-size: 2.5rem;
+      font-size: 30px;
+      font-family: "Days One", sans-serif;
+    }
   }
- }
-
 }
 .p-text {
   font-size: 15px;
-  font-family: 'Roboto', sans-serif;
-
+  font-family: "Roboto", sans-serif;
 }
 .icon-text {
   font-size: 16px;
-  font-family: 'Roboto', sans-serif;
-  a{
-  font-size: 16px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
+  a {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
   }
 }
 .icon-contact {
   color: #0d6efd;
-  font-family: 'Days One', sans-serif;
+  font-family: "Days One", sans-serif;
   font-weight: bolder;
-
 }
-
-.text-contact-style{
+.text-contact-style {
   color: var(--dark);
   text-decoration: none;
 }
-
 .motivationtext {
   height: 125px !important;
 }
@@ -63,12 +54,52 @@
   margin-top: 50px;
   display: grid;
   place-content: center;
-  button{
-    font-family: 'Days One', sans-serif;
-
+  button {
+    font-family: "Days One", sans-serif;
   }
 }
 .icon-contact {
   font-size: 15px;
 }
+// google maps start
+.desktop-map .mapouter {
+  position: relative;
+  text-align: right;
+  height: 632px;
+  width: 1080px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.desktop-map .gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 632px;
+  width: 1080px;
+}
+.mobile-map  .mapouter {
+  position: relative;
+  text-align: right;
+  height: 151px;
+  width: 335px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  display: none;
+}
+.mobile-map .gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 151px;
+  width: 335px;
+}
+// google map ends
 
+@media (max-width: 450px){
+  .desktop-map .mapouter{
+    display: none;
+  }
+  .mobile-map  .mapouter{
+    display: block;
+  }
+}

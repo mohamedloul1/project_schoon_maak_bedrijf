@@ -9,7 +9,7 @@
     define('APPROOT', dirname(dirname(__FILE__)));
 
     //URLROOT (Dynamic links)
-    define('URLROOT', 'http://326358-schhonmaken-bedrijf/');
+    define('URLROOT', 'http://orojectnew.org/');
 
     //Sitename
-    define('SITENAME', 'Kashash Schoonmaak Service');
+    define('SITENAME', 'kashash Schoonmaakservice');

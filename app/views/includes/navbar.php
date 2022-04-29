@@ -5,16 +5,16 @@
 
 
 <div class="header">
-        <a href="<?php echo URLROOT; ?>"><img src="/public/img/iRclO1d9_2x.jpg" class="ml-5 logo"></a>
+        <a rel="Home pagina" href="<?php echo URLROOT; ?>"><img src="/public/img/iRclO1d9_2x.jpg" alt="logo" class="ml-5 logo"></a>
         <nav class="container mr-5 navbar" id="navbar">
-            <li><a href="<?php echo URLROOT; ?>">home</a></li>
-            <li><a href="<?php echo URLROOT; ?>pages/overons">over ons</a></li>
-            <li><a href="<?php echo URLROOT; ?>pages/dinsten">diensten</a></li>
-            <li><a href="<?php echo URLROOT; ?>pages/projecten">projecten</a></li>
-            <li><a href="<?php echo URLROOT; ?>pages/contact">contact</a></li>
+            <li><a rel="Home pagina" href="<?php echo URLROOT; ?>">home</a></li>
+            <li><a rel="Overons pagina" href="<?php echo URLROOT; ?>pages/overons">over ons</a></li>
+            <li><a rel="Dinsten pagina" href="<?php echo URLROOT; ?>pages/dinsten">diensten</a></li>
+            <li><a rel="Projecten pagina" href="<?php echo URLROOT; ?>pages/projecten">projecten</a></li>
+            <li><a rel="Contact pagina" href="<?php echo URLROOT; ?>pages/contact">contact</a></li>
         </nav>
         <div class="overige__tools">
-        <li class="telefoon-number"><a href="tel:0612345678"><i class="mr-auto fas fa-phone-square-alt">0655487744</i></a></li>
+        <li class="telefoon-number"><a rel="Telefoon nummer" href="tel:0612345678"><i class="mr-auto fas fa-phone-square-alt">0655487744</i></a></li>
         <div id="menu-btn"><i class="fas fa-bars"></i></div>
         <i class="ml-3 mr-auto fa-solid fa-lightbulb dark-mode-siwtch"></i>
         </div>

@@ -21,13 +21,9 @@
   <body>
     <!-- Navbar -->
   <?php require APPROOT . '/views/includes/navbar.php'; ?>
+  <!-- Banner -->
+  <?php require ''. APPROOT .'/views/includes/banner.php'; ?>
 
-        <div class="back_ont">
-<div class="ontruiming-back"></div>
-            <div class="text-ontruiming-back">
-                <h1>Ontruiming</h1>
-                </div>
-</div>
 
 
         <section class="ontruiming-section container" style="width: 75%;">

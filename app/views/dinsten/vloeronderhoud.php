@@ -22,13 +22,9 @@
   <body>
     <!-- Navbar -->
   <?php require APPROOT . '/views/includes/navbar.php'; ?>
+  <!-- Banner -->
+  <?php require ''. APPROOT .'/views/includes/banner.php'; ?>
 
-        <div class="back_vloer">
-    <div class="vloeronderhoud-back"></div>
-    <div class="text-vloeronderhoud-back">
-      <h1>Vloeronderhoud</h1>
-    </div>
-  </div>
 
 
         <section class="vloeronderhoud-section container" style="width: 75%;">
