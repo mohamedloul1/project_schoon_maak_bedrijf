@@ -36,7 +36,7 @@
   color: var(--white);
   display: block;
   margin: 0;
-  font-size: 40px;
+  font-size: 50px;
   text-shadow: 4px 3px 0 rgba(0, 0, 0, 0.9);
   animation: text-style 2s ease-out;
   padding: 170px 0;

@@ -119,6 +119,9 @@ body {
 .donker-mode .over-ons .container-over-ons .first-element__over-ons .header__over-ons, .donker-mode .over-ons .container-over-ons .second-element__over-ons .header__over-ons, .donker-mode .over-ons .container-over-ons .third-element__over-ons .header__over-ons {
   background: var(--cards-background-color);
 }
+.donker-mode .over-ons .container-over-ons .first-element__over-ons .header__over-ons p, .donker-mode .over-ons .container-over-ons .second-element__over-ons .header__over-ons p, .donker-mode .over-ons .container-over-ons .third-element__over-ons .header__over-ons p {
+  color: var(--white);
+}
 
 section {
   padding: 3rem 0;

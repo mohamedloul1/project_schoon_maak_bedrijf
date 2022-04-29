@@ -5,7 +5,7 @@ class Pages extends Controller {
 
     public function index() {
         $data = [
-            'title' => 'Kashash Schoonmakenservice',
+            'title' => 'Kashash Schoonmaken<br>service',
             'foto' => '/public/img/backhome.jpg'
         ];
 

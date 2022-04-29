@@ -43,61 +43,30 @@
       </div>
     </div>
   </section>
-
-
-  <section class="carousel__home">
-    <div id="carouselExampleCaptions" class="carousel slide w-75" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
-
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="/public/img/project6.jpg" class="d-block w-100" alt="Foto project (6)">
-          <div class="carousel-caption d-none d-md-block">
-
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="/public/img/project5.jpg" class="d-block w-100" alt="Foto project (5)">
-          <div class="carousel-caption d-none d-md-block">
-
-          </div>
-        </div>
-
-        <div class="carousel-item">
-          <img src="/public/img/project3.jpg" class="d-block w-100" alt="Foto project (3)">
-          <div class="carousel-caption d-none d-md-block">
-
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="/public/img/project2.jpg" class="d-block w-100" alt="Foto project (2)">
-          <div class="carousel-caption d-none d-md-block">
-
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="/public/img/project1.jpg" class="d-block w-100" alt="Foto project (1)">
-          <div class="carousel-caption d-none d-md-block">
-
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+  
+    <div class="container" id="controller-carousel">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/public/img/project1.jpg" class="d-block w-100" alt="...">
     </div>
-  </section>
+    <div class="carousel-item">
+      <img src="/public/img/project2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/public/img/project3.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    </div>
 
 
   <section class="how-working">
@@ -205,42 +174,12 @@
       </div>
     </div>
   </section>
-
-
-
-  <section class="contact-opnemen__home-page">
-    <div class="container-contact-opnemen__home-page">
-      <div class="left-col__home-page">
-        <h1>Snelle contact opnemen</h1>
-        <button>
-          Contactopnemen
-        </button>
-      </div>
-      <div class="right-col__home-page">
-        <video class="cleaning-video" muted>
-          <source src="/public/img/production ID_4109356.mp4" type="video/mp4">
-        </video>
-        <button class="btn-video">
-          play video
-        </button>
-      </div>
-    </div>
-  </section>
-
-  <div class="loader">
-    <div class="container-img">
-      <h1>Welkom bij Kashash</h1>
-      <img src="/public/img/schoonmaken-voor-page.png" alt="">
-    </div>
-  </div>
   
 
   <?php require APPROOT . '/views/includes/contactfoto.php'; ?>
   <?php require APPROOT . '/views/includes/footer.php'; ?>
   <?php require APPROOT . '/views/includes/whatsappicon.php'; ?>
-
-
-
+  <?php require APPROOT . '/views/includes/loader.php'; ?>
 
 
 

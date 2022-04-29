@@ -106,27 +106,23 @@ window.addEventListener('scroll', () => {
 });
 
 window.addEventListener('scroll', () => {
+    const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+    const scrolled = window.scrollY;
+
+    if (Math.ceil(scrolled) === scrollable) {
+        document.querySelector('.wahtsapp-container-mobile-device').classList.add('whatsapp-active');
+    } else {
+        document.querySelector('.wahtsapp-container-mobile-device').classList.remove('whatsapp-active');
+    }
+});
+
+window.addEventListener('scroll', () => {
     const scrolled = window.scrollY;
     if(scrolled > 20){
         document.querySelectorAll('#scroll-effect').forEach((scroll) => {
             scroll.style.display = 'block'
         });
     }
-})
-
-var video = document.querySelector('video.cleaning-video');
-var btnVideo = document.querySelector('.btn-video');
-var rightcolom = document.querySelector('.right-col__home-page')
-
-
-rightcolom.addEventListener('mouseover', () => {
-    video.play();
-    btnVideo.classList.add('hidden');
-})
-
-rightcolom.addEventListener('mouseleave', () => {
-    video.pause();
-    btnVideo.classList.remove('hidden')
 })
 
 function loader(){

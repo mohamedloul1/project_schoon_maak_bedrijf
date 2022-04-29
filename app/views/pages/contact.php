@@ -19,17 +19,17 @@
 <body>
     <!-- Navbar -->
     <?php require APPROOT . '/views/includes/navbar.php'; ?>
-    <?php require APPROOT . '/views/includes/banner.php'; ?>   
+    <?php require APPROOT . '/views/includes/banner.php'; ?>
     <!-- Eind -->
     <!-- Neem Contact op Text -->
     <section class="contact-section container " style="width: 100%;">
         <div class="row">
             <div class="col-sm-12 col-md-5">
-            <div class="text-contact mb-5">
-            <div class="titel_neem_contact_op">
-        <h1>Neem contact op</h1> 
-        </div>
-    </div>
+                <div class="text-contact mb-5">
+                    <div class="titel_neem_contact_op">
+                        <h1>Neem contact op</h1>
+                    </div>
+                </div>
                 <p class="p-text">
                     Het is altijd mogelijk dat je vragen of opmerkingen hebt over kashash schoonmaak service. Wij staan altijd open om contact met ons op te nemen, dit kunt u doen door gebruik te maken van de contactmogelijkheden op onze website of door het formulier hiernaast in te vullen.
                     <br>
@@ -63,7 +63,7 @@
                     <div class="row">
                         <div class="mt-3">
                             <div class="form-floating mb-3 input-name"">
-                                <input type="text" class="form-control" id="naam" name="naam" onkeyup="validate()" placeholder="naam" value="" aria-describedby="naamHelp">
+                                <input type=" text" class="form-control" id="naam" name="naam" onkeyup="validate()" placeholder="naam" value="" aria-describedby="naamHelp">
                                 <label for="floatingInput">naam</label>
                                 <span id="message-name">
                                 </span>
@@ -71,7 +71,7 @@
                         </div>
                         <div class="mb-3 input-email">
                             <div class="form-floating">
-                            <input type="email" class="form-control" style="text-transform: none" id="email" name="email" onkeyup="validateEmail()" placeholder="email" value="" aria-describedby="emailHelp">
+                                <input type="email" class="form-control" style="text-transform: none" id="email" name="email" onkeyup="validateEmail()" placeholder="email" value="" aria-describedby="emailHelp">
                                 <label for="floatingInput">E-mailadres</label>
                                 <span id="message-email">
                                 </span>
@@ -87,7 +87,7 @@
                         </div>
                     </div>
                     <div class="form-floating mb-3 input-opmerking">
-                    <textarea class="form-control motivationtext" style="text-transform: none" placeholder="Vraag opmerking of beschrijving" onkeyup="validateMessage()" id="message" name="message" value="" aria-describedby="messageHelp"></textarea>
+                        <textarea class="form-control motivationtext" style="text-transform: none" placeholder="Vraag opmerking of beschrijving" onkeyup="validateMessage()" id="message" name="message" value="" aria-describedby="messageHelp"></textarea>
                         <label for="text">Vraag, opmerking of beschrijving.</label>
                         <span id="message-opmerking">
                         </span>
@@ -103,6 +103,39 @@
         </div>
         </div>
     </section>
+
+    <div class="container">
+        <div class="desktop-map">
+            <div class="mapouter">
+                <div class="gmap_canvas"><iframe width="1080" height="632" id="gmap_canvas" src="https://maps.google.com/maps?q=kashash&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-a.com"></a><br>
+                    <a href="https://www.embedgooglemap.net">embed google map in webpage</a>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-map">
+            <div class="mapouter">
+                <div class="gmap_canvas"><iframe width="335" height="151" id="gmap_canvas" src="https://maps.google.com/maps?q=kashash&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-a.com"></a><br>
+                    <style>
+                        .mapouter {
+                            position: relative;
+                            text-align: right;
+                            height: 151px;
+                            width: 335px;
+                        }
+                    </style><a href="https://www.embedgooglemap.net">embed google map in webpage</a>
+                    <style>
+                        .gmap_canvas {
+                            overflow: hidden;
+                            background: none !important;
+                            height: 151px;
+                            width: 335px;
+                        }
+                    </style>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Einde -->
     <?php require APPROOT . '/views/includes/contactfoto.php'; ?>
     <?php require APPROOT . '/views/includes/footer.php'; ?>

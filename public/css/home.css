@@ -7,56 +7,6 @@ body {
   color: var(--hover-bg);
 }
 
-@keyframes img-bewegen {
-  0% {
-    transform: translate(-40rem);
-    transform: rotate(30deg);
-  }
-  50% {
-    transform: translate(-60rem);
-    transform: rotate(10deg);
-  }
-  75% {
-    transform: rotate(180deg);
-  }
-  100% {
-    transform: translate(0);
-  }
-}
-.loader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 10000;
-  width: 100%;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-.loader .container-img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 100vh;
-}
-.loader .container-img h1 {
-  color: var(--white);
-  font-size: 5rem;
-  letter-spacing: 10px;
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-}
-.loader .container-img img {
-  width: 30rem;
-  animation: img-bewegen 1.5s linear;
-}
-
-.fade-out {
-  position: fixed;
-  top: -120%;
-  transition: 2s ease-out;
-}
-
 section {
   margin: 3rem 15%;
 }
@@ -100,6 +50,15 @@ section {
 }
 .card-container .second-card {
   animation: items-bewegen 2.5s ease-out;
+}
+
+#controller-carousel {
+  margin: 10rem auto;
+}
+
+#carouselExampleFade {
+  margin: 5rem 0;
+  background-color: red;
 }
 
 #carouselExampleCaptions {
@@ -172,7 +131,7 @@ section {
 .how-working .container-card__working .second-card__working:hover,
 .how-working .container-card__working .third-card__working:hover,
 .how-working .container-card__working .four-card__working:hover {
-  background-color: var(--donker-blue);
+  background-color: var(--hover-bg);
   color: var(--white);
 }
 .how-working .container-card__working .first-card__working li,
@@ -205,8 +164,9 @@ section {
 .container__onze-diensten .titel_onze_diensten {
   display: block;
   background-color: var(--hover-bg);
-  width: 100%;
+  width: 20%;
   text-align: center;
+  margin: 0 auto;
   padding: 1rem;
   border-radius: 10px;
 }
@@ -323,101 +283,6 @@ section {
     background-color: var(--ligh-blue);
   }
 }
-.contact-opnemen__home-page {
-  display: flex;
-  height: 60vh;
-  padding: 0;
-  margin: -3rem 0;
-  width: 100%;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  -webkit-box-shadow: 0px 21px 14px 4px rgba(0, 0, 0, 0.62);
-  -moz-box-shadow: 0px 21px 14px 4px rgba(0, 0, 0, 0.62);
-  box-shadow: 0px 12px 14px 4px rgba(0, 0, 0, 0.62);
-}
-.contact-opnemen__home-page::before {
-  animation: color-mix 2s linear;
-  content: "";
-  background-color: var(--ligh-blue);
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 50%;
-}
-.contact-opnemen__home-page::after {
-  content: "";
-  background: rgba(0, 0, 0, 0.2);
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 100%;
-  width: 50%;
-}
-.contact-opnemen__home-page .container-contact-opnemen__home-page {
-  display: flex;
-  justify-content: space-around;
-  width: 80%;
-  height: 100%;
-  align-items: center;
-  position: relative;
-}
-.contact-opnemen__home-page .container-contact-opnemen__home-page .left-col__home-page {
-  width: 30%;
-}
-.contact-opnemen__home-page .container-contact-opnemen__home-page .left-col__home-page h1 {
-  color: white;
-  font-size: 40px;
-  text-shadow: 4px 3px 0 rgba(0, 0, 0, 0.9);
-  font-family: "Days One", sans-serif;
-}
-.contact-opnemen__home-page .container-contact-opnemen__home-page .left-col__home-page button {
-  padding: 1rem;
-  margin: 2rem 1rem;
-  background: var(--hover-bg);
-  color: var(--white);
-  -webkit-box-shadow: 0px 21px 14px 4px rgba(0, 0, 0, 0.62);
-  -moz-box-shadow: 0px 21px 14px 4px rgba(0, 0, 0, 0.62);
-  box-shadow: 0px 12px 14px 4px rgba(0, 0, 0, 0.62);
-  font-size: 1.3rem;
-  font-family: "Days One", sans-serif;
-}
-.contact-opnemen__home-page .container-contact-opnemen__home-page .right-col__home-page {
-  width: 35%;
-  height: 70%;
-  margin: 0 -5rem;
-  position: relative;
-}
-.contact-opnemen__home-page .container-contact-opnemen__home-page .right-col__home-page::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.2);
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-}
-.contact-opnemen__home-page .container-contact-opnemen__home-page .right-col__home-page video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 10px;
-  z-index: 2;
-}
-.contact-opnemen__home-page .container-contact-opnemen__home-page .right-col__home-page button {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 2rem;
-  font-size: 1.5rem;
-  text-transform: capitalize;
-  border-radius: 5px;
-  z-index: 3;
-}
-
 .hidden {
   display: none;
 }
@@ -464,13 +329,17 @@ section {
     font-size: 55%;
   }
 
+  .onze-diensten .container__onze-diensten .onze_diensten .titel_onze_diensten {
+    width: 100%;
+  }
+
   .my-cards .card-container .third-card {
     width: 100%;
   }
 
   .onze-diensten .container__onze-diensten .cards__onze-diensten {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(1, 2fr);
   }
   .onze-diensten .container__onze-diensten .cards__onze-diensten button {
     opacity: 1;
@@ -505,11 +374,15 @@ section {
   .carousel__home {
     margin-top: 30rem;
   }
+
+  #controller-carousel {
+    margin-top: 30rem;
+  }
 }
 @media (max-width: 768px) {
   .onze-diensten .container__onze-diensten .cards__onze-diensten {
     display: grid;
-    grid-template-columns: repeat(2, 2fr);
+    grid-template-columns: repeat(1, 2fr);
   }
   .onze-diensten .container__onze-diensten .cards__onze-diensten button {
     opacity: 1;
