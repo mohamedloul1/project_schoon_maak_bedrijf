@@ -3,60 +3,61 @@ class Dinsten extends Controller {
     public function __construct() {
     }
 
-    public function index() {
-        $data = [
-            'title' => 'Schoonmaak page'
-        ];
-
-        $this->view('dinsten/index', $data);
-    }
+  
 
    
     public function schoonmaak() {
         $data = [
-            'title' => 'Schoonmaak page'
+            'title' => 'Schoonmaak',
+            'foto' => '/public/img/schoonmaken1.jpg'
         ];
 
         $this->view('dinsten/schoonmaak', $data);
     }
     public function bouwoplevering() {
         $data = [
-            'title' => 'Bouwoplevering page'
+            'title' => 'Bouwoplevering',
+            'foto'=> '/public/img/bouwoplevering.jpg'
         ];
 
         $this->view('dinsten/bouwoplevering', $data);
     }
     public function glasbewassing() {
         $data = [
-            'title' => 'glasbewassing page'
+            'title' => 'Glasbewassing',
+            'foto'=> '/public/img/glaswassing1.jpg'
         ];
 
         $this->view('dinsten/glasbewassing', $data);
     }
     public function vloeronderhoud() {
         $data = [
-            'title' => 'vloeronderhoud page'
+            'title' => 'Vloeronderhoud',
+            'foto'=>'/public/img/vloeronderhoud1.jpg'
         ];
 
         $this->view('dinsten/vloeronderhoud', $data);
     }
     public function gevelreiniging() {
         $data = [
-            'title' => 'gevelreiniging page'
+            'title' => 'Gevelreiniging',
+            'foto'=>'/public/img/muurschoon.jpg'
         ];
 
         $this->view('dinsten/gevelreiniging', $data);
     }
     public function ontruiming() {
         $data = [
-            'title' => 'ontruiming page'
+            'title' => 'Ontruiming',
+            'foto'=>'/public/img/neetjes.jpg'
         ];
 
         $this->view('dinsten/ontruiming', $data);
     }
     public function hotel_schoonmaak() {
         $data = [
-            'title' => 'hotel schoonmaak'
+            'title' => 'Hotel Schoonmaak',
+            'foto'=>'/public/img/hotel_dienst.jpg'
         ];
 
         $this->view('dinsten/hotel_schoonmaak', $data);

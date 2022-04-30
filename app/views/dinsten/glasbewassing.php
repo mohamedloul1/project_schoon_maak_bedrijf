@@ -23,14 +23,8 @@
 <body>
   <!-- Navbar -->
   <?php require APPROOT . '/views/includes/navbar.php'; ?>
-
-
-  <div class="back_glas">
-    <div class="glasbewassing-back"></div>
-    <div class="text-glasbewassing-back">
-      <h1>Glasbewassing</h1>
-    </div>
-  </div>
+  <!-- Banner -->
+  <?php require ''. APPROOT .'/views/includes/banner.php'; ?>
 
 
   <section class="glasbewassing-section container" style="width: 75%;">

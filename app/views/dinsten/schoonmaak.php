@@ -18,13 +18,10 @@
 <body>
   <!-- Navbar -->
   <?php require APPROOT . '/views/includes/navbar.php'; ?>
+  <!-- Banner -->
+  <?php require ''. APPROOT .'/views/includes/banner.php'; ?>
   <!-- Foto en text Achtergrond -->
-<div class="back_schoon">
-<div class="schoonmaak-back"></div>
-            <div class="text-schoonmaak-back">
-                <h1>Schoonmaak</h1>
-                </div>
-</div>
+
   <!-- Het begin van section -->
   <section class="schoonmaak-section container" style="width: 75%;">
     <div class="row">

@@ -34,22 +34,42 @@
   margin-top: 3rem;
 }
 .over-ons .container-over-ons .first-element__over-ons .header__over-ons, .over-ons .container-over-ons .second-element__over-ons .header__over-ons, .over-ons .container-over-ons .third-element__over-ons .header__over-ons {
-  background-color: var(--ligh-blue);
+  background: var(--white);
   min-width: 50%;
   height: 100%;
   text-align: center;
   animation: left-effect 1s ease-out;
   transition: 0.3s linear;
   line-height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.over-ons .container-over-ons .first-element__over-ons .header__over-ons .title__over-ons, .over-ons .container-over-ons .second-element__over-ons .header__over-ons .title__over-ons, .over-ons .container-over-ons .third-element__over-ons .header__over-ons .title__over-ons {
+  background-color: var(--hover-bg);
+  padding: 1rem;
+  border-radius: 10px;
 }
 .over-ons .container-over-ons .first-element__over-ons .header__over-ons:hover, .over-ons .container-over-ons .second-element__over-ons .header__over-ons:hover, .over-ons .container-over-ons .third-element__over-ons .header__over-ons:hover {
-  background-color: var(--donker-blue);
+  background-color: var(--hover-bg);
+}
+.over-ons .container-over-ons .first-element__over-ons .header__over-ons:hover p, .over-ons .container-over-ons .first-element__over-ons .header__over-ons:hover h1, .over-ons .container-over-ons .second-element__over-ons .header__over-ons:hover p, .over-ons .container-over-ons .second-element__over-ons .header__over-ons:hover h1, .over-ons .container-over-ons .third-element__over-ons .header__over-ons:hover p, .over-ons .container-over-ons .third-element__over-ons .header__over-ons:hover h1 {
+  color: var(--white);
+}
+.over-ons .container-over-ons .first-element__over-ons .header__over-ons:hover .title__over-ons, .over-ons .container-over-ons .second-element__over-ons .header__over-ons:hover .title__over-ons, .over-ons .container-over-ons .third-element__over-ons .header__over-ons:hover .title__over-ons {
+  background: var(--hover-text);
 }
 .over-ons .container-over-ons .first-element__over-ons .header__over-ons h1, .over-ons .container-over-ons .second-element__over-ons .header__over-ons h1, .over-ons .container-over-ons .third-element__over-ons .header__over-ons h1 {
-  color: white;
-  font-size: 40px;
-  text-shadow: 4px 3px 0 rgba(0, 0, 0, 0.9);
+  color: var(--white);
+  font-size: 2.5rem;
+  font-size: 30px;
   font-family: "Days One", sans-serif;
+}
+.over-ons .container-over-ons .first-element__over-ons .header__over-ons p, .over-ons .container-over-ons .second-element__over-ons .header__over-ons p, .over-ons .container-over-ons .third-element__over-ons .header__over-ons p {
+  color: var(--hover-text);
+  font-weight: 500;
+  font-size: 18px;
 }
 .over-ons .container-over-ons .first-element__over-ons .header__over-ons .content-text__over-ons, .over-ons .container-over-ons .second-element__over-ons .header__over-ons .content-text__over-ons, .over-ons .container-over-ons .third-element__over-ons .header__over-ons .content-text__over-ons {
   width: 70%;
@@ -65,7 +85,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.1);
   animation: left-effect 1s ease-out;
 }
 .over-ons .container-over-ons .first-element__over-ons .image__over-ons img, .over-ons .container-over-ons .second-element__over-ons .image__over-ons img, .over-ons .container-over-ons .third-element__over-ons .image__over-ons img {
@@ -188,7 +208,7 @@
   }
 
   .review .cls_review {
-    margin-top: 10rem;
+    margin-top: 15rem;
   }
 
   .over-ons .container-over-ons .first-element__over-ons .header__over-ons {

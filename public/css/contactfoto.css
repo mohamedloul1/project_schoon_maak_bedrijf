@@ -21,9 +21,8 @@
   background: linear-gradient(65deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(/public/img/c.jpg);
   background-position: 100%, center center;
   position: relative;
-  bottom: -100px;
-  margin-bottom: 150px;
-  background-color: #1D1D1B;
+  margin-bottom: 25px;
+  background-color: #1d1d1b;
   opacity: 0.99;
   -webkit-box-shadow: 0px 21px 14px 4px rgba(0, 0, 0, 0.62);
   -moz-box-shadow: 0px 21px 14px 4px rgba(0, 0, 0, 0.62);
@@ -35,8 +34,8 @@
   height: 100%;
   justify-content: center;
 }
-.service-text-back h1 {
-  color: white;
+.service-text-back h3 {
+  color: rgb(255, 255, 255);
   display: block;
   margin: 0;
   font-size: 40px;

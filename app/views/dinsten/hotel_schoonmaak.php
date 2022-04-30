@@ -18,13 +18,9 @@
 <body>
   <!-- Navbar -->
   <?php require APPROOT . '/views/includes/navbar.php'; ?>
-  <!-- Foto en text Achtergrond -->
-<div class="back_hotel">
-<div class="hotel_schoonmaak-back"></div>
-            <div class="text-hotel_schoonmaak-back">
-                <h1>Hotel Schoonmaak</h1>
-                </div>
-</div>
+  <!-- Banner -->
+  <?php require ''. APPROOT .'/views/includes/banner.php'; ?>
+
   <!-- Het begin van section -->
   <section class="hotel_schoonmaak-section container" style="width: 75%;">
     <div class="row">

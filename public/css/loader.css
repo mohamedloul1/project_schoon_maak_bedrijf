@@ -1,0 +1,52 @@
+@keyframes img-bewegen {
+  0% {
+    transform: translate(-40rem);
+    transform: rotate(30deg);
+  }
+  50% {
+    transform: translate(-60rem);
+    transform: rotate(10deg);
+  }
+  75% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.loader .container-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  text-align: center;
+}
+.loader .container-img h1 {
+  color: var(--white);
+  font-size: 5rem;
+  letter-spacing: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+.loader .container-img img {
+  width: 30rem;
+  animation: img-bewegen 1.5s linear;
+}
+
+.fade-out {
+  position: fixed;
+  top: -120%;
+  transition: 2s ease-out;
+}
+
+/*# sourceMappingURL=loader.css.map */

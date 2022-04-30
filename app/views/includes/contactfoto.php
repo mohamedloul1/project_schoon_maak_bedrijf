@@ -3,10 +3,10 @@
 <link rel="stylesheet" href="/public/css/contactfoto.css">
 <div class="service-back">
             <div class="service-text-back">
-                <h1>Snelle 24-uurs service</h1>
+                <h3>Snelle 24-uurs service</h3>
                 <div class="button-service">
                 <div class="col-md-12 text-center">
-                <a type="button" href="<?php echo URLROOT; ?>pages/contact" style="font-size: 16px; font-family: 'Days One', sans-serif;" class="btn btn-primary btn-lg">Contact opnemen</a>
+                <a type="button" rel="Contact" href="<?php echo URLROOT; ?>pages/contact" style="font-size: 16px; font-family: 'Days One', sans-serif;" class="btn btn-primary btn-lg">Contact opnemen</a>
             </div>
         </div>
     </div>

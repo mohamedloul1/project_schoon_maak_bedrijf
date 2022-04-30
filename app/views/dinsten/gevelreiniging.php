@@ -21,13 +21,9 @@
   <body>
     <!-- Navbar -->
   <?php require APPROOT . '/views/includes/navbar.php'; ?>
+  <!-- Banner -->
+  <?php require ''. APPROOT .'/views/includes/banner.php'; ?>
 
-        <div class="back_gevel">
-<div class="gevelreiniging-back"></div>
-            <div class="text-gevelreiniging-back">
-                <h1>Gevelreiniging</h1>
-                </div>
-</div>
 
 
         <section class="gevelreiniging-section container" style="width: 75%;">

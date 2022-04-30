@@ -35,21 +35,41 @@
          border-bottom: 2px solid var(--hover-bg);
          margin-top: 3rem;
           .header__over-ons{
-              background-color: var(--ligh-blue);
-              min-width: 50%;
+            background: var(--white);
+            min-width: 50%;
               height: 100%;
               text-align: center;
               animation: left-effect 1s ease-out;
               transition: .3s linear;
               line-height: 5rem;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-direction: column;
+              .title__over-ons{
+                background-color: var(--hover-bg);
+                padding: 1rem;
+                border-radius: 10px;
+              }
               &:hover{
-                background-color: var(--donker-blue);
+                background-color: var(--hover-bg);
+                p, h1{
+                color: var(--white);
+                }
+                .title__over-ons{
+                   background: var(--hover-text);
+                }
               }
               h1{
-                  color: rgb(255, 255, 255);
-                  font-size: 40px;
-                  text-shadow: 4px 3px 0 rgba(0, 0, 0, 0.9);
-                  font-family: 'Days One', sans-serif;
+                color: var(--white);
+                font-size: 2.5rem;
+                font-size: 30px;
+                font-family: 'Days One', sans-serif;
+              }
+              p{
+                color: var(--hover-text);
+                font-weight: 500;
+                font-size: 18px;
               }
               .content-text__over-ons{
                   width: 70%;
@@ -66,7 +86,7 @@
               display: flex;
               justify-content: center;
               align-items: center;
-              background-color: rgba(0,0,0,0.2);
+              background-color: rgba(0,0,0,0.1);
               animation: left-effect 1s ease-out;
               img{
                   width: 50%;    
@@ -190,7 +210,7 @@
   }
 
   .review .cls_review{
-    margin-top: 10rem;
+    margin-top: 15rem;
   }
 
   .over-ons .container-over-ons{
