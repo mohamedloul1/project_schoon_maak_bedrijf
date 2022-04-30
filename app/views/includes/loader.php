@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="<?= URLROOT ?>css/loader.css" type="text/css">
+<script src="<?= URLROOT ?>/js/loader.js"></script>
 <div class="loader">
     <div class="container-img">
       <h1>Welkom bij Kashash</h1>
