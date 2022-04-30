@@ -105,6 +105,9 @@
     opacity: 1;
   }
 }
+.review {
+  margin-top: 20rem;
+}
 .review .cls_review {
   display: flex;
   justify-content: center;

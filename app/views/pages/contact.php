@@ -119,7 +119,7 @@
         </div>
         </div>
     </section>
-    <div class="container">
+    <div class="container p-5">
         <div class="desktop-map">
             <div class="mapouter">
                 <div class="gmap_canvas"><iframe width="1080" height="632" id="gmap_canvas" src="https://maps.google.com/maps?q=kashash&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-a.com"></a><br>
@@ -130,24 +130,24 @@
         <div class="mobile-map">
             <div class="mapouter">
                 <div class="gmap_canvas"><iframe width="335" height="151" id="gmap_canvas" src="https://maps.google.com/maps?q=kashash&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-a.com"></a><br>
-                    <style>
-                        .mapouter {
-                            position: relative;
-                            text-align: right;
-                            height: 151px;
-                            width: 335px;
-                        }
-                    </style><a href="https://www.embedgooglemap.net">embed google map in webpage</a>
-                    <style>
-                        .gmap_canvas {
-                            overflow: hidden;
-                            background: none !important;
-                            height: 151px;
-                            width: 335px;
-                        }
-                    </style>
+                    <a href="https://www.embedgooglemap.net">embed google map in webpage</a>
                 </div>
             </div>
+        </div>
+        <div class="ipad-map">
+            <div class="mapouter">
+                <div class="gmap_canvas"><iframe width="534" height="597" id="gmap_canvas" src="https://maps.google.com/maps?q=kashash&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.whatismyip-address.com"></a><br>
+                    <a href="https://www.embedgooglemap.net"></a>
+                </div>
+            </div>
+            <script>
+                window.addEventListener('scroll', () => {
+                    const scroll = window.scrollY;
+                    if (scroll > 380) {
+                        document.querySelector('.desktop-map').style.display = 'block';
+                    }
+                })
+            </script>
         </div>
     </div>
     <!-- Einde -->

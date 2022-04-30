@@ -122,6 +122,9 @@ body {
 .donker-mode .over-ons .container-over-ons .first-element__over-ons .header__over-ons p, .donker-mode .over-ons .container-over-ons .second-element__over-ons .header__over-ons p, .donker-mode .over-ons .container-over-ons .third-element__over-ons .header__over-ons p {
   color: var(--white);
 }
+.donker-mode .container .desktop-map {
+  background: var(--cards-background-color);
+}
 
 section {
   padding: 3rem 0;
@@ -137,7 +140,7 @@ section {
 
 .titel-diensten {
   font-family: Arial, Helvetica, sans-serif;
-  color: rgb(0, 0, 0);
+  color: black;
   display: block;
   margin: 0;
   font-size: 40px;
@@ -171,7 +174,7 @@ section {
   font-family: "Days One", sans-serif;
 }
 .card-body h1 {
-  color: rgb(0, 0, 0);
+  color: black;
   text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.9);
   font-size: 25px;
   font-family: "Days One", sans-serif;

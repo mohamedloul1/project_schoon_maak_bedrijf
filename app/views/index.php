@@ -167,14 +167,14 @@
       </div>
     </div>
   </section>
+   <!-- Loader -->
+   <?php require APPROOT . '/views/includes/loader.php'; ?>
   <!-- Contactfoto -->
   <?php require APPROOT . '/views/includes/contactfoto.php'; ?>
   <!-- Footer -->
   <?php require APPROOT . '/views/includes/footer.php'; ?>
   <!-- Whatsapp icon -->
   <?php require APPROOT . '/views/includes/whatsappicon.php'; ?>
-  <!-- Loader -->
-  <?php require APPROOT . '/views/includes/loader.php'; ?>
 
 
 

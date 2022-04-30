@@ -104,6 +104,9 @@ body {
 .donker-mode .over-ons .container-over-ons .first-element__over-ons .header__over-ons p, .donker-mode .over-ons .container-over-ons .second-element__over-ons .header__over-ons p, .donker-mode .over-ons .container-over-ons .third-element__over-ons .header__over-ons p {
   color: var(--white);
 }
+.donker-mode .container .desktop-map {
+  background: var(--cards-background-color);
+}
 
 section {
   padding: 3rem 0;
